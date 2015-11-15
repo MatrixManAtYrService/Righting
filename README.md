@@ -1,6 +1,7 @@
 ### writing
 noun
-1.  the activity or skill of marking coherent words on paper and composing text.
+
+ 1. the activity or skill of marking coherent words on paper and composing text.
 
     "parents want schools to concentrate on reading, writing, and arithmetic"
 
@@ -15,6 +16,6 @@ verb
 ## righting
 verb
 
- 1. The act of writing for the purpose of making things right.
+ 1. the act of writing for the purpose of making things right
 
     "There was this feeling that something wasn't right, so M@ resolved to continue righting until the wrong went away."
