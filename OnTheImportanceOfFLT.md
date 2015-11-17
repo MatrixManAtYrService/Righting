@@ -13,52 +13,56 @@ Fortunately, one can have an appreciation for why Fermat's last theorem is cool,
 
 ## The Conjecture
 
+### Context
+
 Fermat's claim was found in a copy of *Arithmetica* by Diophantus of Alexandria (written in the third century C.E.).  It is basically a bank of problems together with descriptions of how to solve them.  I found [a translation](https://ia802605.us.archive.org/34/items/diophantusofalex00heatiala/diophantusofalex00heatiala.pdf) and took a crack at Book II, problem 6, which reads:
 
-```
-To find two numbers having a given difference and such that the difference of their squares exceeds their difference by a given number.
-```
+> To find two numbers having a given difference and such that the difference of their squares 
+> exceeds their difference by a given number.
 
 The same problem might be stated differently in a modern high school algebra book (see below).  I was pleased to find that I could solve it.
 
-```
-Use the following system of equations:
-
-a - b = c
-a^2 - b^2 = c + d
-
-1) Find an expression for a in terms of c and d
-2) Find an expression for b in terms of c and d
-```
+> Use the following system of equations:
+> 
+> a - b = c
+> a^2 - b^2 = c + d
+> 
+> 1) Find an expression for a in terms of c and d
+> 2) Find an expression for b in terms of c and d
 
 It was not the margin for II.6 that Fermat used to make his claim--it was II.8.  I have included a different problem here to point out that there are no references to triangles here.  The formula for Fermat's Last Theorem (hereafter FLT) bears a striking resemblance to the Pythagorean Theorem.  And perhaps, in a round-about way, they are indeed related.  One might ask if Diophantus' would have included a sum of squares problem in his book if the Pythagorean school hadn't made such problems geometrically interesting.  Still, if Diophantus held triangles in his head while he penned this problem, he at least was not explicit about it.  Here is the problem:
 
-```
-To divide a given square number into two squares
-```
+> To divide a given square number into two squares
 
 Or in modern parlance:
 
-```
-Given a value for c, find a solution to the following equation: a^2 + b^2 = c^2
-```
+> Given a value for c, find a solution to the following equation: a^2 + b^2 = c^2
 
 And here is the method of solution given by Diophantus:
 
-```
-Given square number 16.
-x^2 one of the required squares. Therefore 16-x^2 must be equal to a square.
-Take a square of the form (mx - 4)^2, m being any integer and 4 the number which is the square root of 16, e.g. take (2x - 4)^2, and equate it to 16 x^2.
-Therefore 4x^2 - 16x + 16 = 16 - x^2
-or 5x^2 = 16x, and x = 16/5.
+> Given square number 16.
+> x^2 one of the required squares. Therefore 16-x^2 must be equal to a square.
+> Take a square of the form (mx - 4)^2, m being any integer and 4 the number which is the square 
+> root of 16, e.g. take (2x - 4)^2, and equate it to 16 x^2.
+> Therefore 4x^2 - 16x + 16 = 16 - x^2
+> or 5x^2 = 16x, and x = 16/5.
+> 
+> The required squares are therefore 256/25, 144/25.
 
-The required squares are therefore 256/25, 144/25.
-```
+The first thing that jumps out at me here is that Diophantus considers the ratio of what we would call "perfect squares" to be itself a square.  This is not how we usually use that word.  It's easy enough to get your head around the modification, but it does bring to mind a concern:  We are communicating with a man who is eighteen hundred years dead, and never spoke english--what other pieces of the puzzle might our modern view be masking?  
 
-The first thing that jumps out at me here is that Diophantus considers the ratio of what we would call today "perfect squares" to be itself a square.  I bet that some mathematician somewhere is using a similar distinction, but this is not consistent with what we usually mean by "square".  This isn't a big deal for his work--he has still described a method for finding what he was looking for--but it raises a question that is relevant to our understanding of FLT: When searching for solutions to a given equations, which kind of solutions do you want to accept?
+I think that one of the really cool things about math is that it relies on context so weakly.  A notion, properly expressed in mathematics, can stand on its own more completely than any other means of expression that I am aware of.  Nothing exists totally in a vacuum, however, especially not this problem.  As it turns out, Diophantus did not accept irrational numbers, negative numbers, or even zero.  To Diophantus, a number must be expressed as the length of a line segment, anything else was absurd.
+
+This explains why he didn't bother ask whether the solution was rational (which it would have to be in order for his use of "square" to hold up)--which is the second thing to come to mind when I examine his method.  Despite having lived 800 years after the Pythagorean school discovered (and tried to keep secret) the existence of irrational numbers--their use still wasn't considered legitimate enough for Diophantus ("The Father of Algebra") to bother mentioning them.  
+
+The last thing that strikes me about Diophantus' work is how comfortably he calls in his variable *m*. Implicit in his construction is the fact that each square can be decomposed into the sum of two "squares" in an infinitude of ways.  That is a remarkable property for any construction and I think that Diophantus' lack of remark on it indicates a siginificant difference in attitude between his time and ours.
+
+### Formation
 
 Fermat was probably not especially challenged by the problem as stated in *Arithmetica* but he found the thought amusing enough to put it in a margin after making three modifications:
 
     1. Restrict acceptable solutions to the integers.
-    2. Instead of squares, consider numbers of any (*n*th) power.
-    3. Ask not for a method for finding solutions, but instead about what values for *n* solutions exist at all.
+    2. Ask not for a method for finding solutions, but instead about what values for *n* solutions exist at all.
+    3. Instead of squares, consider numbers of any (*n*th) power.
+
+
