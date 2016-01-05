@@ -1,5 +1,5 @@
-Whether, and Why, Fermat's Last Theorem is Important
-===================================================e
+Whether and Why Fermat's Last Theorem is Important
+==================================================
 
 ## Intruduction
 
