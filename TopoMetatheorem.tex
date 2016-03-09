@@ -1,6 +1,12 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{lplfitch}
+\usepackage[parfill]{parskip}
+
+\newcommand{\indentitem}{\setlength\itemindent{25pt}}
 
 \title{Point Set Topology as a Metatheory}
 \author{Matt Rixman }
@@ -12,12 +18,29 @@
 
 \section{Theorem Space}
 
-Let \(T\) be a set, the elements of which are either axioms or theorems.
-We propose a topology \(h\) given by:
+Let \(T\) be a set, the elements of which are propositions.  
+Each element of \(T\) is either an axiom or a theorem.
+Also for any proposition \(p \in T\), we also have \(\neg p \in T\).
+Finally, \(T\) contains at least two elements: an axiom (\(a\)) and its negation(\(\neg a\)).
 
-\[h = {S \subset T : \text{for each} s \in S \text{one of the following is true:}
-        s \text{is an axiom}
-    s \text{is a theorem that can be proven from axioms in S}}\]
+Consider the following collection of subsets of \(T\):
+
+\[h = \left\lbrace\begin{minipage}{8cm}
+        \(S \subset T : \text{for each } s \in S \text{ one of the following holds}\)
+        \begin{enumerate}[(i)]
+            \indentitem \item \(s \text{ is itself an axiom}\)
+            \indentitem \item \(s \text{ is provable from other axioms in } S\)
+    \end{enumerate}
+\end{minipage}\right\rbrace\]
+
+We claim that \(T_h\) is a topological space.  For proof, note that:
+\begin{enumerate}
+    \item The above condition holds vacuously for \( \varnothing \), so \( \varnothing \in h\).
+    \item Each \(p \in T\) is either an axiom, or can be proved from axioms in \(T\) in the following way:
+
+        %http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/lplfitch/lplfitch.pdf
+
+\end{enumerate}
 
 
 
