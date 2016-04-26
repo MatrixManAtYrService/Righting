@@ -112,8 +112,73 @@ This indicates another way we can use TMMC.
 Admittedly, what follows is a rather heavy-handed approach to mathematics because it requires the audience to accept drastic alteration to their platonic realm, but it may be a way of mutating one realm into another, which could afford new possibilities for exploration.
 
 The strategy is to think of a theoretical structure that would be nice (perhaps you have a well understood model in mind), but doesn't quite work because there is a theorem in your way.
-Use TMMC to find the closure of the blocking theorem (you would want the closure, and not just any closed set--otherwise you would be deleting more than strictly necessary) and remove the closure from your platonic realm [8].
-As we saw in the example, a relatively small subset can have a relatively large closure, so one might expect the whole thing to come crashing down
+Use TMMC to find the closure of the blocking theorem (you would want the closure, and not just any closed set--otherwise you would be deleting more than strictly necessary) and remove the closure from your platonic realm [9].
+As we saw in the example, a relatively small subset can have a relatively large closure, so one might expect the whole thing to come crashing down, but recall that the more natural space to work in is platonic theory space, where each point is in some sense "supported" by a number of points back in flat theory space.
+There is a possibility that deleting large swaths of flat theory space may have a relatively small impact on platonic theory space, as long as the the theorems involved have alternative proofs that exist outside of the deletion.
+
+Having discussed limit points, and closures, perhaps "interior" is the next topological term we should explore.
+To take the interior of a Th-open set is to ask what else can be proved from that place.
+This is typically a large set, since typical logic rules will let you start with a propostion A and then prove A & A, and then prove A & A & A, and so on.
+It might be more interesting to ask which theorems are not in an interior.
+This lines up with the concept of logical independence[10].
+So when Cohen showed that Cantor's continuum hypothesis was independent from ZFC, his result could be translated into TMMC by saying that the continuum hypothesis is not in the interior of the set containing ZFC's axioms.
+
+Another metamathematical concept that we can talk about in TMMC's terms is completeness.
+If you pick a set in model space that represents all known facts about an interpretation, and also pick a Th-open set in theory space for which the interpretation is a model, then that Th-open set is complete if every fact about the model can be proved in the subset of model space.
+Or to put it another way, a theory is complete in a model if the explanation map between them is continuous.
+
+Tarski once proved that his formulation of elementary geometry was complete.
+In TMMC this means that the explanation function is continuous[11], and since model space has the discrete topology, the explanation function is also open.
+Further, if you consider the platonic version of theorem space, you find that the explantion function is one-to-one.
+As long as the model in question is onto[11], then we can conclude that the explanation function is a homeomorphism.
+
+Hilbert's program, it would seem, was motivated out of a belief that this homeomorphism held generally.
+But as it turns out, elementary geometry is a special case here--some of our favorit models do not have this property.
+This is why the program had to change track when people began to accept Godel's incompleteness theorem, which tells us that there are no continuous explanation functions onto a model for the natural numbers.
+
+In a certain sense, TMMC is a response to the limitations pointed out by Godel.
+If I must accept that the foundations of mathematics cannot be secured in logic, then I propose the following alternative:
+We should build wings for it and fly it around.
+
+Beyond these abstract desires, there is also the possibility of some more concrete applications of the theory.
+One of these lies in our pedagogical methods.
+At the heart of pure mathematics is argumentation, which is typically expressed in a symbolic or auditory way.
+After some practice, one learns to visualize the structure of an argument--and it really feels like it has some sort of shape--but nobody ever tries to draw one.
+However, topology is a field of many diagrams.
+If the data for the argumentative structure of textbook proofs were available, perhaps we could find visualizations to help visualize the "shape" of the argument they're working with.
+
+Secondly, again supposing this data were available, there may be some opportunities in math publishing.
+LaTeX is a fine language for symbolic representation, but it is not easily queryable.
+If there were a way to do searches like, "find all known contradiction proofs of such-and-such result," it would be a powerful thing.
+Also, theorem-level granularity could allow for changes to the way that mathematics gets funded.
+
+Perhaps a robot somewhere in the world is trying to solve a problem.
+Somewhere else, beforehand, a Mathematician was playing around with a theory that solves that problem.
+With the appropriate infrastructure, and the ability to delve into the theoretical structure of mathematics, perhaps the robot can query some web site for the tools it needs to solve the problem at hand.
+Once found, the robot solves its problem, and the mathematician gets a small deposit in their account for providing the necessary framework.
+
+Finally, there is an idea called "linked data" or "the semantic web" that has been around for some time.
+It was supposed to change the world in a big way, but many feel that it has fallen short of its promise.
+The idea was that instead of linking documents together so that humans could read them  (which is what happens in the traditional web), we could provide enough semantic metadata that machines could follow the links directly.
+
+Everything was supposed to be stored in triples (subject, verb, object) and we were supposed to be able to solve some big problems with it.
+Oppinions are mixed about why we have yet to see the glories of a semantic-aware web browser, but I believe that the big shortcomming was the expectation that each triple be true in some absolute sense.
+People don't get along well enough to collaborate on a project like that.
+
+I think that what is needed to "fix" the semantic web is a fourth item which would answer "according to whom/what?".
+Or, to put it in the language TMMC, "in which platonic realm?".
+By providing this additional scope and structure to the sea of triples that was supposed to form the semantic web, I think we could see a few more of its promised benefits.
+If the TMMC practice of finding the intersection of two platonic realms as a context for communication holds water mathematically, then perhaps it can be generalized to serve a similar purpose on the semantic web.
+
+In summary, I have proposed a theory which encapsulates metamathematical concepts in the language of topology.
+It does this by encapsulating formal systems in a topological space, and mathematical models in another topological space.
+This opens the door for the use of topological concepts to analyze the way these two spaces interact, which is central to the daily activities of mathematicians everywhere.
+If we could have built a different mathematics than we did, then we are currently building the next generation's mathematics.
+Maybe this theory, or one like it, can help ensure that we build the one that best serves them.
+
+
+
+
 
 
 
@@ -139,4 +204,8 @@ As we saw in the example, a relatively small subset can have a relatively large 
 
 (8) The size of our Th-open sets is, I believe, a relevant factor in considering "how true" some statement is.  Consider these three statements: "All wibbles are wobbles," "Harry potter is a wizard," and "The speed of light is constant."  These are all true statements in some model or another, and indeed theories could be constructed for those models that would allow satisfying explanations of these facts.  Still, they seem fundamentally different.  The first example came from an IQ test, the model and associated Th-open set are too small to feel like they have any reality.  The second one comes from a work of fiction which has its own internal consistency and enough detail to feel like there's a whole world in there.  As for the third, there's a whole world in here too--the difference in this case may have more to do with where I am.  It is hoped that TMMC can provide some language to discuss these notions more precisely.
 
-(9) In my novice understanding of Relativity, this is exactly what Einstein did.  He wanted to take as axioms that light traveled at a constant speed and in a straight line (barring reflection or refraction), but could not do so because of 
+(9) In my novice understanding of Relativity, this is exactly what Einstein did.  He wanted to take as axioms that light traveled at a constant speed and in a straight line in a vacuum, but could not do so because his platonic realm included theorems that contradict those axioms.  So, he set aside the troublesome theorems, took his axioms anyway, and built a new theory in the space created by the deletion.  Or, to take our language out of TMMC, he reinterpreted our notions of time and space around accepted properties of light.
+
+(10) If TMMC is completed, it would be an interesting exercise to prove that this method of showing independence is equivalent to the method where one finds two models in which the target property is both true and false.
+
+(11) In this example, it is not clear just how big or small the model in question is.  This may be an indication that model space needs a bit more structure.
