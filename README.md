@@ -16,6 +16,10 @@ verb
 ## righting
 verb
 
- 1. the act of writing for the purpose of righting 
-
-    "M@ resolved to continue righting until the wrong went away."
+ 1. writing to change the way the world is oriented 
+     
+     "M@ resolved to continue righting until the wrongs went away."
+    
+ 2. writing to change the way oneself is oriented
+ 
+     "M@ resolved to continue righting until he wasn't wrong anymore." 
