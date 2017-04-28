@@ -1,0 +1,85 @@
+Communication can occur without language.
+If I don't want you to eat my food I could jab you with a stick every time you get close.
+That would be communication without language.
+
+A key difference is that language requires participation.
+
+There is an implicit agreement between speakers and listeners everywhere that goes something like this:
+
+1. When spoken to, you must hold a world in your mind to contain whatever is being said
+2. If you hear something that refers to something not in the world, create it there
+3. If you hear something that refers to something in the world, modify its existence to fit whatever is being said
+4. Speakers may demand multiple such worlds be held, try to keep track of which sentances refer to which worlds
+5. If any of the above create a contradiction, speak up
+
+We will be adding more structure to what constitutes a "world" in a moment.
+For now it should suffice that a world is a set of consistent propositions and their implications.
+
+In order to be capable of upholding this agreement, listeners must be equipped with a world-simulator (In the human case, I expect that this mechanism exists in the prefrontal cortex).
+<Fodor>
+
+The recursive structure of grammar is a consequence of repeated application of 2. and 3.
+<Chomsky>
+
+It is interesting to ask whether we have any choice in the matter.
+As early as my teens I can remember that language would act on my mind without my permission.
+A detailed description of some violence would create a world in my mind, and I would feel some abstract cousin to pain, all without granting the speaker 1.
+I will often find a word echoing about my language centers, just to double back and realize that I had read that word--unknowingly--from some nearbye media.
+Clearly my adherence to the listener's code is too firmly entrenched in my mind to question it now.
+
+I expect that there was a time before the listener's code was hard-wired into my brain.
+Back then it was just a schematic for making sense of what I now know to be called "speach," and I probably had a choice about whether I wanted to participate in this mind modification technology known as language.
+But I was an infant at that time, and I suspect that my infant-needs ultimately won out over my suspicion regarding conformity.
+<Rousseau>
+
+But perhaps I should have been more suspicious, because now my mind is vulnerabule to attacks regarding remote code execution.
+Sure, if you ask me to pass the salt I will--and I don't begrudge language that--but what if you ask me to buy a particular brand of salt?
+How can I be sure that my actions are actually driven by my own interests?
+<Duluez says I can't>
+By allowing adherence to the speaker's code into that part of my mind that drives unconscious habit, I have started a process that I fear might some day automate me out of a job.  (more Duluez, on when a father speaks to his son)
+
+There is room for a nature vs. nurture inquiry here, but whether it was nature setting me up with genes for the task or society providing the necessary memes, the result is the same.
+What we end up with is a society full of people who can use each other's brains to simulate worlds of their design.
+
+To return to an earlier example, if I jab you with a stick each time you come near food that I want, the success of my communication depends only on my assumption that you experience pain.
+Pain, so far as I know, is not complex enough to house an ontology--so it probably doesn't count as a world.
+And because of that, it doesn't count as language.
+
+On the other hand, if I ask you to not eat my food there's a different assumption.
+I'm banking on the notion that my words will compel you to create a world where you eating my food has consequences and I'm hoping that you will prefer this one (where you haven't eaten my food) to the one I caused you to create.
+Although I wouldn't be so bold as to offer this as a definition of language, I would say that the expectation that something will cause a listener (or reader) to modify a created world is a necessary condidtion for that something to be language.
+
+Before we explore the implications of this, we should stop to check that we are comfortable with my usage of the word ""world".
+Intuitively, a world is a directory of facts against which claims can be checked, and questions answered.
+As an example, consider the question: "Is Harry Potter a Wizard?"
+It is easy to come up with a context where that question gets a "yes," so the contents of those particular novels constitutes a world
+
+Worlds can contain other worlds.
+I take J.K. Rowling's work to mean that Harry Potter's world is embedded in this one.
+Despite the fact that she makes no mention of Jupiter, I expect that Harry Potter's world contains Jupiter because this one does.
+On the other hand, his world has talking snakes and this one doesn't.
+This hints at a rule about how existential quantifiers ought to be treated across worlds--that is, their scope extends "up" into the containing worlds, but not "down" into the embedded ones.
+
+Worlds can also have other relationships besides "contains".
+For example, consider one world described in Engish and another one that differs in no way except that it is described in pig-latin.
+Although these worlds are not the same, they are homeomorphic (stronger morphisms probably apply too), which means that they have true word-to-word translatability.  
+
+<malinowsky> 
+
+According to this view, its hoped that translatability can be conceived of as continuous functions that map from the speaker's world to the world generated in the listeners's mind--but this is not the paper for that.
+
+The real point here is that worlds have potentially complex internal structure, and also can be related to each other in complex ways.
+
+This was implied by Kripke through his "accessability function" re: possible world semantics, but I believe that a simple this-world-connects-to-that-one style relationship is insufficient to explain the kind of structure I am referring to.
+
+Rather than develop this theory further, I would like to take it back to language.
+
+Davidson outlines a scenario where ...
+
+My thesis is that in a partial translatability scenario we can exploit this internal structure to carve out a smaller world where we still can reliably communicate (insofar as we *ever* reliably communicate)
+
+
+
+
+
+
