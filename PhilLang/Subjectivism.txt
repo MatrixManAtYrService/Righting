@@ -1,0 +1,18 @@
+A few years ago there was a string of very unlucky events that ultimately caused my roommate Lance to sustain a smattering of strokes.
+Things got pretty bad there for a while--months were spent in the hostpital.
+Then, his luck changed.
+A drug that was designed to do something else entirely was discovered to be effective in his case.
+Lance is a little bit different now, but considering what he has come back from he leads a remarkably normal life.
+
+Let us consider two sentences: L := 'Lance is lucky' and ~L := 'Lance is not lucky` and ask which is true.
+I think most people would admit that when it comes to the way we generally use language, the answer is "it depends."
+Undocumented pharmacological effects don't usually show up to save the day--that they did in Lance's case makes him very lucky indeed.
+On the other hand, what would be luckier still is to have never fallen ill in the first place.
+
+In this paper I will sketch a theory within which we can make sense of the above two analyses.
+Central to the theory is the notion of scope--it comes down to which beliefs get considered in our evaluation of Lance's luck, and which are taken for granted as just the way things are.
+This theory will feel like a brand of relativism, and perhaps it is.
+
+I have begun to suspect that relativism is a dirty word in epistemic circles.
+Probably, the objections center around the way that relativism can provide a safe haven for irrationality.
+Of what use are facts, one might ask, if anybody can make up their own?

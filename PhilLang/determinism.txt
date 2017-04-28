@@ -1,0 +1,66 @@
+let P(c, s) := "Will a computer of type c halt on input s"
+
+1) While it is possible that the human mind is something more than a computer, it is *at least* a computer, and as such--it falls into one of the aforementioned classes.  
+
+2) Powers of the human mind that go beyond the human's role as a computer do not exempt humans from the kind of computational constraints that come with their class.
+
+3) P(C_x, s) is undecidible by C_x for arbitrary s.
+
+4) Every belief B has a corresponding decision problem: "Given theory of justification J, is B justified?"
+
+5) Every decision problem D, may be the subject of a belief: that-D.
+
+6) For a belief B, if the problem given by (4) is not decidable in C_x, then members of C_x cannot be justified in believing B.
+
+Supose X knows that human behavior is deterministic
+This means that, given an arbitrary input *s*, X can decide P(C_human, s).
+But by (3) P(C_human, s) is undecidable in C_human
+Then by (6) X is not in C_human, and no member of C_human can be justified in holding X's belief.
+
+If we are ever confronted with a situaition like this, we (humans) will be unable to follow the reasoning that X provides.
+In such a situation we have three options:
+  * Refuse to believe that we are deterministic
+  * Believe without justification that we are deterministic
+  * Amend our theory of justification so that assertions made by oracles (like X) are justified by virtue of their source
+
+
+
+
+
+
+
+
+
+
+
+
+These are not formally premises, but I think their inclusion provides useful context:
+
+
+* The partial order goes like this: Computer class A is greater than B if A can solve every problem B can, and then some.  So we can establish relationships liks C_godel > C_turing > C_pushdown > C_finiteStateAutomaton.  The use of < here is potentially misleading.  Suppose C_x can solve problems {1, 2, 3} and C_y can solve {2, 3, 4}.  Here was have a case where C_x is neither greater than nor less than C_y, nor are they equal.  Subset notation may be more accurate, but these are sets of computers--not sets of problems, so I'll stick with less than and greater than.
+
+* I take Godel's incompleteness theorem as an example of a problem which is undecidable by C_p+1, and yet has been dediced by a human, so humans are in a computer class greater than turning machines.  It is not known whether there are problems that humans can solve that godel machines can't, so we have C_turing < C_godel <= C_human.
+
+* When I say "solve" a problem, I mean that given some input (the problem statement) return a yes, a no, or a third value which indicates that the computer has identified that the requested task is undecidable in its class. 
+
+* When I say "a halting problem for C_x" I refer to a problem for which C_x can embark upon solving, but cannot determine beforehand whether the journey will have an end.  More precisely:
+
+  * Let W be a problem
+  * W_det := "Is W decidable in C_x"
+  * If W_det is not decidable in C_x then W is a halting problem for C_x
+  * Consider a problem (let's call it W) for which the problem "Is-W-decidable in C_x?" is undecidable in C_x, then W is a halting problem for C_x.
+
+  * a non example:
+
+    * P := "def f(x) : return f(x + 1)"
+    * P_run := "When the program in P is run on a python interpreter, will the return value be even?"
+    * P_det := "Is P_run decidable in C_t?"
+    * P_run may be undecidable in C_t, but P_det *is* decidable in C_t.  Because of this, P_run is not a halting problem for C_t.
+
+  * an example:
+
+    * Q(x) := "Is the problem stated in x solvable on C_t"
+    * Q_det := "Is Q(x) decidable in C_t for an arbitrary string x?"
+    * Q_det is not decidable in C_t, so Q(x) is a halting problem for C_t
+
+
