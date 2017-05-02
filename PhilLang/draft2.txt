@@ -26,12 +26,40 @@ In order to receive a communication via language, a listener must abide by the l
 
 Frege describes a process where "if we produce the symbol of an idea which a perception has called to mind, we create in this way a firm, new focus around which further ideas gather".  
 Relying on some overlap between our linguistic worlds, I can use Frege's method to manipulate in your mind, the shared world that was created by the fact that I have written this paper and you are reading it.
-I can, for example, assert that Harry Potter is a wizard, and by doing so I ask you to abide by 2. and admit such a fellow (and such a classification) into that world's ontology.
+I can, for example, speak of a kind and considerate Vogon, and by doing so I ask you do abide by 2. and admit such a creature into the world of discourse created by this paper--despite the fact that nobody who has ever met a Vogon would believe that such a thing could be found.
 
-The association of "worlds" with lanaguage is not new [Lugones 128] [Hintikkas 107] [Kripke, possible worlds] [Davidson].
 Most of the time, the kind of worlds we associate with having a language are very large, encapsulating a culture's entire cosmology [Wharf].
 That either party reside in such a world is a precondition for 2. and 3. but I also wish to allow for smaller worlds.
 These are the places where analytic truths live.
+This happens everywhere, but it is most clearly found in the textbooks and classrooms where pure mathematics are studied.
+Every other sentence starts with "Let ... be such that ..." and is an alternated re-application of 2. and 3.
+
+This process lends itself to creations of a certain structure, which we can see in the recursive quality of Chomsky's generative grammars.
+It also demands that the listener be equipped with comutational apparatus for parsing such a structure [Fodor].
+Beyond this, the listeners code demands some mechanism for universe-simulation.
+Otherwise sentences like, "When the art fell off the wall and onto the coffee table, it shattered because it was made of glass," could not be parsed (since resolving the pronoun 'it' requires a cursory understanding of material science that goes beyond parsing.
+Given that the only earth-creatures that are even approaching the "Where" stage of language use appear to have a larger than average prefontal cortex, I take it that this portion of their brain that is responsible for the imaginative necessities of discourse-world-building.
+
+This third stage of language use characterized by the question: "Where should this conversation take place?"
+There are pragmatics to consider here--this conversation is happening on a page, other ones happen in bars.
+But beyond that, the 'where?' question is a rather technical one which asks about which facts ought to be included as analytic and which onese ought to be included as synthetic.
+
+This is where Davidson goes wrong.
+He says, "to give up the analytic-synthetic division as basic to the understanding of language is to give up the idea that we can clearly distinguish between theory and language."
+But regarding the conceptual relativists's position--it is not that we want to give up the analytic-synthetic division completely, what we want to do is establish that the analytic-synthetic division is itself analytic.
+
+That division is like a volume knob.
+We can turn it all the way to analytic, and see the world like Wittgenstein, or we can turn it all the way to synthetic and see the world like Locke.
+The question is not, "why is there a knob here?" the question is: "what is an appropriate setting for the current conversation?"
+
+The reason that Davidson misses this is probably that he has never maxed-out that particular knob in the analytic direction.
+If he ever did, he would suddenly discover that all of the things he thought were fixed about discourse (or anything else) are actually variable.
+Following that, he would find that pretty much all of them were set at an appropriate level and, having analytically reconstructed synthesis, would wind up in the same place he started, but without a bone to pick.
+
+Davidson, and others [Boghossian, Quine] are reluctant to endorse a relativi
+
+
+
 
 
 
