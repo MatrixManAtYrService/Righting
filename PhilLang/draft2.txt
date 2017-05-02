@@ -1,0 +1,58 @@
+ “The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why, and Where phases. For instance, the first phase is characterized by the question 'How can we eat?' the second by the question 'Why do we eat?' and the third by the question 'Where shall we have lunch?” 
+
+-- The Hitchhiker's Guide to the Galaxy. Megadodo Publications, Ursa Minor Beta.
+
+There is a planet in Galactic Sector ZZ9 Plural Z Alpha that is called by its inhabitants, "Earth".
+At the time of this writing, the earthlings have already made it to the *where* phase regarding lunch, but they are only partially out of the *why* phase regarding the use of language.
+One of their philosophers, Donald Davidson wrote an article titled *On the Very Idea of a Conceptual Scheme* where he responds to a *why*-type discovery--namely that "reality itself is relative to a scheme: what counts as real in one scheme may not in another" [pg 272].
+Davidson argues that this discovery is not as exciting as it first appears and examines several cases where embracing this notion leads either to business-as-usual, or to total incoherence.
+
+Davidson misses a few critical points that--unless they are discovered by the earthlings, may create further delay in their transition from Inquiry to Sophistication.
+Particularly, he fails to embrace the proposition he is investigating fully enough to see that he is making a straw man of it.
+His pre-relative analysis fails to capture certain merits of the position he is attacking, and no post-relative theoretical toolkit is readily available to him.
+In this paper I will sketch the kind of post-relative toolkit that Davidson needs, and then argue that Davidson's criticisms are not so damaging as he claims.
+
+By 'language' I shall mean any form of communication that is offered under the assumption that the listener (or reader, or viewer...) will proceed through a certain ontological process which I will make clear momentarily.
+As an example of communication that I do not consider language, suppose I have some food that I don't want to share.
+Every time you get near the food, I hit you with a stick.
+This relies on my assumption that the stick will cause you pain, and that the pain will act as a deterrent, but it doesn't count as language because pain is not complex enough to support the sort of ontological goings-on that language requires.
+
+In order to receive a communication via language, a listener must abide by the listener's code:
+1. When spoken to, you must hold a world in your mind to contain whatever is being said                                
+2. If you hear something that refers to something not in the world, create it there                                    
+3. If you hear something that refers to something in the world, modify its existence to fit whatever is being said     
+4. Speakers may demand multiple such worlds be held, try to keep track of which sentances refer to which worlds        
+5. If any of the above create a contradiction, speak up                                                                
+
+Frege describes a process where "if we produce the symbol of an idea which a perception has called to mind, we create in this way a firm, new focus around which further ideas gather".  
+Relying on some overlap between our linguistic worlds, I can use Frege's method to manipulate in your mind, the shared world that was created by the fact that I have written this paper and you are reading it.
+I can, for example, assert that Harry Potter is a wizard, and by doing so I ask you to abide by 2. and admit such a fellow (and such a classification) into that world's ontology.
+
+The association of "worlds" with lanaguage is not new [Lugones 128] [Hintikkas 107] [Kripke, possible worlds] [Davidson].
+Most of the time, the kind of worlds we associate with having a language are very large, encapsulating a culture's entire cosmology [Wharf].
+That either party reside in such a world is a precondition for 2. and 3. but I also wish to allow for smaller worlds.
+These are the places where analytic truths live.
+
+
+
+
+
+
+
+                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+
