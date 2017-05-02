@@ -28,13 +28,13 @@ Frege describes a process where "if we produce the symbol of an idea which a per
 Relying on some overlap between our linguistic worlds, I can use Frege's method to manipulate in your mind, the shared world that was created by the fact that I have written this paper and you are reading it.
 I can, for example, speak of a kind and considerate Vogon, and by doing so I ask you do abide by 2. and admit such a creature into the world of discourse created by this paper--despite the fact that nobody who has ever met a Vogon would believe that such a thing could be found.
 
-Most of the time, the kind of worlds we associate with having a language are very large, encapsulating a culture's entire cosmology [Wharf].
+Most of the time, the kind of worlds Earthlings associate with having a language are very large, encapsulating a culture's entire cosmology [Wharf].
 That either party reside in such a world is a precondition for 2. and 3. but I also wish to allow for smaller worlds.
 These are the places where analytic truths live.
 This happens everywhere, but it is most clearly found in the textbooks and classrooms where pure mathematics are studied.
 Every other sentence starts with "Let ... be such that ..." and is an alternated re-application of 2. and 3.
 
-This process lends itself to creations of a certain structure, which we can see in the recursive quality of Chomsky's generative grammars.
+This process lends itself to creations of a certain structure, which can be seen in the recursive quality of Chomsky's generative grammars.
 It also demands that the listener be equipped with comutational apparatus for parsing such a structure [Fodor].
 Beyond this, the listeners code demands some mechanism for universe-simulation.
 Otherwise sentences like, "When the art fell off the wall and onto the coffee table, it shattered because it was made of glass," could not be parsed (since resolving the pronoun 'it' requires a cursory understanding of material science that goes beyond parsing.
@@ -56,7 +56,23 @@ The reason that Davidson misses this is probably that he has never maxed-out tha
 If he ever did, he would suddenly discover that all of the things he thought were fixed about discourse (or anything else) are actually variable.
 Following that, he would find that pretty much all of them were set at an appropriate level and, having analytically reconstructed synthesis, would wind up in the same place he started, but without a bone to pick.
 
-Davidson, and others [Boghossian, Quine] are reluctant to endorse a relativi
+Early on Davidson says that, "we may accept the doctrine that associates having a language with having a conceptual scheme" (272) and he later develops an individuation criterion for conceptual schemes: two conceptual schemes are different if their associated languages cannot be translated into one another.
+Based on this, I expect that Davidson would say that by allowing for even more things to go wrong between speaker and listener (perhaps we each take the analytic-synthetic divide to be in different places) I make communication even less likely.  Keeping in mind that the analytic-synthetic divide is essentially a convention regarding which facts are in scope for dissection, and which ones must remain atomic, let us look at a few of Davidson's examples where I hope to show that not only does communication occur just the same, but that it occurrs precisely because we are allowed to set the bar arbitrarily.
+
+In order to discuss partial translatability between conceptual schemes, Davidson introduces two languages: Plutonian and Saturnian.
+The Plutonians can communicate with the Saturnians, though with difficulty, and the Saturnians can communicate with the Earthlings, but with difficulty, but Earthlings cannot communicate with Plutonians.
+Davidson points out that in this scenario, the Earthlings cannot even recognize Plutonian language as language--and must take on faith that translating is actually what the Saturnians are doing.
+Even so, he says, the Earthlings will have to consider the possibility that they have actually misunderstood that Saturnians. Put abstractly: if we embrace the notion of the relativity of conceptual schemes, then all languages become totally untranslatable if they are even partially untranslatable.
+
+This result is a consequence of the way he has his analytic-synthetic knob set.
+Since he thinks that the conceptual relativist wants to do away with synthetic truth altogether, Davidson paints a picturre where we can never be sure that we have understood what anybody says--after all, everybody's worlds differ somewhat.
+But that just isn't how things are--we get by.
+In this case, we follow 3. of the listener's code and let whatever the Saturnian says be synthetic.
+To do anything else would be to contradict the first axiom that Davidson gave us for this excercise.
+
+
+Quine (265):
+Lacking access to people who speak a common tongue, Quine describes "radical translation" where the linguist has no choice but to improvise heavily.  Quine comes to the conclusion that, "the translator is bound to impose about as much as he discovers."
 
 
 
