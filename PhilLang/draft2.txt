@@ -1,102 +1,123 @@
- “The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why, and Where phases. For instance, the first phase is characterized by the question 'How can we eat?' the second by the question 'Why do we eat?' and the third by the question 'Where shall we have lunch?” 
+ “The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why, and Where phases. For instance, the first phase is characterized by the question 'How can we eat?' the second by the question 'Why do we eat?' and the third by the question 'Where shall we have lunch?'”
 
 -- The Hitchhiker's Guide to the Galaxy. Megadodo Publications, Ursa Minor Beta.
 
 There is a planet in Galactic Sector ZZ9 Plural Z Alpha that is called by its inhabitants, "Earth".
-At the time of this writing, the earthlings have already made it to the *where* phase regarding lunch, but they are only partially out of the *why* phase regarding the use of language.
-One of their philosophers, Donald Davidson wrote an article titled *On the Very Idea of a Conceptual Scheme* where he responds to a *why*-type discovery--namely that "reality itself is relative to a scheme: what counts as real in one scheme may not in another" [pg 272].
+At the time of this writing, the Earthlings have already made it to the *where* phase regarding lunch, but they are only partially out of the *why* phase regarding the use of language.
+One of their philosophers, Donald Davidson, wrote an article titled *On the Very Idea of a Conceptual Scheme* where he responds to a *why*-type discovery--particularly that "reality itself is relative to a scheme: what counts as real in one scheme may not in another" [pg 272].
 Davidson argues that this discovery is not as exciting as it first appears and examines several cases where embracing this notion leads either to business-as-usual, or to total incoherence.
 
-Davidson misses a few critical points that--unless they are discovered by the earthlings, may create further delay in their transition from Inquiry to Sophistication.
-Particularly, he fails to embrace the proposition he is investigating fully enough to see that he is making a straw man of it.
-His pre-relative analysis fails to capture certain merits of the position he is attacking, and no post-relative theoretical toolkit is readily available to him.
-In this paper I will sketch the kind of post-relative toolkit that Davidson needs, and then argue that Davidson's criticisms are not so damaging as he claims.
+In his analysis, Davidson misses a few critical points that--unless they are discovered by the earthlings--may cause further delay in their expected transition from Inquiry to Sophistication.
+Particularly, he fails to embrace the proposition that he is investigating fully enough to see that he is making a straw man of it.
+His pre-relative misses certain merits of conceptual relativism, and no post-relative theoretical toolkit is readily available to him.
+Such is the challenge of any civilization making this kind of transition.
+In this paper I will sketch the kind of post-relative toolkit that Davidson needs, and then argue that his criticisms are not so damaging as he claims.
 
-By 'language' I shall mean any form of communication that is offered under the assumption that the listener (or reader, or viewer...) will proceed through a certain ontological process which I will make clear momentarily.
-As an example of communication that I do not consider language, suppose I have some food that I don't want to share.
-Every time you get near the food, I hit you with a stick.
-This relies on my assumption that the stick will cause you pain, and that the pain will act as a deterrent, but it doesn't count as language because pain is not complex enough to support the sort of ontological goings-on that language requires.
+By 'language' I shall mean any form of communication that is offered under the assumption that the listener (or reader, or viewer...) will proceed through a certain ontological process which I will describe shortly.
+A requirement of this form of communication is that both the speaker and the listener must inhabit 'worlds' that have something in common.
+This way of associating a world with a language is typical among Earth-philosophers [Wharf] [Lugones].
+Additionally, there is (at least one) third world, which is born of the speaker/listener relationship.
+That world for this paper contains such things as 'Donald Davidson' and 'Earth', and implicit in its creation is the idea that you, as the reader, will be able to map those names to something in your home world.
 
 In order to receive a communication via language, a listener must abide by the listener's code:
-1. When spoken to, you must hold a world in your mind to contain whatever is being said                                
-2. If you hear something that refers to something not in the world, create it there                                    
-3. If you hear something that refers to something in the world, modify its existence to fit whatever is being said     
-4. Speakers may demand multiple such worlds be held, try to keep track of which sentances refer to which worlds        
-5. If any of the above create a contradiction, speak up                                                                
+1. When spoken to, you must hold a world in your mind to contain whatever is being said.
+2. If you hear of something that is not in the world, create it there.
+3. If you hear about something that is in the world, modify its existence to fit whatever was said.
+4. Speakers may demand multiple such worlds be held, try to keep track of which sentances refer to which worlds.
+5. If any of the above create a contradiction, speak up.
 
-Frege describes a process where "if we produce the symbol of an idea which a perception has called to mind, we create in this way a firm, new focus around which further ideas gather".  
-Relying on some overlap between our linguistic worlds, I can use Frege's method to manipulate in your mind, the shared world that was created by the fact that I have written this paper and you are reading it.
-I can, for example, speak of a kind and considerate Vogon, and by doing so I ask you do abide by 2. and admit such a creature into the world of discourse created by this paper--despite the fact that nobody who has ever met a Vogon would believe that such a thing could be found.
+Frege describes a process where "if we produce the symbol of an idea which a perception has called to mind, we create in this way a firm, new focus around which further ideas gather".
+This is in agreement with the theory I am presenting here, except Frege doesn't go on to describe who is placing the focal points in whose mind.
+Relying on some overlap between our linguistic worlds, I can use Frege's method to manipulate the way that your mind holds this particular world.
+For example, I can speak of a kind and considerate Vogon, and by doing so I ask that you to abide by 2 and admit such a creature our shared world.
+This works despite the fact that nobody who has ever met a Vogon would believe that such a thing could actually be found.
 
-Most of the time, the kind of worlds Earthlings associate with having a language are very large, encapsulating a culture's entire cosmology [Wharf].
-That either party reside in such a world is a precondition for 2. and 3. but I also wish to allow for smaller worlds.
-These are the places where analytic truths live.
-This happens everywhere, but it is most clearly found in the textbooks and classrooms where pure mathematics are studied.
-Every other sentence starts with "Let ... be such that ..." and is an alternated re-application of 2. and 3.
+Deleuze's "order words" also come to mind here.
+One could tell the tale equally well through the language of manipulation.
+If you can formulate order words of the right sort, your victim will have no choice but to temporarily hold a certain world in their mind.
+Knowing that temporary mental states pave the way for more states of a similar sort ("neurons that fire together wire together"), this opens the door for a rather uncomfortable conversation about how a species that adopts the listener's code might be succeptible to a certain sort of mind control--especially as the process becomes automatic and unconscious.
+I give more credit to the agency of speaker and listener than Deleuze, and would much prefer to cast the listener's code as a polite (though necessary) convention adopted for mutual benefit of either party.
+However you frame it, the potential for abuse is still there.
+This indicates that Earthlings' society would benefit by developing a theory of language that recognizes this process, if only so that they can use that theory to prevent abuses of this power.
 
+Perhaps the most striking example of this kind of world-building can be found in the textbooks and classrooms where pure mathematics is studied.
+Every other sentence starts with "Let ... be such that ...".
+This is clearly alternating applications of 2 and 3.
 This process lends itself to creations of a certain structure, which can be seen in the recursive quality of Chomsky's generative grammars.
-It also demands that the listener be equipped with comutational apparatus for parsing such a structure [Fodor].
-Beyond this, the listeners code demands some mechanism for universe-simulation.
-Otherwise sentences like, "When the art fell off the wall and onto the coffee table, it shattered because it was made of glass," could not be parsed (since resolving the pronoun 'it' requires a cursory understanding of material science that goes beyond parsing.
-Given that the only earth-creatures that are even approaching the "Where" stage of language use appear to have a larger than average prefontal cortex, I take it that this portion of their brain that is responsible for the imaginative necessities of discourse-world-building.
+It also demands that the listener be equipped with comutational apparatus for parsing such a structure, as Fodor argues.
 
-This third stage of language use characterized by the question: "Where should this conversation take place?"
+Before proceeding to a discussion of how this applies to Davidson, I would like to stop and point out that what I mean by 'world' here is a bit more technical than it may seem.
+A world is a container for propositions--and whether a particular proposition counts as syntetic or analytic is not a property of the proposition itself, but is a property of its inclusion in that world.
+All of the trappings of set theory apply to worlds, so we can use mathematics to analyze the properties of functions between worlds.
+Existential quantifiers among those propositions have special rules regarding their scope.
+These rules make it possible for me to talk about Harry Potter as if he exists but prohibit him from talking about me as if I exist--this is because one of our worlds contains the other, and not the other way around.
+
+The linguistically relevant propositions in a world refer to how certain signifiers (offered as part of communication via language) ought to be interpreted.
+So we have a situation where each language is a toplological space under which the open sets are arrangements of words or other signifiers that together form a sentance or other unit of meaning.
+In this light, Davidson's criterion for conceptual scheme individuation (i.e. that the corresponding languages are intertranslatable) looks like this:
+Conceptual schemes are identical if and only if a Homeomorphism exists between the associated language-spaces.
+I think that Homeomorphism is a rather strong condidtion for something as messy as language, and that continuous functions mapping from either party's home-world into the discourse-world (i.e. translations) ought to be enough to establish useful communication.
+Adherence to listener's code nubmer 5 preserves this continuity.
+Davidson overlooks this because he doesn't know that it's worth looking for, and he doesn't notice that it's worth looking for because he fails to account for the complexities that arise from mismatching worlds in a systematic way.
+
+The task of showing that 'worlds' as I have conceived of them here are usefully thought of as topological spaces is something that belongs elsewhere.
+My point is that in order to move from Inquiry into Sophisitication, the Earthlings will need to develop some theory--topological or otherwise--that behaves similarly to the one sketched above.
+It must be flexible enough to rest only on the structure that arises from the listener's code, and yet it must be rigid enough that speakers remain vulnerable to criticizm on the grounds that they are either simply wrong according to the worlds that they have built, or that they have built worlds that aren't useful to the task at hand.
+It is desireable that the Earthlings do this so that we may one day usefully commuinicate with them.
+
+The sophistication phase of language use that the Earthings are approaching is characterized by the question: "Where should this conversation take place?"
 There are pragmatics to consider here--this conversation is happening on a page, other ones happen in bars.
-But beyond that, the 'where?' question is a rather technical one which asks about which facts ought to be included as analytic and which onese ought to be included as synthetic.
+But beyond that, the 'where?' question is a rather technical one which asks about which elements from either party's home-world ought to be included in the discourse-world.
+Further, consensus needs to be established about which of these imports enter the discourse-world as analytic and which ought to be included as synthetic.
 
-This is where Davidson goes wrong.
-He says, "to give up the analytic-synthetic division as basic to the understanding of language is to give up the idea that we can clearly distinguish between theory and language."
-But regarding the conceptual relativists's position--it is not that we want to give up the analytic-synthetic division completely, what we want to do is establish that the analytic-synthetic division is itself analytic.
-
-That division is like a volume knob.
+Davidson says, "to give up the analytic-synthetic division as basic to the understanding of language is to give up the idea that we can clearly distinguish between theory and language."
+But regarding the conceptual relativists's position--it is not that they want to give up the analytic-synthetic division completely, what they want to do is establish that the analytic-synthetic division is itself analytic.
+The division in question is like a volume knob.
 We can turn it all the way to analytic, and see the world like Wittgenstein, or we can turn it all the way to synthetic and see the world like Locke.
-The question is not, "why is there a knob here?" the question is: "what is an appropriate setting for the current conversation?"
+The question is not, "why is there a knob here?" the question is: "Where should that knob be set for the current conversation?"
 
-The reason that Davidson misses this is probably that he has never maxed-out that particular knob in the analytic direction.
-If he ever did, he would suddenly discover that all of the things he thought were fixed about discourse (or anything else) are actually variable.
-Following that, he would find that pretty much all of them were set at an appropriate level and, having analytically reconstructed synthesis, would wind up in the same place he started, but without a bone to pick.
+When the prevailing winds of discourse shift in this way, Earth will have entered Sophistication regarding language use.
+The task changes from whether there is such a line, to where it ought to be set to best achieve the aims of philosophy.
+As we have seen on other planets, this is typically characterized by less focus on being right, and more focus on being useful.
 
-Early on Davidson says that, "we may accept the doctrine that associates having a language with having a conceptual scheme" (272) and he later develops an individuation criterion for conceptual schemes: two conceptual schemes are different if their associated languages cannot be translated into one another.
-Based on this, I expect that Davidson would say that by allowing for even more things to go wrong between speaker and listener (perhaps we each take the analytic-synthetic divide to be in different places) I make communication even less likely.  Keeping in mind that the analytic-synthetic divide is essentially a convention regarding which facts are in scope for dissection, and which ones must remain atomic, let us look at a few of Davidson's examples where I hope to show that not only does communication occur just the same, but that it occurrs precisely because we are allowed to set the bar arbitrarily.
+In order to point out problems with partial translatability between distinct conceptual schemes, Davidson introduces two languages: Plutonian and Saturnian.
+The Plutonians can communicate with the Saturnians, though with difficulty, and the Saturnians can communicate with the Earthlings, but with difficulty.
+The Earthlings, says Davidson, cannot communicate with Plutonians at all.
+He points out that in this scenario, the Earthlings cannot even recognize that what the Plutonians are doing is communicating--and that they must take on faith that translating is actually what the Saturnians are doing.
+Because of this uncertainty no real communication is actually taking place.
 
-In order to discuss partial translatability between conceptual schemes, Davidson introduces two languages: Plutonian and Saturnian.
-The Plutonians can communicate with the Saturnians, though with difficulty, and the Saturnians can communicate with the Earthlings, but with difficulty, but Earthlings cannot communicate with Plutonians.
-Davidson points out that in this scenario, the Earthlings cannot even recognize Plutonian language as language--and must take on faith that translating is actually what the Saturnians are doing.
-Even so, he says, the Earthlings will have to consider the possibility that they have actually misunderstood that Saturnians. Put abstractly: if we embrace the notion of the relativity of conceptual schemes, then all languages become totally untranslatable if they are even partially untranslatable.
-
-This result is a consequence of the way he has his analytic-synthetic knob set.
-Since he thinks that the conceptual relativist wants to do away with synthetic truth altogether, Davidson paints a picturre where we can never be sure that we have understood what anybody says--after all, everybody's worlds differ somewhat.
+This result is a consequence of Davidson's having set the analytic-synthetic knob to fully analytic--which he does because that is how he mischaracterizes the position he is attacking.
+Davidson paints a picture where conceptual relativism leads to the notion that we can never be sure that we have understood what anybody says--after all, everybody's worlds differ somewhat.
 But that just isn't how things are--we get by.
-In this case, we follow 3. of the listener's code and let whatever the Saturnian says be synthetic.
-To do anything else would be to contradict the first axiom that Davidson gave us for this excercise.
+Davidson's reductio is not evidence that relativism fails, but just a reminder that a bad application of any technique yields bad results.
+A better move would be to follow listener's code 3 and let whatever the Saturnian says be synthetic.
+To do anything else would be to contradict the second axiom that Davidson gave us for this excercise, which is that Earthlings can in fact communicate with Saturnians.
 
+Reformulated, we see that what preserves communication is our ability to fiddle with the knob and calibrate the conversation for maximal coherence.
+Davidson himself points out (though apart from this example) that we must be free to do this if we are to communicate at all.
+He says of this: "Until we have successfully established a systematic correlation of sentences held true with sentences held true, there are not mistakes to make."[282]
+This correlation is represented in my theory as the continuity of translation functions referenced earlier, and the freedom with which it can be applied is supported by some other Earth philosophers too [Quine, 268]
 
-Quine (265):
-Lacking access to people who speak a common tongue, Quine describes "radical translation" where the linguist has no choice but to improvise heavily.  Quine comes to the conclusion that, "the translator is bound to impose about as much as he discovers."
+In the preceeding pages we have pointed out that Earth is at the precipice of a shift in discourse regarding language use.
+This is a shift from the *Why* mode of thinking about language to the *Where* mode.
+Davidson's position is typical of cultures on this precipice.
+He fears that if he does not establish bounds on which liberties *can* be taken regarding language, he will have to live in a world where all of the worst liberties are taken.
+Because he assumes that embracing *Where* over *Why* will automatically take him someplace awful, he overlooks some things.
+I would recommend that he look to his culture's practices regarding lunch:
+Once one takes control of where one eats, one generally eats much better.
 
+As the shift into Sophistication occurs, Earth philosophers who used to argue over who is right and who is wrong will have to adapt their methods.
+They will instead have to further their points by establishing whose way is more useful.
+There will be some panic at first, but if their progress proceeds like other planets we have seen they will find that the new way to be useful is nearly identical to the old way to be right.
+As this mindset matures among the Earthlings, I expect they will exibit a more stable balance between being open to one another's points of view, while at the same time working towards consensus about things.
 
-
-
-
-
-
-
-
-
-                                                               
-
-
-
-
-
-
-
-
-
-
-
-
-
-----
+One proposal has been that if the Earthlings knew that they weren't alone in the universe, they would realize just how much in common they have with each other, and perhaps consensus would be acheived more quickly.
+Along these lines, we might consider translating some of our own work into their language and inserting it into their academic sphere before risking a face-to-face first contact.
+The idea here is that we could ease the cultural shock that comes with a fist-contact by first priming Earth culture with the sort of ideas it would ultimately encounter--like an idealogical vaccine.
+Other scholars have studied this option, however, and come to the conclusion that the Earthlings would not recieve the message in as clear a form as we might like.
+The fact that we can model the relationship between our languages well enough to know this is a testiment to the utility of our post-relative linguistic capabilities, but the task of actually presenting our message in its true form remains insurmountable.
+The translation would preserve the philosophical content and analysis, but an Earthling reader would interpret the rest of the content as analytic (A.K.A. fictional), and view it as a peculiar frame around what appears to be an otherwise unremarkable philosophy paper.
+This office therefore recomends no action regarding Earth.
+We should continue to watch and wait quietly until its inhabitants display the sophistication in language use that will be necessary for them to communicate with us and the rest of the galaxy.
 
 
