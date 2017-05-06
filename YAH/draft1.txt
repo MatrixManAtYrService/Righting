@@ -1,0 +1,33 @@
+You are Here, a Logical Metatheory of Knowability
+=================================================
+
+
+
+The idea that you have to start somewhere is a familliar one in philosophy.
+Another familliar problem arises when you would like a way to justify a theory of justification.
+Can we trust a theory to justify itself?
+Can we trust whatever theory we currently embrace to fairly evaluate an alternative?
+In both cases, probably not.
+Ultimately, it must fall to a choice that we make without epistemic justification.
+
+For example, in this paper I will embrace the law of noncontradiction--not because it's true, but because it's useful.
+Since doing so is a conventional move, I will give no futher explanation for that particular principle.
+But there are other principles that are not so conventional, and they should probably be explained.
+This happens with an argument, so it may seem like I think I can prove something--but it will be an argument in a vacuum, devoid of the necessary framework to evaluate things like soundness.
+Soundness is not what you want behind your axioms anyway--I merely hope that it clarifies my motivations.
+
+There has been some talk of known-uknowns and unknown-unknowns; in the first section of this paper, my argument in-vacuo aims establish a third category, known-unknowables.
+Given that there are known unknowables, it might be a good idea to amend the logic we use in epistemology so that we avoid accidental dependency on such a thing.
+In the second section I provide a few modifications to traditional logic that can help us avoid making such an error.
+These modifications are primarily aimed at preventing the scope of existential quantifiers from including an unknowable proposition.
+In section three I will use my new logic to analyze an argument against relativism provided by Welshon, there I will demonstrate that it is a useful way of handling relativist claims.
+
+The goal of this theory is to achieve a sort of tranlation mechanism between a highly relativized argument and a traditional one.
+In at least some cases, there is no practical difference between objectively-true and true-according-to-the-best-theory-available.
+People who argue one way or another are using different words, but often make the same considerations.
+Ideally, the theory presented here could provide a translation mechansim between these two modes, and then the whole depate can collapse into a duality of linguistic choices.
+Realistically, there probably are differences between these kinds of thinking that cannot be resolved by logical trickery.
+If so, I hope that we can at least augment relativist arguments with a logical underpinning that alows them to be criticized in a systematic way:
+Maybe a relativist is never wrong, but with a bit of relativism of our own we can at least show that a misbehaving relativist is relatively useless.
+
+
