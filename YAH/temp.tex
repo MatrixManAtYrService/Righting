@@ -1,0 +1,107 @@
+
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{lplfitch}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+\makeindex
+
+\title{You Are Here \\
+\large A Logical Metatheory of Knowability}
+\author{Matt Rixman}
+\date{2017/4/30}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Intoduction here\\
+
+\begin{table}
+    \begin{tabular}{l|c|l}
+        \hline
+        Proposition & Symbol & Expression \\ \hline
+        Relativism  & $R$ & $\forall{x}((\exists{\gamma})(x \in \gamma) \lif (\exists{\delta})({\lnot}x \in \delta))$ \\
+        Antirelativism & $\neg R$ & $\exists{x}((\exists{\gamma})(x \in \gamma) \land (\forall{\delta})(({\neg}x \notin \delta))$ \\
+        Absolutism & $A$ & $\exists{x}(\forall{\gamma})(x \in \gamma)$ \\
+        Antiabsolutism & $\neg A$ & $\forall{x}(\exists{\gamma})(x \notin \gamma)$ \\
+    \end{tabular}
+\end{table}
+
+
+
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+    \fitchctx
+    {
+        \pline{\bigstar}\\
+        \subproof
+        {
+            \pline{\mathnormal{R}}
+        }
+        {
+            \subproof
+            {
+                \pline{\mathnormal{x}}
+            }
+            {
+                \pline{}
+            }
+            \subproof
+            {
+                \pline{\lnot\mathnormal{x}}
+            }
+            {
+                \pline{}
+            }
+        }
+        \subproof
+        {
+            \pline{\neg \mathnormal{R}}
+        }
+        {
+            \subproof
+            {
+                \pline{\mathnormal{x}}
+            }
+            {
+                \pline{}
+            }
+        }
+    }
+    \caption{Relativism as relatively true}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+    \fitchprf
+    {
+        \pline{\mathnormal{R}}
+    }
+    {
+        \pline{\bigstar}\\
+        \subproof
+        {
+            \pline{\mathnormal{x}}
+        }
+        {
+            \subproof
+            {
+                \pline{\lnot\mathnormal{x}}
+            }
+            {
+                \pline{\lfalse}
+            }
+        }
+    }
+    \caption{Relativism as the only absolute}
+\end{subfigure}
+\end{figure}
+
+
+
+\end{document}
+
