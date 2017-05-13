@@ -1,33 +1,102 @@
 You are Here, a Logical Metatheory of Knowability
 =================================================
 
+In 2002 U.S. Secretary of Defence Donald Rumsfeld addressed the press with a meta-epistemological categorization.
+He asserted that there are known-knowns, known-unknowns, and unknown-unknowns.
+In the first section of this paper, I will argue for another category (potentially overlapping with the first two): known-unknowables.
+If a proposition P is known to be unknowable, it means either that information that would justify P will never be available [1], or that our justification of P is doomed for some other reason.
+It is the second kind of failure that I shall be concerned with.
+
+It is easy to jump to the conclusion that any argument containing an unknowable proposition is useless, and ought to be avoided.
+"Of what we cannot speak, we must pass over in silence," as Wittgenstein says.
+I don't agree.
+Even in the absence of accessable truth, a belief might be useful.
+But I do think that a body of discourse that contains only knowable propositions should get special considerations.
+Participation in such discourse requires that we avoid accidentally making reference to such a proposition.
+To this end, I will offer some modifications to traditional logic that aim to avoid reliance on unknowables.
+
+Thirdly, I will argue that the relativism hypothesis presupposes a logical landscape that includes my modifications, and that the objectivist position presupposes an incompatible set of logic rules.
+Because of this, the relativist fails to evaluate objectivist arguments in their native logical context, and visa-versa.
+As examples of this, I will use either regime to analyze some arguments against relativism that are given by Welshon and Boghossian.
+
+Consider a pair of relativists that are debating the mertis of T_p, a theory where p holds, versus T_~p, where p does not hold.
+Elsewhere, there is a pair of absolutists that are arguing about whether or not p is true.
+In the last section I will argue that at least in some cases, the argumentative structure between relativists is *so* similar to that of the absolutists that a translation function could be provided.
+In these cases, the debate about relativism collapses to a disagreement regarding style--the issue can be solved by simply using the translation function to render your opponents argument in your favored system.
+In cases where this equivalence does not hold, it is hoped that the argumentative structure exposed by my amendments to logic will shed some light on the nature of the rift.
+
+Unknowable Propositions
+_________________________
+
+Axioms and rules of logic are not typically argued for--the point of having them is that they grant you a place to start.
+On the other hand, if I were to start with the axiom: "any propositon written in blue ink is true," I would have departed so fully from conventional wisdom--you should be suspicious that such a theory could ever be useful.
+Since I do plan to depart significantly from convention, perhaps some explanation is due.
+What follows will be an argument in a vacuum--it aims only to explain my later choices, not to establish them.
+It will also serve to expose whatever metaphysical baggage the theory that follows might carry.
+Hopefully, strange as it might be, it won't be immediately objectionable.
+
+One property I have is that I can solve decision problems.
+Present me with a yes or no question and, at least sometimes, I can come up with a yes or a no.
+Any theory of justification requires that the agent be able to solve decision problems.
+That is, "given a predicate J and a proposition p, is J(p) true?" where J encapsulates the theory of justification.
+This is how I can hold justified beliefs.
+
+Here is a decision problem:
+
+    H(c, s) := "Will a computer of type c halt on input s"
+
+If C_t is the class of computers that are equivalent in power to a turing machines, then H(C_t, s) is not solvable for arbitrary choices of s by any computer in C_t.
+This is famously known as the halting problem, although really it should be called the halting problem for turing machines since there are actually other types of machines, each with their own halting problems.
+
+Perhaps humans are more than computers, but we do share the property of being able to solve decision problems.
+For our purposes here, it is the ability to solve decision problems that qualifies something as a computer, so humans are at least computers.
+As such, there is a computability class C_h, which represents machines that can only solving decision problems that humans can solve.
+Therefore, H(C_human, s) is not solvable by humans.
+
+This is where we get our unknowable proposition.
+Since justification supervenes on computation, and H(C_human, s) is not computable by humans, then whatever justification supervenes on H(C_human, s) is inaccessable to humans.
+This means that we cannot know whether we will halt on arbitrary input.
+Perhaps a short discussion of what it means to "halt" is warranted here.
+
+Imagine a computer with two capabilities: it can count, and it can check to see if a number is even.
+Imagine also a man who knows that even and odd numbers typically alternate, but doesn't know that they do so forever.
+A program is written so that the computer checks every pair of consecutive numbers, and it alerts the man when it finds a pair that are both odd.
+The man might then conclude that, once the program finishes, whichever even number was last checked is in fact the largest even number.
+The problem with this scenario is that if no largest even number exists, the computer will never halt.
+A patient human might wait a very long time, but eventually he will have to wonder: "Can I conclude by the fact that the computer has been running a while that there is no greatest even number?  Or should I suspect that the greatest even number just very large?"
+
+A similar problem is seen when Epistemologists consider infinite regress.
+If we grant momentarily that a truly infinite regress of justification is insuffient to justify a belief, a problem remains:
+Given a several-times-regress in justification, how can we decide between chalking it up as infinite, versus continuing our investigation.
+After all, the justification chain might terminate in just one more step.
+This is what Sosa is talking about when he refers to potentially infinite vs actually infinite.
+Sosa says that we can tell the difference--but if we take a look at the subvening computational properties we find that this is only sometimes the case (citation)
+
+Returning to the question about a largest even number, if the human relies on the computer for his justification, then the belief that there is no largest even number falls to infinite regress.
+Luckily, our actual understanding of numbers eclipses the computer's.
+We can rely on capabilities that the computer cannot, so that from our standpoint, justifying our belief that there is no greatest even number turns out to be quite finite.
+
+Recall the proposition that is unjustifiable for humans: that a human will (or will not) halt on arbitrary input.
+In light of our even number example, it would seem that to know whether a human will halt would require a super-human understanding of how a human behaves.
+In this light, the unjustifiable proposition is recognizable as center of the free-will vs determinism debate.
+A human cannot be justified (on epistemic grounds) in the belief that humans are deterministic.
+Nor can we be justified in believing that we have free will.
+To do the former is to take a super-human perspective and solve H(C_h, s).
+To do the latter is to assume that no entity exists that can solve H(C_h, s) [4].
+
+If we truly take this to heart, then we should expect to find a sort of symmetry between descriptions of human behavior that presuppose the determanism of humans, and descriptions that presuppose free will.
 
 
-The idea that you have to start somewhere is a familliar one in philosophy.
-Another familliar problem arises when you would like a way to justify a theory of justification.
-Can we trust a theory to justify itself?
-Can we trust whatever theory we currently embrace to fairly evaluate an alternative?
-In both cases, probably not.
-Ultimately, it must fall to a choice that we make without epistemic justification.
-
-For example, in this paper I will embrace the law of noncontradiction--not because it's true, but because it's useful.
-Since doing so is a conventional move, I will give no futher explanation for that particular principle.
-But there are other principles that are not so conventional, and they should probably be explained.
-This happens with an argument, so it may seem like I think I can prove something--but it will be an argument in a vacuum, devoid of the necessary framework to evaluate things like soundness.
-Soundness is not what you want behind your axioms anyway--I merely hope that it clarifies my motivations.
-
-There has been some talk of known-uknowns and unknown-unknowns; in the first section of this paper, my argument in-vacuo aims establish a third category, known-unknowables.
-Given that there are known unknowables, it might be a good idea to amend the logic we use in epistemology so that we avoid accidental dependency on such a thing.
-In the second section I provide a few modifications to traditional logic that can help us avoid making such an error.
-These modifications are primarily aimed at preventing the scope of existential quantifiers from including an unknowable proposition.
-In section three I will use my new logic to analyze an argument against relativism provided by Welshon, there I will demonstrate that it is a useful way of handling relativist claims.
-
-The goal of this theory is to achieve a sort of tranlation mechanism between a highly relativized argument and a traditional one.
-In at least some cases, there is no practical difference between objectively-true and true-according-to-the-best-theory-available.
-People who argue one way or another are using different words, but often make the same considerations.
-Ideally, the theory presented here could provide a translation mechansim between these two modes, and then the whole depate can collapse into a duality of linguistic choices.
-Realistically, there probably are differences between these kinds of thinking that cannot be resolved by logical trickery.
-If so, I hope that we can at least augment relativist arguments with a logical underpinning that alows them to be criticized in a systematic way:
-Maybe a relativist is never wrong, but with a bit of relativism of our own we can at least show that a misbehaving relativist is relatively useless.
 
 
+
+
+
+
+Endnote 1: If the universe is the set of all things that we can have evidence abount, then any theory (in physics, say) that postulates *other* universes, is making a claim for which there could be no epistemic justification.  After all, if there were actually evicence for these universes, then the fact that we have information about them undermines the idea that they are in fact separate.  The same sort of thing happens if we go looking for theorems that govern triangles with four sides--it is not a lack of able mathematcicians, but something to do with whatever theory prompted us to ask the question in the first place.
+
+Endnote 2: This is for the same reason that G.E. Moore knows that he has hands.  Direct experience works just fine to justify to oneself, but the trouble creeps in when one must justify to another.
+
+Endnote 3: Typically, the halting problem is said to be unsolvable--but it is more instructive to say that the halting problem for turing machines is unsolvable by turing machines.  After all, the halting problem for finite state machines *is* solvable by a turning machine--but it is not solvable by a finite state machine.  This is because turing machines are more powerful than finite state machines.  To call the halting problem for turing machines unsolvable generally is to imply that there are no computers that are more powerful than turing machines.  So far as I know, this claim has not been sufficiently argued for.
+
+Endnote 4: If such an entity did exist, given our inferior computational (and therefore justificatory) capabilities, what kind of evidence would justify our belief in its superiority?  Even if it could solve all of our unsolvable problems, how could we be justified in believing that the solutions given actually counted as solutions?
