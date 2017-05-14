@@ -12,7 +12,7 @@ It is easy to jump to the conclusion that any argument containing an unknowable 
 I don't agree.
 Even in the absence of accessable truth, a belief might be useful.
 But I do think that a body of discourse that contains only knowable propositions should get special considerations.
-Participation in such discourse requires that we avoid accidentally making reference to such a proposition.
+Participation in such discourse requires that we avoid accidentally relying on such a proposition.
 To this end, I will offer some modifications to traditional logic that aim to avoid reliance on unknowables.
 
 Thirdly, I will argue that the relativism hypothesis presupposes a logical landscape that includes my modifications, and that the objectivist position presupposes an incompatible set of logic rules.
@@ -26,14 +26,12 @@ In these cases, the debate about relativism collapses to a disagreement regardin
 In cases where this equivalence does not hold, it is hoped that the argumentative structure exposed by my amendments to logic will shed some light on the nature of the rift.
 
 Unknowable Propositions
-_________________________
+-----------------------
 
 Axioms and rules of logic are not typically argued for--the point of having them is that they grant you a place to start.
-On the other hand, if I were to start with the axiom: "any propositon written in blue ink is true," I would have departed so fully from conventional wisdom--you should be suspicious that such a theory could ever be useful.
+On the other hand, if I were to start with the axiom: "any propositon written in blue ink is true," I would have departed so fully from conventional wisdom that you should be suspicious that my theory could ever be useful.
 Since I do plan to depart significantly from convention, perhaps some explanation is due.
 What follows will be an argument in a vacuum--it aims only to explain my later choices, not to establish them.
-It will also serve to expose whatever metaphysical baggage the theory that follows might carry.
-Hopefully, strange as it might be, it won't be immediately objectionable.
 
 One property I have is that I can solve decision problems.
 Present me with a yes or no question and, at least sometimes, I can come up with a yes or a no.
@@ -50,41 +48,72 @@ This is famously known as the halting problem, although really it should be call
 
 Perhaps humans are more than computers, but we do share the property of being able to solve decision problems.
 For our purposes here, it is the ability to solve decision problems that qualifies something as a computer, so humans are at least computers.
-As such, there is a computability class C_h, which represents machines that can only solving decision problems that humans can solve.
+As such, there is a computability class C_h, which represents machines that can solve exactly the set of decision problems that humans can solve.
 Therefore, H(C_human, s) is not solvable by humans.
 
 This is where we get our unknowable proposition.
-Since justification supervenes on computation, and H(C_human, s) is not computable by humans, then whatever justification supervenes on H(C_human, s) is inaccessable to humans.
+Since justification supervenes on computation, and H(C_human, s) is not computable by humans, then whatever justificatory step supervenes on H(C_human, s) is inaccessable to humans.
 This means that we cannot know whether we will halt on arbitrary input.
-Perhaps a short discussion of what it means to "halt" is warranted here.
+Perhaps a short discussion of what it means to "halt" is needed here.
 
 Imagine a computer with two capabilities: it can count, and it can check to see if a number is even.
 Imagine also a man who knows that even and odd numbers typically alternate, but doesn't know that they do so forever.
-A program is written so that the computer checks every pair of consecutive numbers, and it alerts the man when it finds a pair that are both odd.
-The man might then conclude that, once the program finishes, whichever even number was last checked is in fact the largest even number.
+A program is written so that the computer checks every pair of consecutive numbers, and it stops when it finds a pair that are both odd.
+If the program finishes, the man can conclude that whichever even number was last checked is in fact the largest even number.
 The problem with this scenario is that if no largest even number exists, the computer will never halt.
-A patient human might wait a very long time, but eventually he will have to wonder: "Can I conclude by the fact that the computer has been running a while that there is no greatest even number?  Or should I suspect that the greatest even number just very large?"
+The man might wait a very long time, but eventually he will have to wonder: "The computer has been running a long time, can I conclude that there is no greatest even number?"
+But he cannot--for all he knows, the largest even number will be found in the next few seconds
 
 A similar problem is seen when Epistemologists consider infinite regress.
 If we grant momentarily that a truly infinite regress of justification is insuffient to justify a belief, a problem remains:
 Given a several-times-regress in justification, how can we decide between chalking it up as infinite, versus continuing our investigation.
 After all, the justification chain might terminate in just one more step.
 This is what Sosa is talking about when he refers to potentially infinite vs actually infinite.
-Sosa says that we can tell the difference--but if we take a look at the subvening computational properties we find that this is only sometimes the case (citation)
+Sosa says that we can tell the difference--but if we take a look at the subvening computational properties we find that this is only sometimes the case (citation).
 
 Returning to the question about a largest even number, if the human relies on the computer for his justification, then the belief that there is no largest even number falls to infinite regress.
 Luckily, our actual understanding of numbers eclipses the computer's.
 We can rely on capabilities that the computer cannot, so that from our standpoint, justifying our belief that there is no greatest even number turns out to be quite finite.
 
 Recall the proposition that is unjustifiable for humans: that a human will (or will not) halt on arbitrary input.
-In light of our even number example, it would seem that to know whether a human will halt would require a super-human understanding of how a human behaves.
-In this light, the unjustifiable proposition is recognizable as center of the free-will vs determinism debate.
-A human cannot be justified (on epistemic grounds) in the belief that humans are deterministic.
-Nor can we be justified in believing that we have free will.
-To do the former is to take a super-human perspective and solve H(C_h, s).
-To do the latter is to assume that no entity exists that can solve H(C_h, s) [4].
+In light of our even number example, the unjustifiable proposition is recognizable as center of the free-will vs determinism debate.
+A human cannot be justified (on epistemic grounds at least) in the belief that humans are deterministic.
+To do so is to take a super-human perspective and solve H(C_h, s) [4].
 
-If we truly take this to heart, then we should expect to find a sort of symmetry between descriptions of human behavior that presuppose the determanism of humans, and descriptions that presuppose free will.
+One thing to note about this kind of reasoning is that having established some proposition as unknowable does not provide us with any information about its negation.
+In this case, I think that justified beliefs in free will are on equally sketchy ground [5], but this symmetry need not hold for other unknowables.
+For example, the belief that we are alone in the universe is not justifiable (unless the universe is small enough for an exhaustive search).
+On the other hand, the belief that we are *not* alone in the universe is easily justifiable--it would take just one chance meeting with extra-terrestrials.
+
+Another unknowable for me is whether anyone else has an internal experience--my experience being the only one that I, uh, experience.
+Maybe you also have an internal experience, since we have several similarities, but I don't know which of our similarities are the relevant ones for consciousness.
+From this, I have to acknowledge that anything that has properties similar to my own *might* also have an internal experience.
+I have an abacus, for example, and as I fiddle with its beads I can become pretty convinced that the numbers that the abacus displayed are totally deterministic.
+That is to say, my abacus does not have free will, but I cannot conclude from this that it does not have an internal experience.
+After all, I might be a deterministic thing that is mistakenly convinced of my own free will, could my abacus be the same sort of thing?
+If there is an entity out there with a sufficiently godlike persepective to view human behavior as deterministic, then it might see me in a way that is similar to the way I see the abacus.
+It might even be as powerless to convince me of my own determinism as I am to convince my abacus of its determinism.
+
+I would remind the reader that axioms and logic rules are adhered to not because they are the conclusions of arguments (and certainly not arguments as fanciful as the ones above), but because doing so is useful.
+Strange as this section has been, I will derive serveral logical principles from it for use in my theory.
+The true test of my choices will come in whether that theory ends up being useful.
+
+You Are Here
+------------
+
+In a discussion of Descartes' *cogito ergo sum*, Nagel argues that "there are some thoughts that we simply cannot get outside of ... One can't criticize the more fundamental with the less fundamental.  Logic cannot be displaced by anthropology.  Arithmetic cannot be displaced by sociology, or biology.  I believe that once the category of thoughts that we cannot get outside of is recognized, the range of examples turns out to be quite wide"
+Perhaps the fact that I have arranged my abacus to display a seven corresponds to a thought--for the abacus--that it cannot get outside of.
+Perhaps the fact that gravity is an attractive force is the result of some godlike being fiddling with the universe, and it is a fact that I cannot get oustide of.
+I wish to capture this notion of containership in my theory.
+This involves some propositions being more fundamental/synthetic/a priori than others, while others will be more fictional/analytic/a posteriori.
+Since this partly involves managing the scope of what gets taken for granted, I will borrow notation that is used elsewhere for symbolic derivations (Fitch notation).
+
+Recall the thought experiment where a very limited computer was programmed to find the largest even number.
+From the perspective of that computer (or, if you prefer, from the perspective of anyone whose powers of justification are equivalent in power to that computer) certain facts about the evens were not accessable.
+But the modern mathematician has access to far more.
+A theory for knowability that aims to analyze both of these perspectives in the same go (as my theory does) needs to be able to indicate which perspective is taken.
+I use a star symbol for this--it means "You are here," and it is from this symbol that the theory gets its name (YAH, hereafter).
+
 
 
 
@@ -99,4 +128,6 @@ Endnote 2: This is for the same reason that G.E. Moore knows that he has hands. 
 
 Endnote 3: Typically, the halting problem is said to be unsolvable--but it is more instructive to say that the halting problem for turing machines is unsolvable by turing machines.  After all, the halting problem for finite state machines *is* solvable by a turning machine--but it is not solvable by a finite state machine.  This is because turing machines are more powerful than finite state machines.  To call the halting problem for turing machines unsolvable generally is to imply that there are no computers that are more powerful than turing machines.  So far as I know, this claim has not been sufficiently argued for.
 
-Endnote 4: If such an entity did exist, given our inferior computational (and therefore justificatory) capabilities, what kind of evidence would justify our belief in its superiority?  Even if it could solve all of our unsolvable problems, how could we be justified in believing that the solutions given actually counted as solutions?
+Endnote 4: Perhaps, as a human, I can't solve H(C_h, s) myself, but I have access to some kind of oracle that *can* solve the halting problem.  In this case, the conversation shifts to whether the oracle can be trusted.  Here the trouble is that any evidence the oracle can provide of its own superiority would necessarilly be a sort of evidence that a human could not justify belief in.
+
+Endnote 5: In this case the trouble isn't one with the complexity of justification, as it was for the unjustifiability of beliefs in determinism, but in the accessability of information.  In order to justify the belief that we have free will, we would need to be sure that there are no perspectives from which we can be determined--but since we are confined to our own perspectives, no evidence to this end is likely to be forthcoming.
