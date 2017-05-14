@@ -1,41 +1,152 @@
 
 
-\documentclass{article}
+\documentclass[12pt]{article}
+\usepackage[letterpaper]{geometry}
+\usepackage{times}
+\geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
+
+%
+%Doublespacing
+%
+\usepackage{setspace}
+\doublespacing
+
+
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{lplfitch}
 \usepackage{caption}
+\usepackage{mwe}
 \usepackage{subcaption}
+\usepackage{endnotes}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headheight}{110pt}
+\lhead{}
+\chead{}
+\rhead{Rixman \thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 
 
-\makeindex
+%Works cited environment
+%(to start, use \begin{workscited...}, each entry preceded by \bibent)
+% - from Ryan Alcock's MLA style file
+%
+\newcommand{\bibent}{\noindent \hangindent 40pt}
+\newenvironment{workscited}{\newpage \begin{center} Works Cited \end{center}}{\newpage }
 
-\title{You Are Here \\
-\large A Logical Metatheory of Knowability}
-\author{Matt Rixman}
-\date{2017/4/30}
 
+%
+%Begin document
+%
 \begin{document}
+\begin{flushleft}
 
-\maketitle
-
-\section{Introduction}
-Intoduction here\\
-
-\begin{table}
-    \begin{tabular}{l|c|l}
-        \hline
-        Proposition & Symbol & Expression \\ \hline
-        Relativism  & $R$ & $\forall{x}((\exists{\gamma})(x \in \gamma) \lif (\exists{\delta})({\lnot}x \in \delta))$ \\
-        Antirelativism & $\neg R$ & $\exists{x}((\exists{\gamma})(x \in \gamma) \land (\forall{\delta})(({\neg}x \notin \delta))$ \\
-        Absolutism & $A$ & $\exists{x}(\forall{\gamma})(x \in \gamma)$ \\
-        Antiabsolutism & $\neg A$ & $\forall{x}(\exists{\gamma})(x \notin \gamma)$ \\
-    \end{tabular}
-\end{table}
+%%%%First page name, class, etc
+Matt Rixman\\
+Welshon\\
+Epistemology\\
+May 15, 2017\\
 
 
+%%%%Title
+\begin{center}
+    You are Here, a Logical Metatheory of Knowability
+\end{center}
 
-\begin{figure}
+
+%%%%Changes paragraph indentation to 0.5in
+\setlength{\parindent}{0.5in}
+%%%%Begin body of paper here
+
+\texbf{Introduction}
+
+In 2002 U.S. Secretary of Defence Donald Rumsfeld addressed the press with a meta-epistemological categorization.
+He asserted that there are known-knowns, known-unknowns, and unknown-unknowns.
+In the first section of this paper, I will argue for another category (potentially overlapping with the first two): known-unknowables.
+If a proposition P is known to be unknowable, it means either that information that would justify P will never be available [1], or that our justification of P is doomed for some other reason.
+It is the second kind of failure that I shall be concerned with.
+
+It is easy to jump to the conclusion that any argument containing an unknowable proposition is useless, and ought to be avoided.
+"Of what we cannot speak, we must pass over in silence," as Wittgenstein says.
+I don't agree.
+Even in the absence of accessable truth, a belief might be useful.
+But I do think that a body of discourse that contains only knowable propositions should get special considerations.
+Participation in such discourse requires that we avoid accidentally relying on such a proposition.
+To this end, I will offer some modifications to traditional logic that aim to avoid reliance on unknowables.
+
+Thirdly, I will argue that the relativism hypothesis presupposes a logical landscape that includes my modifications, and that the objectivist position presupposes an incompatible set of logic rules.
+Because of this, the relativist fails to evaluate objectivist arguments in their native logical context, and visa-versa.
+As examples of this, I will use either regime to analyze some arguments against relativism that are given by Welshon and Boghossian.
+
+Consider a pair of relativists that are debating the mertis of $T_p$, a theory where p holds, versus $T_{\neg p}$, where p does not hold.
+Elsewhere, there is a pair of absolutists that are arguing about whether or not p is true.
+In the last section I will argue that at least in some cases, the argumentative structure between relativists is \textit{so} similar to that of the absolutists that a translation function could be provided.
+In these cases, the debate about relativism collapses to a disagreement regarding style--the issue can be solved by simply using the translation function to render your opponents argument in your favored system.
+In cases where this equivalence does not hold, it is hoped that the argumentative structure exposed by my amendments to logic will shed some light on the nature of the rift.
+
+\section{Unknowable Propositions}
+foo
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \begin{tabular}{l|c}
+            \hline
+            $\alpha$ & \textit{the axioms of number theory}\\
+            S & Numbers have successors.\\
+            E & Numbers can be even.\\
+            H & The computer will halt.\\
+            \hline
+        \end{tabular}
+        \label{fig:sub1}
+    \end{subfigure}\\
+    \par\bigskip
+    \begin{subfigure}{.5\linewidth}
+        \centering
+        \fitchctx
+        {
+            \pline{\bigstar}\\
+            \subproof
+            {
+                \pline{\mathnormal{\alpha}}
+            }
+            {
+                \pline{S} \\
+                \pline{E}
+            }
+            \pline{\lnot H}
+        }
+        \caption{A mathematician's view}
+        \label{fig:sub2}
+    \end{subfigure}%
+    \begin{subfigure}{.5\linewidth}
+        \centering
+        \fitchctx
+        {
+            \subproof
+            {
+                \pline{S} \\
+                \pline{E}
+            }
+            {
+                \pline{\bigstar}
+            }
+        }
+        \caption{the computer's view}
+        \label{fig:sub3}
+    \end{subfigure}
+    \label{fig:test}
+\end{figure}
+
+
+\begin{figure}[h]
 \begin{subfigure}{.5\textwidth}
     \fitchctx
     {
@@ -102,6 +213,30 @@ Intoduction here\\
 \end{figure}
 
 
+\begin{figure}[h]
+    \begin{tabular}{l|c|l}
+        \hline
+        Proposition & Symbol & Expression \\ \hline
+        Relativism  & $R$ & $\forall{x}((\exists{\gamma})(x \in \gamma) \lif (\exists{\delta})({\lnot}x \in \delta))$ \\
+        Antirelativism & $\neg R$ & $\exists{x}((\exists{\gamma})(x \in \gamma) \land (\forall{\delta})(({\neg}x \notin \delta))$ \\
+        Absolutism & $A$ & $\exists{x}(\forall{\gamma})(x \in \gamma)$ \\
+        Antiabsolutism & $\neg A$ & $\forall{x}(\exists{\gamma})({\lnot}x \in \gamma)$ \\
+    \end{tabular}
+\end{figure}
 
+\begin{center}
+    Notes
+\end{center}
+\setlength{\parindent}{0.5in}
+
+1. A note
+
+2. Another note
+
+\begin{workscited}
+    \bibent
+    Some guy.  
+\end{workscited}
+
+\end{flushleft}
 \end{document}
-
