@@ -67,10 +67,10 @@ In 2002 U.S. Secretary of Defence Donald Rumsfeld addressed the press with a met
 He asserted that there are known-knowns, known-unknowns, and unknown-unknowns.
 In the following section I will argue for a subset of the second category: known-unknowables.
 If a proposition P is known to be unknowable, it means either that information that would justify P will never be available\footnotemark, or that our justification of P is doomed for some other reason.
-It is the second kind of failure that I shall be concerned with.
+It is the second kind of failure that I shall be especially concerned with.
 
 It is easy to jump to the conclusion that any argument containing an unknowable proposition is useless, and ought to be avoided.
-"Of what we cannot speak, we must pass over in silence," as Wittgenstein says (7).
+"Whereof one cannot speak thereof one must be silent," as Wittgenstein says (7).
 I don't agree.
 Even in the absence of accessable truth, a belief might be useful for other reasons.
 But I do think that a body of discourse that contains only knowable propositions ought to get special considerations.
@@ -185,9 +185,9 @@ I will borrow notation that is used elsewhere for symbolic derivations (Fitch no
         \begin{tabular}{l|l}
             \hline
             $\alpha$ & \textit{the axioms of number theory}\\
-            S & Numbers have successors.\\
-            E & Numbers can be even.\\
-            H & The computer will halt.\\
+            s & numbers have successors.\\
+            e & numbers can be even.\\
+            h & the computer will halt.\\
             \hline
         \end{tabular}
     \end{subfigure}\\
@@ -196,8 +196,8 @@ I will borrow notation that is used elsewhere for symbolic derivations (Fitch no
         \hspace*{7em}%
         \fitchprf
         {
-            \pline{S} \\
-            \pline{E}
+            \pline{s} \\
+            \pline{e}
         }
         {
             \pline{\bigstar}
@@ -215,10 +215,10 @@ I will borrow notation that is used elsewhere for symbolic derivations (Fitch no
                 \pline{\mathnormal{\alpha}}
             }
             {
-                \pline{S} \\
-                \pline{E}
+                \pline{s} \\
+                \pline{e}
             }
-            \pline{\lnot H}
+            \pline{\lnot h}
         }
         \caption{a mathematician's view}
         \label{mathematician}
@@ -400,6 +400,12 @@ When they are evaluated, the scope extends ``up and out''.
 This covers any theory that contain the perspective point (not just its immediate neighborhood).
 Existential quantifiers do not apply to anything whose existence comes from an assumption that is not synthetic with respect to the perspective point\footnotemark.
 
+The preceeding rule applies to quantifiers that operate over wands, dragons, rings, adventures, people, and pretty much anything else you might want to quantify, but it has an exception.
+If the quantifier in question refers to aspect of YAH itself (predicates or theories), then scope still originates from the star and expands outward, but it does not traverse any scope bars or axiom-boundaries.
+This way we can play around with axioms like ``All propositions written in blue ink are true'' without worrying about how the axiom applies to itself.
+The ``all'' in this axiom refers to everything contained in the theory that most immediately contains the star.
+We will see an example of why this is necessary in the next section.
+
 \begin{figure}[h]
     \centering
     \hspace*{17em}%
@@ -420,8 +426,7 @@ Existential quantifiers do not apply to anything whose existence comes from an a
     \label{contradiction}
 \end{figure}
 
-
-In addition to existential quantifiers, we should say a word about contradiction.
+We should also say a word about contradiction.
 For YAH to be useful, we need to be able to place the star anywhere in the logical landscape.
 It is not clear what would be meant by figure \ref{contradiction}.
 Traditional rules of inferrence allow somebody with the shown perspective to derive any proposition whatsoever, which doesn't lend itself to a coherent theory.
@@ -443,20 +448,230 @@ If we mishandle the negation, we end up thinking that Euclidean geometry somehow
 As I will argue in the next section, this last point plays a significant role in the misunderstanding between relativists and absolutists.
 
 
+\setlength{\parindent}{0in}
+\par\bigskip
+\textbf{Relativism}
+\setlength{\parindent}{0.5in}
+
+In this section we will use YAH to analyze a few arguments against relativism.
+The first agrument is given by Boghossian, who allows that P might be true relative to $\alpha$, but then bases a different fact on this one, which he says must be absolutely true.
+Boghossian's construction goes like this:
+If P is relatively true, then ``P is relateively true'' is absolutely true.
+
+To put it in his words: ``The global relativist maintains that there could be no facts of the form: 'there have been dinosaurs', but only facts of the form 'According to a theory that we accept, there have been dinosaurs''' (Boghossian 54).
+He then goes on to challenge the relativist:
+Either the latter sort of fact is absolutely the case, then Boghossian has established an absolute fact, and the relativist is defeated.
+But if not, then the relativist's only way out is to say that the claim that P is relatively true is itself relatively true--a claim that Boghossian would again point out is absolute.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \begin{tabular}{l|l}
+            \hline
+            F($\xi$,x) & according to $\xi$, x is a fact\\
+            $\alpha$ & \textit{paleontology} \\
+            $\beta$ & \textit{some theory regarding facts} \\
+            D & There have been dinosaurs\\
+            \hline
+        \end{tabular}
+    \end{subfigure}\\
+    \par\bigskip
+    \begin{subfigure}{.20\linewidth}
+        \centering
+        \hspace*{2em}%
+        \fitchprf
+        {
+            \pline{\mathnormal{\alpha}}
+        }
+        {
+            \pline{\bigstar} \\
+            \pline{D}
+        }
+        \caption{}
+        \label{dinosaur0}
+    \end{subfigure}%
+    \begin{subfigure}{.20\linewidth}
+        \centering
+        \fitchctx
+        {
+            \pline{\bigstar} \\
+            \subproof
+            {
+                \pline{\mathnormal{\alpha}}
+            }
+            {
+                \pline{D}
+            }
+        }
+        \caption{}
+        \label{dinosaur1}
+     \end{subfigure}%
+    \begin{subfigure}{.20\linewidth}
+        \centering
+        \hspace*{2em}%
+        \fitchprf
+        {
+            \pline{\mathnormal{\beta_1}}
+        }
+        {
+            \pline{\bigstar} \\
+            \subproof
+            {
+                \pline{\mathnormal{\alpha}}
+            }
+            {
+                \pline{D}
+            }
+            \pline{F(\mathnormal{\alpha}, D)}
+        }
+        \caption{}
+        \label{dinosaur2}
+     \end{subfigure}%
+    \begin{subfigure}{.20\linewidth}
+        \centering
+        \fitchctx
+        {
+            \pline{\bigstar} \\
+            \subproof
+            {
+                \pline{\mathnormal{\beta_1}}
+            }
+            {
+                \subproof
+                {
+                    \pline{\mathnormal{\alpha}}
+                }
+                {
+                    \pline{D}
+                }
+                \pline{F(\mathnormal{\alpha}, D)}
+            }
+        }
+        \caption{}
+        \label{dinosaur3}
+     \end{subfigure}%
+     \begin{subfigure}{.20\linewidth}
+        \centering
+        \hspace*{2em}%
+        \fitchprf
+        {
+            \pline{\mathnormal{\beta_2}}
+        }
+        {
+            \pline{\bigstar} \\
+            \subproof
+            {
+                \pline{\mathnormal{\beta_1}}
+            }
+            {
+                \subproof
+                {
+                    \pline{\mathnormal{\alpha}}
+                }
+                {
+                    \pline{D}
+                }
+                \pline{F(\mathnormal{\alpha}, D)}
+            }
+                \pline{F(\mathnormal{\beta_1}, F(\mathnormal{\alpha}, D))}
+        }
+        \caption{}
+        \label{dinosaur4}
+    \end{subfigure}
+    \caption{}
+    \label{dinosaur}
+\end{figure}
 
 
+Figure \ref{dinosaur} shows the progression that Boghossian is talking about.
+If this were actually a conversation about dinosaurs, the fact that Boghossian prefers (a) while a relativist prefers (b) would not actually cause an trouble--provided that the relativist was well behaved.
+But when Boghossian prompts the relativist about the nature of facts about dinosaurs, he prompts the relativist to abstract even further.
+At this stage, Boghossian views the situation as (c) and the relativist views it as (d).
+Again, if this were a conversation about facts about dinosaurs, Boghossian and the relativist would be able to get along, but Boghossian doesn't actually want to talk about facts about dinosaurs--he appears to want to talk about facts about facts about dinosaurs (e) and so the relativist accomodates.
 
+When we look at the similarities between (a) and (b) or the similarities between (c) and (d) we can see that the disagreement comes regarding where the analytic/synthetic divides ought to be set.
+That is, it comes down to which theories are revisable versus which theories contain us.
+Boghossian understands that the relativists preference is to set the analytic/synthetic knob further in the analytic direction than his own.
+What he seems to miss is that a reasonable relativist only wants that knob to be \textit{one} notch further in the analytic direction.
+To do anything else is to invite needless complexity, like we see in (e).
 
+This mistake is typical of absolutists attacking relativism.
+In \textit{On the Very Idea of a Conceptual Scheme} Davidson characterizes the relativist position as giving up the analytic-synthetic division (275).
+I don't think this is accurate--what the relativist wants to do is establish that the analytic-synthetic division is itself analytic.
+Following that, we can tune the knob to wherever it makes sense for optimal communication.
+Davidson and Boghossian share the same straw man of relativism: that the relativism wants to eliminate apriority/synteticness.
 
+All the relatvists wants is to have that option in particular cases.
+Well ok, in every case--but no responsible relativist would optdifferently. to exercise that option in all cases at the same time.
+To do so would be to throw away a useful facet of discourse--that some propositions are in-bounds for questioning, and some aren't.
+Towards the end of the same article, Davidson seems to acknowledge that we do have some choice in how we set the analytic/synthetic parameter, and suggests that we set it more heavily on the synthetic side (282).
+His proposal is well reasoned, and I would agree--but as devil's advocate for the relativist I would point out that there are cases where the extra complexity of a relativized view is necessary for understanding.
+So let's keep things synthetic until we have a good reason to do otherwise.
+If YAH is developed further, perhaps it can make precise just what kind of ``good reason'' that might be.
 
+\begin{figure}[h]
+    \begin{tabular}{l|c|l}
+        \hline
+        Proposition & Symbol & Expression \\ \hline
+        Relativism  & $R$ & $\forall{x}((\exists{\gamma})(x \in \gamma) \lif (\exists{\delta})({\lnot}x \in \delta))$ \\
+        Antirelativism & $\neg R$ & $\exists{x}((\exists{\gamma})(x \in \gamma) \land (\forall{\delta})(({\neg}x \notin \delta))$ \\
+        Absolutism & $A$ & $\exists{x}(\forall{\gamma})(x \in \gamma)$ \\
+        Antiabsolutism & $\neg A$ & $\forall{x}(\exists{\gamma})({\lnot}x \in \gamma)$ \\
+    \end{tabular}\\
+    \par\bigskip
 
+    \begin{tabular}{p{.15\textwidth}|p{.8\textwidth}}
+    Position & Natural language description \\ \hline
+    Relativism & If a proposition is true in a theory, it is also false in a theory. \\
+    Antirelativism & Some theory contains a proposition whose negation is not in any theory. \\
+    Absolutisim & There is a proposition that is true in all theories \\
+    Antiabsolutism & For all propositions there is a theory where that proposition is false.
+    \end{tabular}
+    \caption{Relativism, Absolutism, and their negations}
+    \label{definitions}
+\end{figure}
 
+Following Boghossian's argument about Dinosaurs, we shall now turn to Welshon's argument, which has a similar flavor but confronts relativism directly.
+Welshon starts by defining Relativism and Absolutism, and his argument features a number of cases where the negations of those positions are considered.
+Keeping in mind that YAH has special provisions regarding negation, I have tried to reproduce Welshon's definitions in figure \ref{definitions}.
+Since relativism holds that all propositions exist relative to a theory, I have negated relativism according to the YAH-rules.
+Under this regime, if it is not the case that a proposition is true in a theory, then we simply conclude that the theory does not contain that proposition.
 
-
+Absolutism, however, regards propositions as free-standing and not indexed to a theory.
+This means that all theories contain all propositions, and what's relevant is whether that proposition is true in that theory or false in that theory.
+Because of this, I have negated the Absolutism hypothesis according to the simpler rules that it presupposes.
+A careful look at these definitions shows that Relativism, carefully negated, is not identical to Absolutism.
+That is to say, by simply defining what we mean by relativism, we presuppose something about the nature of propositions--i.e. that they live in theories--and by defining what we mean by absolutism we presuppose that propositions exist independently.
+Philosophers that overlook this point are bound to misrepresent whichever side of this debate they have not embraced.
 
 
 \begin{figure}[h]
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.25\textwidth}
+    \fitchprf
+    {
+        \pline{\mathnormal{R}}
+    }
+    {
+        \subproof
+        {
+            \pline{\mathnormal{x}}
+        }
+        {
+            \pline{\bigstar}\\
+            \subproof
+            {
+                \pline{\lnot\mathnormal{x}}
+            }
+            {
+                \pline{\lfalse}
+            }
+        }
+    }
+    \caption{Absolute relativism}
+    \label{abs_rel}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
     \fitchctx
     {
         \pline{\bigstar}\\
@@ -494,45 +709,119 @@ As I will argue in the next section, this last point plays a significant role in
             }
         }
     }
-    \caption{Relativism as relatively true}
+    \caption{Relative relativism}
+    \label{rel_rel}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.25\textwidth}
+    \hspace*{3em}%
     \fitchprf
     {
-        \pline{\mathnormal{R}}
+            \pline{\neg \mathnormal{R}} \\
+            \pline{\mathnormal{x}}
     }
     {
-        \pline{\bigstar}\\
-        \subproof
-        {
-            \pline{\mathnormal{x}}
-        }
-        {
-            \subproof
-            {
-                \pline{\lnot\mathnormal{x}}
-            }
-            {
-                \pline{\lfalse}
-            }
-        }
+        \pline{\bigstar}
     }
-    \caption{Relativism as the only absolute}
+    \caption{with $x$}
+    \label{antirel_populated}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+    \hspace*{3em}%
+    \fitchprf
+    {
+            \pline{\neg \mathnormal{R}}
+    }
+    {
+        \pline{\bigstar}
+    }
+    \caption{without $x$}
+    \label{antirel_unpopulated}
 \end{subfigure}
+\caption{}
+\label{welshon}
 \end{figure}
 
+For an argument that proceeds along Absolutists lines, Welshon's is as generous to the Relativist as it can be.
+But the argument still has the absolutist regime for its home.
+Let us see how it looks when translated into YAH.
+His argument takes the form of a destructive dilemma.
+The first horn is the theory that is created when we suppose that relativism is absolutely true.
+Welshon concludes rather quickly that this leads to a contradiction.
+He says that the contradiction arises because the relativism hypothesis applies to itself, which guarantees the existence of a theory where antirelativism holds as well.
 
-\begin{figure}[h]
-    \begin{tabular}{l|c|l}
-        \hline
-        Proposition & Symbol & Expression \\ \hline
-        Relativism  & $R$ & $\forall{x}((\exists{\gamma})(x \in \gamma) \lif (\exists{\delta})({\lnot}x \in \delta))$ \\
-        Antirelativism & $\neg R$ & $\exists{x}((\exists{\gamma})(x \in \gamma) \land (\forall{\delta})(({\neg}x \notin \delta))$ \\
-        Absolutism & $A$ & $\exists{x}(\forall{\gamma})(x \in \gamma)$ \\
-        Antiabsolutism & $\neg A$ & $\forall{x}(\exists{\gamma})({\lnot}x \in \gamma)$ \\
-    \end{tabular}
-\end{figure}
+According to YAH, Welshon is right, but for the wrong reasons.
+Since the relativism hypothesis involves an existential quantifier that operates over propositions, its scope is limited to the lower-part of the theory that it creates.
+As such, it doesn't apply to itself.
+However, a contradiction immedatly follows if we anchor our perspective so that any other proposition ($x$) is also synthetic.
+The relativism hypothesis forces us to create a theory that contains $\neg x$, and here we end up with a contradiction.
+This is depicted in figure \ref{abs_rel}.
 
+The other prong of Welshon's argument is where Relativism is relatively true.
+This world is shown in figure \ref{rel_rel}.
+It has the interesting property that it segments the logical landscape in two.
+The first one resembles the first prong of the dilemma--where we have observed that placing the star further in results in contradictions.
+The second one asserts antirelativism within its scope, that is, it creates a space where whichever other syntetic facts exist must be respected by subsequent theory.
+
+As we have learned from the first prong, anchoring our perspective within relativism requires that any other synthetic facts create contradictions.
+At first glance, it seems that the absolutist has won--here we have a space where perspectives can only be anchored within antirelativism.
+But recall that antirelativism is not the same as absolutism.
+The situation in figure \ref{antirel_populated} or figure \ref{antirel_unpopulated} is only forced if the situation in figure \ref{rel_rel} is prohibited.
+It certainly seem like the latter perspective is allowed, since it is the one that Welshon's argument takes when it sets up the dilemma.
+
+This is where my treatment of this prong diverges from Welshon's.
+He asserts (P13) that if relativism is false, then absolutism is true--which isn't precisely the case.
+Following this, he uses (or according to YAH, abuses) an existential quantifier to establish that there is a proposition (which turns out to be $\neg \textnormal{R}$) that is true in all perspectives.
+This appears to the case when we look at figure \ref{antirel_populated} or figure \ref{antirel_unpopulated}, but keep in mind that YAH has pruned whatever part of the logical landscape ought to be unknowable from our chosen persepective.
+It may be the case that there are propositions outside of the theory based on $\neg \textnormal{R}$, but they can't be viewed from where we stand.
+
+Another thing about this antirelativist result is that it says nothing about the status of any other proposition.
+If we avoid taking the universal view and keep the star under $\neg \textnormal{R}$ then we see that this position allows for synthetic truths beside $\neg \textnormal{R}$, but it doesn't establish them.
+We are still pretty much in the dark and unable to decide between figure \ref{antirel_populated} which I suspect that the absolutist would prefer, and \ref{antirel_unpopulated} which is somewhat unsatisfying.
+
+I will confess that the latter part of this section is on shaky ground, especially because YAH is still a fledgling theory.
+The point I wish to make here is that relativists and absolutists presuppose certain aspects of the logical landscape, and that when it comes to the ways that existential quantifiers that close over propositions and theories go, those landscapes are incompatible.
+The absolutist has traditional logic to lean on, as it more closely resembles his position.
+The relativist, however, may have an equally coherent position, but that position is less developed.
+YAH is a first shot towards a rigorous relativist logic.
+I will conclude in the final section that it would be more productive for philosophy in general if epistemologists stopped trying undercut relativist positions and instead focussed on providing sufficient rigor so that misbehaving relativists could be held accountable.
+
+\setlength{\parindent}{0in}
+\par\bigskip
+\textbf{Conclusion}
+\setlength{\parindent}{0.5in}
+
+I set out to establish known-unknowable as an epistemic category.
+To do this I gave several examples of known-unknowables.
+Some of these are unknowable because we are not in a position to have information that would constitute evidence for them.
+At least one is unknowable because justifying it would require computational skills that we do not have.
+During this discussion I took the position that consciousness might be in a number of places that we don't suspect.
+
+From there, I developed a logical theory titled You Are Here, which allows us to capture various structural details regarding how some truths appear to be more fundamental than others.
+It also allows us to anchor a perspective at various points in the logical landscape.
+This freedom mirrors the uncertainty about perspectives that was established above.
+In order to prevent YAH from becoming mired in self-reference paradox, it was necessary to place more restrictions on the scope of existential quantifiers than traditional logic does.
+
+Following the introduction of YAH, I apply it to a few arguments against relativism.
+There I found that there are certain logical ambiguities that absolutists prone to use against relativists.
+Although examples were not given, I believe that relativists are equally guilty of implicitly relying on logical principles that their opponents do not accept.
+Going forward, I hope that YAH can help us differentiate between cases where there is an important difference caught up in the logical details, and cases where we are picking fights just for the sake of it.
+As fun as discussing the nature of facts about dinosaurs can be for the philosopher--I hope that whenever there is a paleontologist in the room we can put the debate away and just talk about Dinosaurs directly.
+
+Throughout, I have painted the absolutist as somebody who is perhaps a bit unfair to the relativist.
+I actually think that absolutists, and epistemologists in particular \textit{should} be suspicious of relativism.
+The world is rampant with misbehaving relativists that are causing real harm, and since ``what even is a fact, man?'' is the province epistemology, epistemologists have a responsibility to that world to do something about it.
+Unfortunately, no amount of philosophising will prevent relativists from behaving badly outside of the philosophy department.
+
+In a world where U.S. government officials offer ``alternative facts,`` it is too late to stop relativism.
+That raft has sailed, and I fear it might be sinking.
+Year after year we stick to our guns safely within our departments, while the rift between philosophy and the rest of the humanities widens.
+Instead of remaining ashore and criticizing relativism from here, we ought to head out there and fix it afloat.
+
+The problem is not relativism, the problem is people who use relativist tactics to avoid responsibility.
+If relativism were provided a rigorous logical backing (perhaps YAH can be a start), we would be able to more easily differentiate between the responsible relativist, and the merely deluded.
+With sufficient theoretical expansion, we can hold relativists responsible--not for being absolutely wrong, but instead for being relatively useless.
+
+\clearpage
 \begin{center}
     Notes
 \end{center}
@@ -551,7 +840,7 @@ As I will argue in the next section, this last point plays a significant role in
 
 
 \begin{workscited}
-    \bibent Minsky, Marvin Lee. Computation: Finite and Infinite Machines. Englewood Cliffs, NJ: Prentice-Hall, 1976. Print.
+    \bibent Minsky, Marvin Lee. Computation: Finite and Infinite Machines. Englewood Cliffs, NJ: Prentice-Hall, 1976. Electronic.
 
     \bibent Wittgenstein, Ludwig, and Charles Kay Ogden. Tractatus Logico-philosophicus. London: Routledge, 2005. Print.
 
@@ -562,6 +851,12 @@ As I will argue in the next section, this last point plays a significant role in
     \bibent Sosa, Ernest. "The Raft and the Pyramid." 1974. Epistemology: An Anthology. By Ernest Sosa. Malden: Blackwell, 2013. Print.
 
     \bibent DeRose, Keith. "Solving the Skeptical Problem." 1974. Epistemology: An Anthology. By Ernest Sosa. Malden: Blackwell, 2013. Print.
+
+    \bibent Boghossian, Paul. Fear of Knowledge against Relativism and Constructivism. Oxford, Clarendon Press, 2013. Print.
+
+    \bibent Davidson, Donald. "On the Very Idea of a Conceptual Scheme." Philosophy of Language the Big Questions, edited by Nye, Andrea. Blackwell, Earth, 1998. Print.
+
+    \bibent Welson, Rex. ``Relativism as a self-defeating thesis''. Epistemology class, 2017.  Uccs. Print.
 
 
 \end{workscited}
