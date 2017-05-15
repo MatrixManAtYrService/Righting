@@ -70,22 +70,25 @@ If a proposition P is known to be unknowable, it means either that information t
 It is the second kind of failure that I shall be especially concerned with.
 
 It is easy to jump to the conclusion that any argument containing an unknowable proposition is useless, and ought to be avoided.
-"Whereof one cannot speak thereof one must be silent," as Wittgenstein says (7).
+``Whereof one cannot speak thereof one must be silent,'' as Wittgenstein says (7).
 I don't agree.
 Even in the absence of accessable truth, a belief might be useful for other reasons.
 But I do think that a body of discourse that contains only knowable propositions ought to get special considerations.
 Participation in such discourse requires that we avoid accidentally relying on such a proposition.
 To this end, I will offer some modifications to traditional logic that aim to avoid reliance on unknowables.
 
-Thirdly, I will argue that the relativism hypothesis presupposes a logical landscape that includes my modifications, and that the objectivist position presupposes an incompatible set of logic rules.
-Because of this, the relativist fails to evaluate objectivist arguments in their native logical context, and visa-versa.
+Thirdly, I will argue that the relativism hypothesis presupposes a logical landscape that includes my modifications, and that the absolutist position presupposes an incompatible set of logic rules.
+Because of this, the relativist fails to evaluate absolutist arguments in their native logical context, and visa-versa.
 As examples of this, I will use either regime to analyze some arguments against relativism that are given by Welshon and Boghossian.
 
-Consider a pair of relativists that are debating the mertis of $T_p$ versus $T_{\neg p}$, theories where $p$ is true and false respectively.
+Consider a pair of relativists that are debating the mertis of two theories: $T_p$ and $T_{\neg p}$
+These are theories where $p$ is true and false respectively.
 Elsewhere, there is a pair of absolutists that are arguing about whether or not p is true.
-In the last section I will argue that at least in some cases, the argumentative structure between relativists is \textit{so} similar to that of the absolutists that a translation function could be provided.
+I will argue that at least in some cases, the argumentative structure between relativists is \textit{so} similar to that of the absolutists that a translation function could be provided.
 In these cases, the debate about relativism collapses to a disagreement regarding style--the issue can be solved by simply using the translation function to render your opponents argument in your favored system.
 In cases where this equivalence does not hold, it is hoped that the argumentative structure exposed by my amendments to logic will shed some light on the nature of the rift.
+
+I will conclude with a short discussion of my findings, and a proposal about what we (philosophers, and particularly epistemologists) should do about it.
 
 \setlength{\parindent}{0in}
 \par\bigskip
@@ -93,14 +96,14 @@ In cases where this equivalence does not hold, it is hoped that the argumentativ
 \setlength{\parindent}{0.5in}
 
 Axioms and rules of logic are not typically argued for--the point of having them is that they grant you a place to start.
-On the other hand, if I were to start with the axiom: "any propositon written in blue ink is true," I would have departed so fully from conventional wisdom that you should be suspicious that my theory could ever be useful.
+On the other hand, if I were to start with the axiom: ``any propositon written in blue ink is true,'' I would have departed so fully from conventional wisdom that you should be suspicious that my theory could ever be useful.
 Since I do plan to depart significantly from convention, perhaps some explanation is due.
 What follows will be an argument in a vacuum--it aims only to explain my later choices, not to establish them.
 
 One property I have is that I can solve decision problems.
 Typically, if you present me with a yes or no question I can come up with a yes or a no.
 Any theory of justification requires that the agent be able to solve decision problems.
-That is, "given a predicate $J$ and a proposition $p$, is $J(p)$ true?" where $J$ encapsulates the theory of justification.
+That is, ``given a predicate $J$ and a proposition $p$, is $J(p)$ true?'' where $J$ encapsulates the theory of justification.
 This is how I justify my beliefs.
 The statement below is another decision problem.
 
@@ -110,7 +113,8 @@ The statement below is another decision problem.
 $H(c, s) := \textnormal{``Will a computer of type } c \textnormal{ halt on input } s \textnormal{?''}$
 \end{figure}
 
-Let $C_{turing}$ be the class of computers that are equivalent in power to a turing machines, then no computer in $C_{turing}$ can solve $H(C_{turing}, s)$ for arbitrary choices of $s$ (Minsky 148).
+Let $C_{Turing}$ be the class of computers that are equivalent in power to a Turing machine.
+There is a theorem in computability theory that states that no computer in $C_{Turing}$ can solve $H(C_{Turing}, s)$ for arbitrary choices of $s$ (Minsky 148).
 This is famously known as ``The Halting Problem'', although really it should be called ``The Halting Problem for Turing Machines'' since there are actually other types of machines--each with their own halting problems.
 For our purposes here, it is the ability to solve decision problems that qualifies something as a computer, so humans are at least computers.
 From this we can see that there must be a computability class $C_{human}$, which contains any machine that can solve exactly the set of decision problems that humans can solve.
@@ -119,14 +123,14 @@ There is also the corresponding halting problem, $H(C_{human}, s)$, which is not
 This is where we get our unknowable proposition.
 Since justification supervenes on computability, and $H(C_{human}, s)$ is not computable by humans, then any justification step that supervenes on $H(C_{human}, s)$ cannot be completed by humans.
 This means that we cannot know whether we will halt on arbitrary input.
-Perhaps a short discussion of what it means to "halt" is needed here.
+Perhaps a short discussion of what it means to ``halt'' is needed here.
 
 Imagine a computer with two capabilities: it can count, and it can check to see if a number is even.
 Imagine also a man who knows that even and odd numbers typically alternate, but doesn't know that they do so forever.
 A program is written so that the computer checks every pair of consecutive numbers, and it stops when it finds a pair that are both odd.
 If the program finishes, the man might conclude that whichever even number was last checked is in fact the largest even number.
 The trouble is that if no largest even number exists, the computer will never halt.
-The man might wait a very long time, but eventually he will have to wonder: "The computer has been running a long time, can I conclude that there is no greatest even number?"
+The man might wait a very long time, but eventually he will have to wonder: ``The computer has been running a long time, can I conclude that there is no greatest even number?''
 But he cannot--for all he knows, the largest even number will be found in the next few seconds
 
 A similar problem is seen when Epistemologists consider infinite regress.
@@ -134,9 +138,10 @@ If we grant momentarily that a truly infinite regress of justification is insuff
 Given a several-times-regress in justification, how can we decide between chalking it up as infinite, versus continuing our investigation.
 After all, the justification chain might terminate in just one more step.
 This is what Sosa is talking about when he refers to potentially infinite vs actually infinite (151) .
-Sosa says that we can tell the difference--but if we take a look at the subvening computational properties we find that this is only sometimes the case (citation).
+Sosa says that we can tell the difference--but if we take a look at the subvening computational properties we find that this is only sometimes the case.
+For example, we could substitute ``the largest even number'' for ``the largest pair of twin primes'' and then no modern mathematican could say for sure whether the computer would halt.
 
-Returning to the question about a largest even number, if the human relies on the computer for his justification, then the belief that there is no largest even number falls to infinite regress.
+If the human relies on the computer for his justification, then the belief that there is no largest even number falls to infinite regress.
 Luckily, our actual understanding of numbers eclipses the computer's.
 We can rely on capabilities that the computer cannot, so that from our standpoint, justifying our belief that there is no greatest even number turns out to be quite finite.
 
@@ -148,12 +153,12 @@ To do so is to take a super-human perspective and solve $H(C_{human}, s)$\footno
 One thing to note about this kind of reasoning is that having established some proposition as unknowable does not provide us with any information about its negation.
 In this case, I think that justified beliefs in free will are on equally sketchy ground\footnotemark, but this symmetry need not hold for other unknowables.
 For example, the belief that we are alone in the universe is not justifiable (unless the universe is small enough for an exhaustive search).
-On the other hand, the belief that we are \textit{not} alone in the universe is easily justifiable--it would take just one chance meeting with extra-terrestrials.
+On the other hand, the belief that we are \textit{not} alone in the universe is easily justifiable--it would take just one chance meeting with extra terrestrials.
 
 Another unknowable for me is whether anyone else has an internal experience--my experience being the only one that I, uh, experience\footnotemark.
 Maybe you also have an internal experience, since we have several similarities, but I don't know which of our similarities are the relevant ones for consciousness.
 From this, I have to acknowledge that anything that has properties similar to my own \textit{might} also have an internal experience.
-I have an abacus, for example, and as I fiddle with its beads I can become pretty convinced that the numbers that the abacus displayed are totally deterministic.
+I have an abacus, for example, and as I fiddle with its beads I can become pretty convinced that the numbers that the abacus displayed are totally determined by my actions.
 That is to say, my abacus does not have free will, but I cannot conclude from this that it does not have an internal experience.
 After all, I might be a deterministic thing that is mistakenly convinced of my own free will, could my abacus be the same sort of thing?
 If there is an entity out there with a sufficiently godlike persepective to view human behavior as deterministic, then it might see me in a way that is similar to the way I see the abacus.
@@ -170,7 +175,7 @@ This section has encapsulated a number of thoughts that motivate the theory, the
 \textbf{You Are Here}
 \setlength{\parindent}{0.5in}
 
-In a discussion of Descartes' \textit{cogito ergo sum}, Nagel argues that "there are some thoughts that we simply cannot get outside of (259) ... One can't criticize the more fundamental with the less fundamental.  Logic cannot be displaced by anthropology.  Arithmetic cannot be displaced by sociology, or biology.  I believe that once the category of thoughts that we cannot get outside of is recognized, the range of examples turns out to be quite wide (280/2097)"
+In a discussion of Descartes' \textit{cogito ergo sum}, Nagel argues that ``there are some thoughts that we simply cannot get outside of (259) ... One can't criticize the more fundamental with the less fundamental.  Logic cannot be displaced by anthropology.  Arithmetic cannot be displaced by sociology, or biology.  I believe that once the category of thoughts that we cannot get outside of is recognized, the range of examples turns out to be quite wide (280/2097)''
 Perhaps the fact that I have arranged my abacus to display a seven corresponds to a thought--for the abacus--that it cannot get outside of.
 Perhaps the fact that gravity is an attractive force is the result of some godlike being fiddling with the universe, and it is a fact that I cannot get oustide of.
 I wish to capture this notion in my theory.
@@ -185,9 +190,9 @@ I will borrow notation that is used elsewhere for symbolic derivations (Fitch no
         \begin{tabular}{l|l}
             \hline
             $\alpha$ & \textit{the axioms of number theory}\\
-            s & numbers have successors.\\
-            e & numbers can be even.\\
-            h & the computer will halt.\\
+            S & numbers have successors.\\
+            E & numbers can be even.\\
+            H & the computer will halt.\\
             \hline
         \end{tabular}
     \end{subfigure}\\
@@ -196,8 +201,8 @@ I will borrow notation that is used elsewhere for symbolic derivations (Fitch no
         \hspace*{7em}%
         \fitchprf
         {
-            \pline{s} \\
-            \pline{e}
+            \pline{S} \\
+            \pline{E}
         }
         {
             \pline{\bigstar}
@@ -215,10 +220,10 @@ I will borrow notation that is used elsewhere for symbolic derivations (Fitch no
                 \pline{\mathnormal{\alpha}}
             }
             {
-                \pline{s} \\
-                \pline{e}
+                \pline{S} \\
+                \pline{E}
             }
-            \pline{\lnot h}
+            \pline{\lnot H}
         }
         \caption{a mathematician's view}
         \label{mathematician}
@@ -232,7 +237,7 @@ From the perspective of that computer, certain facts about the evens are not acc
 My theory aims to keep track of this kind of distinction.
 I use a star symbol for this--it means "You are here," and it is from this symbol that the theory gets its name (YAH, hereafter).
 
-In figure \ref{even} both perspective are depicted.
+In figure \ref{even} both perspectives are depicted.
 Notice that for the computer, S and E are synthetic facts--taken for granted as part of the theory that contains the computer.
 For the mathematician these are analytic--they follow from the axioms of number theory, so their truth is indexed to that theory.
 Although I have omitted them here, more than two propositions follow from the axioms of number theory.
@@ -242,7 +247,7 @@ Before looking at another example, I would like to make clear what I mean by \te
 On the page, a theory is depicted by the scope bar, and any propositions to its right.
 Conceptually, a theory is a set containing propositions--some of which are taken for granted (axioms) and some of which are logical consequences of the axioms.
 From this view, everything you can say about the universe amounts to a theory, and one of its axioms might be ``Let there be light''.
-There are other theories, intuitively very different, that might contain the axaiom: ``Let $X_\tau$ be a topological space''.
+There are other theories, intuitively very different, that might contain the axiom: ``Let $X_\tau$ be a topological space''.
 The only difference between these sorts of theories so far as YAH is concerned, is where you put the star.
 
 \begin{figure}[h]
@@ -359,7 +364,7 @@ As for myself, the existence of both of these characters is granted only if I ac
 As such, their existence is analytic to me.
 
 A primary motivator for YAH was to keep track of knowability.
-In figure \ref{universe} we show that there is some perspective--outside it all--where certain facts are more fundamental than others.
+In figure \ref{universe} we show a perspective--outside it all--where certain facts are more fundamental than others.
 According to $\theta$, the earth orbits the sun.
 According to $\eta$, there are stores that sell magic wands.
 From the universal perspective, the hierarchy of fundamentalness is clear--it reduces simply to a subset relationship.
@@ -375,7 +380,7 @@ If you feel that A Priori truth is needed to make sense of the rest of the YAH-d
 
 In figure \ref{fiction} I have used $\theta$ to encapsulate something like the laws of physics.
 Another strategy might be to place into an outer-level theory some set of assumptions about what makes for productive discourse.
-When DeRose makes the distinction between sensitive and insensitive beliefs (DeRose 674), he creates two theories.
+When DeRose makes the distinction between sensitive and insensitive beliefs (674), he creates two theories.
 In one theory, limits are set regarding just how fantastical a belief can be before it is allowed to undermine justification of less farfetched beliefs.
 In the other, anything goes.
 A precise reformalization of DeRose's move is beyond the scope of this paper, but such a task would involve coming up with a proposition $p$ so that the skeptic's argument fails when evaluated from any position within a theory that takes $p$ as an axiom.
@@ -427,7 +432,7 @@ We will see an example of why this is necessary in the next section.
 \end{figure}
 
 We should also say a word about contradiction.
-For YAH to be useful, we need to be able to place the star anywhere in the logical landscape.
+For YAH to be useful, we need to be able to place the star in many places across the logical landscape.
 It is not clear what would be meant by figure \ref{contradiction}.
 Traditional rules of inferrence allow somebody with the shown perspective to derive any proposition whatsoever, which doesn't lend itself to a coherent theory.
 In order to prevent this kind of scenario, YAH simply forbids making any assumptions that would create a contradiction.
@@ -435,7 +440,6 @@ In order to prevent this kind of scenario, YAH simply forbids making any assumpt
 The last bit of theory we need has to do with the fact that YAH conceives of theories as sets.
 In traditional logic, negating X simply gives ${\neg}\textnormal{X}$.
 But we would be taking something for granted if we assumed that ${\neg}(\textnormal{X}{\in} \alpha) \implies ({\neg}\textnormal{X}{\in} \alpha)$.
-
 Because YAH aims to differentiate between knowables and unknowables, it will prove useful to preserve some logical state for undetermined values.
 For this reason, working in YAH means that ${\neg}(\textnormal{X}{\in} \alpha) \implies (\textnormal{X}{\notin} \alpha)$
 If this consequent turns out to be the case, we can make no conclusions about whether ${\neg}\textnormal{X} \in \alpha$.
@@ -443,8 +447,8 @@ If this consequent turns out to be the case, we can make no conclusions about wh
 So just because a theory fails to support a proposition, does not mean that that proposition's negation is upheld under the theory.
 This allows propositions to be undetermined according to a theory, which makes sense.
 For example, let S :=  ``I am not wearing shoes''.
-It is true that S is not among the theorems or axioms of Euclidean geometry ($\pi$), so we can say that ${\neg}\textnormal{S}{\in} \pi$.
-If we mishandle the negation, we end up thinking that Euclidean geometry somehow proves that I am wearing shoes, which is clearly absurd.
+It is true that S is not among the theorems or axioms of Euclidean geometry ($\pi$), so we can say that $\textnormal{S}{\notin} \pi$.
+If we mishandle the negation, we end up thinking that Euclidean geometry somehow proves that I am wearing shoes ($\neg \textnormal{S}{\in} \pi)$, which is clearly absurd.
 As I will argue in the next section, this last point plays a significant role in the misunderstanding between relativists and absolutists.
 
 
@@ -458,10 +462,10 @@ The first agrument is given by Boghossian, who allows that P might be true relat
 Boghossian's construction goes like this:
 If P is relatively true, then ``P is relateively true'' is absolutely true.
 
-To put it in his words: ``The global relativist maintains that there could be no facts of the form: 'there have been dinosaurs', but only facts of the form 'According to a theory that we accept, there have been dinosaurs''' (Boghossian 54).
+To put it in his words: ``The global relativist maintains that there could be no facts of the form: 'there have been dinosaurs', but only facts of the form 'According to a theory that we accept, there have been dinosaurs''' (54).
 He then goes on to challenge the relativist:
-Either the latter sort of fact is absolutely the case, then Boghossian has established an absolute fact, and the relativist is defeated.
-But if not, then the relativist's only way out is to say that the claim that P is relatively true is itself relatively true--a claim that Boghossian would again point out is absolute.
+Perhaps the latter sort of fact is absolutely the case, if so then Boghossian has established an absolute fact, and the relativist is defeated.
+But if not, then the relativist's only way out is to say that the claim ``P is relatively true'' is itself relatively true--a claim that Boghossian would again point out is absolute.
 
 \begin{figure}[h]
     \centering
@@ -585,13 +589,13 @@ But if not, then the relativist's only way out is to say that the claim that P i
 
 
 Figure \ref{dinosaur} shows the progression that Boghossian is talking about.
-If this were actually a conversation about dinosaurs, the fact that Boghossian prefers (a) while a relativist prefers (b) would not actually cause an trouble--provided that the relativist was well behaved.
+If this were actually a conversation about dinosaurs, the fact that Boghossian prefers (a) while a relativist prefers (b) would not actually cause any trouble--provided that the relativist was well behaved.
 But when Boghossian prompts the relativist about the nature of facts about dinosaurs, he prompts the relativist to abstract even further.
 At this stage, Boghossian views the situation as (c) and the relativist views it as (d).
 Again, if this were a conversation about facts about dinosaurs, Boghossian and the relativist would be able to get along, but Boghossian doesn't actually want to talk about facts about dinosaurs--he appears to want to talk about facts about facts about dinosaurs (e) and so the relativist accomodates.
 
 When we look at the similarities between (a) and (b) or the similarities between (c) and (d) we can see that the disagreement comes regarding where the analytic/synthetic divides ought to be set.
-That is, it comes down to which theories are revisable versus which theories contain us.
+That is, it comes down to which theories are revisable versus which theories contain us and must be dealt with at face value.
 Boghossian understands that the relativists preference is to set the analytic/synthetic knob further in the analytic direction than his own.
 What he seems to miss is that a reasonable relativist only wants that knob to be \textit{one} notch further in the analytic direction.
 To do anything else is to invite needless complexity, like we see in (e).
@@ -600,10 +604,10 @@ This mistake is typical of absolutists attacking relativism.
 In \textit{On the Very Idea of a Conceptual Scheme} Davidson characterizes the relativist position as giving up the analytic-synthetic division (275).
 I don't think this is accurate--what the relativist wants to do is establish that the analytic-synthetic division is itself analytic.
 Following that, we can tune the knob to wherever it makes sense for optimal communication.
-Davidson and Boghossian share the same straw man of relativism: that the relativism wants to eliminate apriority/synteticness.
+Davidson and Boghossian share the same straw man of relativism: that the relativist wants to eliminate apriority/synteticness.
 
 All the relatvists wants is to have that option in particular cases.
-Well ok, in every case--but no responsible relativist would optdifferently. to exercise that option in all cases at the same time.
+Well ok, in every case--but no responsible relativist would opt to exercise that option in all cases at the same time.
 To do so would be to throw away a useful facet of discourse--that some propositions are in-bounds for questioning, and some aren't.
 Towards the end of the same article, Davidson seems to acknowledge that we do have some choice in how we set the analytic/synthetic parameter, and suggests that we set it more heavily on the synthetic side (282).
 His proposal is well reasoned, and I would agree--but as devil's advocate for the relativist I would point out that there are cases where the extra complexity of a relativized view is necessary for understanding.
@@ -759,20 +763,21 @@ This is depicted in figure \ref{abs_rel}.
 The other prong of Welshon's argument is where Relativism is relatively true.
 This world is shown in figure \ref{rel_rel}.
 It has the interesting property that it segments the logical landscape in two.
-The first one resembles the first prong of the dilemma--where we have observed that placing the star further in results in contradictions.
+The first one resembles the first prong of the dilemma--where we have observed that placing the star further inward causes contradictions.
 The second one asserts antirelativism within its scope, that is, it creates a space where whichever other syntetic facts exist must be respected by subsequent theory.
 
 As we have learned from the first prong, anchoring our perspective within relativism requires that any other synthetic facts create contradictions.
 At first glance, it seems that the absolutist has won--here we have a space where perspectives can only be anchored within antirelativism.
 But recall that antirelativism is not the same as absolutism.
-The situation in figure \ref{antirel_populated} or figure \ref{antirel_unpopulated} is only forced if the situation in figure \ref{rel_rel} is prohibited.
-It certainly seem like the latter perspective is allowed, since it is the one that Welshon's argument takes when it sets up the dilemma.
+The situation in figure \ref{antirel_populated} or figure \ref{antirel_unpopulated} is only forced if the perspective in figure \ref{rel_rel} is prohibited.
+It certainly seems like the latter perspective is allowed, since it is the one that Welshon's argument takes when it sets up the dilemma.
 
 This is where my treatment of this prong diverges from Welshon's.
 He asserts (P13) that if relativism is false, then absolutism is true--which isn't precisely the case.
 Following this, he uses (or according to YAH, abuses) an existential quantifier to establish that there is a proposition (which turns out to be $\neg \textnormal{R}$) that is true in all perspectives.
-This appears to the case when we look at figure \ref{antirel_populated} or figure \ref{antirel_unpopulated}, but keep in mind that YAH has pruned whatever part of the logical landscape ought to be unknowable from our chosen persepective.
+This appears to be the case when we look at figure \ref{antirel_populated} or figure \ref{antirel_unpopulated}, but keep in mind that YAH has pruned whatever part of the logical landscape ought to be unknowable from our chosen persepective.
 It may be the case that there are propositions outside of the theory based on $\neg \textnormal{R}$, but they can't be viewed from where we stand.
+Figure \ref{rel_rel} shows how this could be the case.
 
 Another thing about this antirelativist result is that it says nothing about the status of any other proposition.
 If we avoid taking the universal view and keep the star under $\neg \textnormal{R}$ then we see that this position allows for synthetic truths beside $\neg \textnormal{R}$, but it doesn't establish them.
@@ -794,32 +799,31 @@ I set out to establish known-unknowable as an epistemic category.
 To do this I gave several examples of known-unknowables.
 Some of these are unknowable because we are not in a position to have information that would constitute evidence for them.
 At least one is unknowable because justifying it would require computational skills that we do not have.
-During this discussion I took the position that consciousness might be in a number of places that we don't suspect.
+In order to explain motivations behind the theory to follow, I argued that valid perspectives might be lurking around every corner.
 
-From there, I developed a logical theory titled You Are Here, which allows us to capture various structural details regarding how some truths appear to be more fundamental than others.
+From there, I developed a logical theory titled You Are Here, which captures various structural details regarding how some truths appear to be more fundamental than others.
 It also allows us to anchor a perspective at various points in the logical landscape.
 This freedom mirrors the uncertainty about perspectives that was established above.
-In order to prevent YAH from becoming mired in self-reference paradox, it was necessary to place more restrictions on the scope of existential quantifiers than traditional logic does.
+In order to prevent YAH from becoming mired in paradoxes of self-reference, it was necessary to place more restrictions on the scope of existential quantifiers than traditional logic does.
 
-Following the introduction of YAH, I apply it to a few arguments against relativism.
-There I found that there are certain logical ambiguities that absolutists prone to use against relativists.
+Following the introduction of YAH, I applied it to a few arguments against relativism.
+I found that there are certain logical ambiguities that absolutists are prone to use against relativists.
 Although examples were not given, I believe that relativists are equally guilty of implicitly relying on logical principles that their opponents do not accept.
 Going forward, I hope that YAH can help us differentiate between cases where there is an important difference caught up in the logical details, and cases where we are picking fights just for the sake of it.
-As fun as discussing the nature of facts about dinosaurs can be for the philosopher--I hope that whenever there is a paleontologist in the room we can put the debate away and just talk about Dinosaurs directly.
 
 Throughout, I have painted the absolutist as somebody who is perhaps a bit unfair to the relativist.
 I actually think that absolutists, and epistemologists in particular \textit{should} be suspicious of relativism.
-The world is rampant with misbehaving relativists that are causing real harm, and since ``what even is a fact, man?'' is the province epistemology, epistemologists have a responsibility to that world to do something about it.
+The world is rampant with misbehaving relativists that are causing real harm, and since ``what even is a fact?'' is the province epistemology, epistemologists have a responsibility to that world to do something about it.
 Unfortunately, no amount of philosophising will prevent relativists from behaving badly outside of the philosophy department.
 
-In a world where U.S. government officials offer ``alternative facts,`` it is too late to stop relativism.
-That raft has sailed, and I fear it might be sinking.
-Year after year we stick to our guns safely within our departments, while the rift between philosophy and the rest of the humanities widens.
+In a world where U.S. government officials offer ``alternative facts,'' it is too late to stop relativism.
+That raft has sailed, and I fear that if it sinks it might drag us down with it.
+Year after year we stick to our guns safely within our department, while the rift between philosophy and the rest of the humanities widens.
 Instead of remaining ashore and criticizing relativism from here, we ought to head out there and fix it afloat.
 
-The problem is not relativism, the problem is people who use relativist tactics to avoid responsibility.
-If relativism were provided a rigorous logical backing (perhaps YAH can be a start), we would be able to more easily differentiate between the responsible relativist, and the merely deluded.
-With sufficient theoretical expansion, we can hold relativists responsible--not for being absolutely wrong, but instead for being relatively useless.
+The trouble is not that people are embracing a fundamentally flawed position, the trouble is that they are embracing an incomplete position.
+Relativism is not evil, it's just broken--and as it turns out it is broken in a way that attracts evil (or at least lazy) people.
+With sufficient theoretical expansion, we ought to be able to hold relativists responsible--if not for being absolutely right, then at least for being relatively useful.
 
 \clearpage
 \begin{center}
