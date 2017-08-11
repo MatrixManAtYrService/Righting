@@ -47,7 +47,7 @@ Since then, the facility has remained silent--aware of the societal impact of an
 That is, until today.
 The world is scrambling to make sense of the result.
 Apparently, it's a backspace.
-The talking heads are scrambling to adjust their worldviews so that they can have been right all along.
+The talking heads are still working to adjust their worldviews so that they can have been right all along.
 It will probably only take a few hours.
 But until that happens, the world is quiet except for a small handfull.
 
