@@ -52,7 +52,7 @@ It will probably only take a few hours.
 But until that happens, the world is quiet except for a small handfull.
 
 105 keys, 9 billion people--somebody was bound to be right.
-According to them, everything to the left of the cursor is unchangable to us.
+According to them, everything to the left of the cursor is unchangeable to us.
 There it is written that the speed of light is about three hundred mega-meters per second, and pointed out that farts are funny.
 Moments before the backspace happened, there was also text describing what we were all going to do next.
 Perhaps not for the rest of eternity, but long enough that we would have no choice but carry it out for the time being.
