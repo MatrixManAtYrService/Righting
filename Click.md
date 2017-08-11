@@ -5,7 +5,7 @@ Arguable because maybe you don't need the whole house to know that you're typing
 Best because there is a little tiny gavel in each one that--no matter how gingerly you caress the key--hammers down with the force of 2.4*10^-19 atomic bombs.
 "I'm not sure whether the key actually got pressed," said nobody ever while typing on Cherry MX Blues.
 
-Despite being absolutely, positively, the sound that a Cherry MX Blue would make--a sound whose whole point is to have no duration, to mark a single moment and only that moment--the scientists assure us that it is still happening.   
+Despite being absolutely, positively, the sound that a Cherry MX Blue would make--a sound whose whole point is to have no duration, to mark a single moment and only that moment--the scientists assure us that it is still happening.
 Not like the "click click click click," which is what is coming from the keys at my fingertips as I type this, but like "clicccccccc....." on for ever.
 Except that there never really was a "cli..." and maybe there will never really be a "..k."
 
@@ -31,7 +31,7 @@ Well, fiction for him at least.
 The more optimistic of these think it's his first keystroke--a shift key to make the 'O' in "Once upon a time..."
 Whether it's a story about them, and whether they turn out to be a hero or a villain, comes down to how hero-worthy or villain-worthy their life turns out to be.
 
-Hundreds of variations of the "which key?" story have emerged.  
+Hundreds of variations of the "which key?" story have emerged.
 Each, like these, comes equipped with its own particular philosophical--and ultimately political--overtones.
 Fractures appeared among even the most cohesive societies:
 The debate over whether the pope had the right to chose the church's favored key has bumbled on awkwardly for years now.
@@ -44,20 +44,20 @@ It was theorized that despite the non-locality of the click as we hear it, there
 Almost immediately they ruled out the possibility of the click having come from a spacebar--but nobody was suprised by this, spacebars sound much different than other keys due to their shape.
 Since then, the facility has remained silent--aware of the societal impact of an announcement, they have promised to keep quiet until they were absolutely sure.
 
-That is, until today.  
-The world is scrambling to make sense of the result.  
-Apparently, it's a backspace.  
+That is, until today.
+The world is scrambling to make sense of the result.
+Apparently, it's a backspace.
 The talking heads are scrambling to adjust their worldviews so that they can have been right all along.
 It will probably only take a few hours.
 But until that happens, the world is quiet except for a small handfull.
 
 105 keys, 9 billion people--somebody was bound to be right.
 According to them, everything to the left of the cursor is unchangable to us.
-There it is written that the speed of light is about three mega-meters per second, and pointed out that farts are funny.  
+There it is written that the speed of light is about three mega-meters per second, and pointed out that farts are funny.
 Moments before the backspace happened, there was also text describing what we were all going to do next.
 Perhaps not for the rest of eternity, but long enough that we would have no choice but carry it out for the time being.
 
-When the author backspaced over that text, he freed us from his plans.  
+When the author backspaced over that text, he freed us from his plans.
 We are the potentiality that he decided against--and at the moment of deletion the burden of experiencing us transfered from his mind, to ours.
 Our reality, according to the backspacers, is where that particular fiction went because it failed to stick to the page.
 
@@ -68,7 +68,7 @@ It's fantastic.
 Now, it might be nothing, but there is a rumor that began circulating a week before the announcement.
 The rumor correctly predicted both the timing of the announcement and the announced key.
 According to the rumor, they found something more.
-Supposedly there's a second signal, and "it looks like text." 
+Supposedly there's a second signal, and "it looks like text."
 
 Now, I have a deadline coming up, and I don't know how to make the kind of left turn that avoids the arrival of tomorrow.
 Not for myself at least.
