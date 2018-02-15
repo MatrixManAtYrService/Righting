@@ -138,12 +138,30 @@ Here, in no particular order, is a list of apps and other personal desires that 
 
 - I want the easiest way to publish a data visualization (like a plot) to be to also publish the underlying data and the code that transforms that data into the graph, so much so that anybody who does otherwise is looked upon with suspicion.
 
-- I want students of writing to be able to provide feedback on each other's work in a way that allows their teacher to deputize students that "get it", and I want the emergent merit-based trust structure to flexible enough that it is easy to write apps that facilitate community-driven collaborative growth--both in the classroom and afterwards.
+- I want students of writing to be able to provide feedback on each other's work in a way that allows their teacher to deputize students that "get it".  Also the students should be able to use the same platform to establish their own trust hierarchies that determine who among them "gets it" the most, regardless of the teacher's ideas.  The emergent merit-based trust structure should flexible enough that it is easy to write apps that facilitate community-driven collaborative growth--both in the classroom and afterwards.
+
 
 I will never be able to achieve all of these goals, so here's the plan:
  1) Create a data-management framework and a set of libraries in popular computer languages that will make the apps easier to create.
- 2) Pick one and make it good.
+ 2) Pick just one and make it awesome.
  3) Hope that the wider community of thoughtful technologists will take the idea and:
-  a) Show me applications I haven't thought of
-  b) Help me implement some of the ones that I have
+  a) Show me applications I haven't thought of.
+  b) Implement some of the ones that I have.
 
+## The Theory of Semantic Paint
+
+And I do mean *Theory* in a rather rigid sense.
+I will start with axioms and develop them into theorems.
+Later, we'll ensure that the requirements are consistent with the theorems.
+
+I will remind the reader that axioms are true by definition.
+They do not make assertions about the world, they make assertions about the relationships between some set of undefined terms.
+The undefined terms are then understood to represent anything whatsoever, so long as the relationships in the axioms hold for that thing.
+It is a fine way to talk about nothing--and most of the things we have built rest upon such speech.
+For more on this I recommend David Hilbert.
+
+Undefined terms include: *value*, *identity*, *belief*, *based on*
+
+Axioms:
+
+    - 
