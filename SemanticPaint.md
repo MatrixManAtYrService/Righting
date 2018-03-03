@@ -16,6 +16,7 @@ Anything that can be hashed, can be *painted* on.
 
 Consider this sentence:
 > Old windows are thicker at the bottom because the glass has flowed downward since their installation.
+
 Its MD5 hash is 96c85100dd71a9cdb4ebd06c173ba3b4.
 It is also a common [misconception](https://engineering.mit.edu/engage/ask-an-engineer/how-does-glass-change-over-time/).
 Suppose I painted that sentence in the semantic *color* "misconception" in my palette "belief types".
@@ -145,8 +146,8 @@ I will never be able to achieve all of these goals, so here's the plan:
  1) Create a data-management framework and a set of libraries in popular computer languages that will make the apps easier to create.
  2) Pick just one and make it awesome.
  3) Hope that the wider community of thoughtful technologists will take the idea and:
-  a) Show me applications I haven't thought of.
-  b) Implement some of the ones that I have.
+  - Show me applications I haven't thought of.
+  - Implement some of the ones that I have.
 
 ## The Theory of Semantic Paint
 
