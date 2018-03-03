@@ -7,7 +7,7 @@ Semantic Paint is a framework for sharing, finding, and dissagreeing about inter
 Given a collection of data (a *canvas*), a semantic painting identifies certain subsets (*brushstrokes*) as fitting some ontology (the *palette*).
 Semantic Paint differs from other technologies that do this (e.g. [RDF](https://www.w3.org/RDF/)) in several ways:
 
-- Write-access is not needed to apply an ontology to a dataset, the *brushstrokes* are stored separately and reattached by a *frame* at viewtime.
+- Write-access is not needed to apply an ontology (i.e. an object model) to a dataset, the *brushstrokes* are stored separately and reattached by a *frame* at viewtime.
 - Each *brushstroke* identifies its painter (pseudo-anonymously), so the often implict: "according to whom?" is answered explicitly.
 - The collaborative nature of palette-building provides cues about trustworthyness.
 
