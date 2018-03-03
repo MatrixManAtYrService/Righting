@@ -99,6 +99,8 @@ Here, in no particular order, is a list of apps and other personal desires that 
 
 - I want us to stop building systems that recognize ads so they can be blocked, and start building systems that recognize content so it can be linked-to and provided directly.
 
+- If I decide to use ad supported services, I want to be able to partition my monthly internet usage so that I can send each advertizer a bill for the bandwidth that they consumed on my account.
+
 - I want the monthly bandwidth reported on my internet bill to represent nothing but the data requested by either myself directly, or by code that I have trusted--and no, clicking on a link to your sight does not mean that I trust whatever code it serves.
 
 - I want there to be an index of common misconceptions, and an a service that notifies me when I type one.
