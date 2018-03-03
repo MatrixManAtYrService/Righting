@@ -101,8 +101,6 @@ Here, in no particular order, is a list of apps and other personal desires that 
 
 - If I decide to use ad supported services, I want to be able to partition my monthly internet usage so that I can send each advertizer a bill for the bandwidth that they consumed on my account.
 
-- I want the monthly bandwidth reported on my internet bill to represent nothing but the data requested by either myself directly, or by code that I have trusted--and no, clicking on a link to your sight does not mean that I trust whatever code it serves.
-
 - I want there to be an index of common misconceptions, and an a service that notifies me when I type one.
 
 - I want to partipate in gathering and curating training data for open source neural networks that are capable of identifiying 100 different ways to express the same common misconception.
