@@ -77,7 +77,7 @@ The politics of palette maintenance are not central to the experience of *using*
 Most users won't have to care.
 To these people, Semantic Paint is just a platform that makes a new kind of app possible, like the command line or the web browser or the gaming console.
 But each of these technologies came from an idea about the way humans and data should interact.
-For Semantic Paint, that idea comes from a rejection of the notion that the people who make data available are necessarily the best ones to help you interpret it.
+For Semantic Paint, that idea starts with a rejection of the notion that the people who make data available are necessarily the best ones to help you interpret it.
 
 ## Why make it?
 
