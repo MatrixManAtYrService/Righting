@@ -44,12 +44,10 @@ It was theorized that despite the non-locality of the click as we hear it, there
 Almost immediately they ruled out the possibility of the click having come from a spacebar--but nobody was suprised by this, spacebars sound much different than other keys due to their shape.
 Since then, the facility has remained silent--aware of the societal impact of an announcement, they have promised to keep quiet until they were absolutely sure.
 
-That is, until today.
-The world is scrambling to make sense of the result.
-Apparently, it's a backspace.
+That is, until today: it's a backspace.
 The talking heads are still working to adjust their worldviews so that they can have been right all along.
 It will probably only take a few hours.
-But until that happens, the world is quiet except for a small handfull.
+But until that happens, the world is quiet except for a small handful.
 
 105 keys, 9 billion people--somebody was bound to be right.
 According to them, everything to the left of the cursor is unchangeable to us.
