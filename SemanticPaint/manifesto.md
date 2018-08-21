@@ -3,7 +3,7 @@
 
 ## What is Semantic Paint
 
-Semantic Paint is a framework for sharing, finding, and dissagreeing about interpretations of unstructured data.  
+Semantic Paint is a framework for sharing, finding, and dissagreeing about interpretations of unstructured data.
 Given a collection of data (a *canvas*), a semantic painting identifies certain subsets (*brushstrokes*) as fitting some ontology (the *palette*).
 Semantic Paint differs from other technologies that do this (e.g. [RDF](https://www.w3.org/RDF/)) in several ways:
 
@@ -22,7 +22,7 @@ It is also a common [misconception](https://engineering.mit.edu/engage/ask-an-en
 Suppose I painted that sentence in the semantic *color* "misconception" in my palette "belief types".
 
 The association between the hash and the sentence is a relationship in the Merkle forest.
-The association between the *color* and the hash is a relationship in semantic paint (which also happens to be stored on a Merkle tree).
+The association between the *color* and the hash is a relationship in semantic paint.
 If you view the sentence through a properly configred *frame* then you will see that I think it is a misconception.
 Whether you ought to configure your *frame* to include my palletes is up to you.
 
@@ -45,7 +45,7 @@ This is the kind of trust relationship that Semantic Paint uses: "X trusts Y in 
 
 Recall that a palette is a particular way to look at raw data and derive something meaningful.
 A sufficiently complex palette may represent a world view.
-Humans often attempt to impress their world views on each other.
+Humans often attempt to impose their world views on each other.
 Maybe this is unfortunate, but whatever the case it is not a problem that semantic paint attempts solve--welcome to being a human in an ontologically messy world.
 Instead, semantic paint makes the nature of worldview-conflict explicit so that humans are better equipped to reason about it.
 
@@ -59,15 +59,15 @@ If two *viewers* decide to share their *frame* settings with each other, then th
 
 Among painters of the same *palette* the situation is a bit different.
 Two kinds of brushstrokes can be associated with a pallete:
-A defining brushstroke is authoritative--only the pallete maintainer (and those she trusts explicitly) can add them to the palette; these brushstrokes are correct by definition.
-To place regular brushstroke of some *color* on a *canvas* is to say that the indicated subset of that canvas is the same kind of thing that is indicated by the defining *brushstrokes* in that *color*.
+A *defining* brushstroke is authoritative--only the pallete maintainer (and those she trusts explicitly) can add them to the palette; these brushstrokes are correct by definition.
+Alternatively, to place *regular* brushstroke of some *color* on a *canvas* is to say that the indicated subset of that canvas is the same kind of thing that is indicated by the defining *brushstrokes* in that *color*.
 (This is analagous to supervised learning--certain exemplar situations are used to train a neural network, and the expectation is that the network will later be able to identify similar situations.
 If the community is curating training data for a neural network that is the heart of their palette, then the set of defining brushstrokes may need to be quite large.)
 
 The community builds trust by recognizing that its members consistently make decisions that the palette maintainer would have made.
 The particulars of how trust works in a community is up to that community (they can codify it in the palette), but the idea is that painter A has reason to trust painter B if B has a track record of making the same decisions that A would have made.
 So if I paint a hyperlink in the color "entrypoint" on a palette called "scam", and then you run across that brushstroke and agree that the hyperlink is the entrypoint to a scam, then you have a small reason to trust that I know how to identify a scam--especially once you look at my track record and find that I rarely identify things that later turn out to *not* be scams.
-This is implicity painter trust: is a measure of how well a painter "gets it" for some palette.
+This is implicit painter trust: is a measure of how well a painter "gets it" for some palette.
 
 Although widespread consensus is a likely goal of a palette maintainer, the protocol also supports dissent.
 If a painter doesn't like the direction of the palette, and doesn't care to work towards consensus, that painter can copy whatever defining brushstrokes he likes, abandon whichever ones he doesn't like, and start his own palette.
@@ -97,7 +97,7 @@ Here, in no particular order, is a list of apps and other personal desires that 
 
 - I want to be able to point a mobile camera at a sentence in my hard copy of a book and see the annotations that you put in the kindle version of that book.
 
-- I want us to stop building systems that recognize ads so they can be blocked, and start building systems that recognize content so it can be linked-to and provided directly.
+- I want us to stop building systems that recognize ads so they can be blocked, and start building systems that recognize content so it can be linked-to and provided more efficiently.
 
 - If I decide to use ad supported services, I want to be able to partition my monthly internet usage so that I can send each advertizer a bill for the bandwidth that they consumed on my account.
 
@@ -105,11 +105,11 @@ Here, in no particular order, is a list of apps and other personal desires that 
 
 - I want to partipate in gathering and curating training data for open source neural networks that are capable of identifiying 100 different ways to express the same common misconception.
 
-- I want to identify 100 different ways to say any particular thing, and then use my choices from among those 100 to encode a second, stegonographically deniable, message.
+- I want to identify 100 different ways to say any particular thing, and then use my choices from among those 100 to encode a second, steganographically deniable, message.
 
 - If people wind up in court for allegedly hosting a part of a censored file, I want them to be able to summon several other non-censored files that they may have been hosting parts of instead.
 
-- When a movement forms around an idea, I want the movement to be able to instantiate a PKI specificially for that idea.
+- When a movement forms around an idea, I want the movement to be able to instantiate a PKI specificially for that idea--even if it doesn't contain any nerds.
 
 - When people speak about the direction of a social movement, I want tools for assessing whether that person is qualified to speak for the movement.
 
@@ -123,7 +123,7 @@ Here, in no particular order, is a list of apps and other personal desires that 
 
 - I want a quantitative measure of policy complexity, which I will use to propose legislation that would ensure that the tax code never gets so complex that a typical human can't understand it all with a few weeks of study.
 
-- I want to write a society-simulator and a compiler for legalese.  Then I want to use computational techniques to assist government in weeding out bad laws and designing/evolving good ones. 
+- I want to write a society-simulator and a compiler for legalese.  Then I want to use computational techniques to assist government in weeding out bad laws and designing/evolving good ones.
 
 - I want to identify subsets of discourse that have identical linguistic structures, but use different words; Then I want to introduce practicioners of either field to each other and show them how they've been having each other's thoughts but using different words.
 
@@ -141,7 +141,6 @@ Here, in no particular order, is a list of apps and other personal desires that 
 
 - I want students of writing to be able to provide feedback on each other's work in a way that allows their teacher to deputize students that "get it".  Also the students should be able to use the same platform to establish their own trust hierarchies that determine who among them "gets it" the most, regardless of the teacher's ideas.  The emergent merit-based trust structure should flexible enough that it is easy to write apps that facilitate community-driven collaborative growth--both in the classroom and afterwards.
 
-
 I will never be able to achieve all of these goals, so here's the plan:
  1) Create a data-management framework and a set of libraries in popular computer languages that will make the apps easier to create.
  2) Pick just one and make it awesome.
@@ -151,18 +150,86 @@ I will never be able to achieve all of these goals, so here's the plan:
 
 ## The Theory of Semantic Paint
 
-And I do mean *Theory* in a rather rigid sense.
-I will start with axioms and develop them into theorems.
-Later, we'll ensure that the requirements are consistent with the theorems.
+One goal of semantic paint is to be widely applicable.  Any time schema intermingles with data, I hope that semantic paint can--in principle--be used to model that relationship.  Whether it ought to be will depend on whether it is useful for that purpose.  It is difficult to be specific about something that aims to be so general--but in order to build this, I'll need to be specific.
 
-I will remind the reader that axioms are true by definition.
-They do not make assertions about the world, they make assertions about the relationships between some set of undefined terms.
-The undefined terms are then understood to represent anything whatsoever, so long as the relationships in the axioms hold for that thing.
-It is a fine way to talk about nothing--and most of the things we have built rest upon such speech.
-For more on this I recommend David Hilbert.
+This is why I've invented so many terms.  Ultimately I hope to develop rigorous mathematical definitions for these temrs and perhaps even prove theorems about them.  This will help me avoid dwelling in difficult concepts like "meaning" and instead allow me to focus on the nuts and bolts of how these things ought to be handled.
 
-Undefined terms include: *value*, *identity*, *belief*, *based on*
+I guess what I'm doing is trying to describe the palette that I will later use to design semantic paint.  If I actually apply semantic paint to the resulting design, it will have to be after-the fact, since at the time of this writing, very little is implemented.  Ultimately, these notions will crystalize into class definitions.  For now, they're just a bunch of words in yet another long bulleted list, and coupled with no promises whatsoever.
 
-Axioms:
+- A palette must contain at least one color.
 
-    - 
+- Colors may be primitive; given the primitive color foo, a brushstroke in that color means that those bits represent 'foo-ness', or possibly 'a/the foo'.
+
+- Colors may be composite; given the composite color "x is the bar of y until z baz's", a brushstroke in that color maps from the canvas to three sets of bits (x, y, and z).
+
+- A palette must have a normalization function, which transforms a proto-canvas to a canvas.
+
+- A proto-canvas is some set of bits that a user stumbled across in the wild.
+
+- A canvas should contain all of the data that it makes sense to paint on, and nothing else.
+
+- Multiple representations (i.e. proto-canvasses) of the same "thing" (e.g. txt and pdf versions of the same novel), should have identical canvasses--that way when a user paints on one representation, the brushstrokes can be viewed by another user who has encountered the other.
+
+- I have used the word "representation" twice in this section: first I meant color-representation and second I mean canvas-representation.
+
+- If a set of bits color-represent something, then semantic paint is being used to add signal to the bits so that they are more meaningful. if a string has characters values that together "represent" an account number according to some palette, that would be a color-representation because "is an account number" is something more than just the characters that comprise it.
+
+- If a set of bits canvas-represents something, then then semantic paint is being used to remove noise from the bits so that they are easier to identify and address parts of. If a set of bits represent the LaTeX-formatted final-copy of somebody's doctoral dissertation, then that would be a canvas-representation of the dissertation, so long as the palette in use was focused on the content of the dissertation (and not the formatting).  This is because the concept of a dissertation is something less than the LaTeX convolutions necessary to represent it, and semantic paint is being used to hide the extra convolution so that components of the dissertation itself can be referenced more cleanly.
+
+- proto-canvasses are canvas-representations of some canvas, and paintings in various palettes are color-represenations of that canvas.
+
+- A palette must have a canvas-check function, which takes a proto-canvas and a canvas and says whether that proto-canvas canvas-represents the canvas.
+
+- A painting is a set of brushstrokes in a single palette, all of which apply to the same canvas.  A canvas and a palette are combined to form a painting, the output is an object (probably represented as JSON or something similar).
+
+- Paintings can serve as canvasses for other palettes, and so can subsets thereof (including individual brushstrokes).
+
+- A palette may have a gallery, which is a way to find paintings in that palette.
+
+- A gallery may either map from proto-canvasses to canvasses, from canvasses to paintings, or both.
+
+- A palette must respond to a maintainer-check, which is a function that takes no paramters and returns the current user of the palette
+
+- A user must have a set of perspectives
+
+- A perspective is a palette together with every brushstroke a user has made in that palette.
+
+- The brustroke list on a perspective is by default ordered by the time that that brushstroke was applied to the canvas.
+
+- Perspective brushstrokes can be reordered by the user so that brushstrokes nearer to the front are taken to be "more important" than those at the back.  What importance means may be palette specific.
+
+
+
+---------------------
+
+
+notes for later:
+
+
+
+
+A gallery is a n-tuple:
+    - A pallette-identifier
+    - A function from canvasses to sets of 
+
+A proto-canvas is any array of bits which is either not known to contain a convas, or which is known to contain a canvas but has not been normalized.
+
+A canvas is an array of bits which is the output of a palette's normalize function.
+
+
+A brushstroke is a function from a canvas to a list of subsets of that canvas together with a color.
+
+A perspective is a 3-tuple:
+    - A pallete-identifier
+    - A list of brushstrokes in the specified palette
+        - By default this will be ordered chronologically by time of brushstroke-creation
+        - Otherwise the they may be in arbritrary order
+        - Either way, the earlier entries are thought of as "more fundamental" than the latter
+
+A user is an n-tuple of the following:
+    - A set of perspectives (*voices*)
+    - A set of user-identifiers (*peers*)
+    - A set of palette-itentifiers (*lenses*)
+    - A subset of the lenses (*active lenses*)
+    - A partial order over the active lenses (*active lens configuration*)
+    - A function from peers to lenses (*trust domains*)
