@@ -164,17 +164,13 @@ I guess what I'm doing is trying to describe the palette that I will later use t
 
 - A palette must have a normalization function, which transforms a proto-canvas to a canvas.
 
-- A proto-canvas is some set of bits that a user stumbled across in the wild.
+- A proto-canvas is some set of bits that a user stumbled across in the wild, multiple proto-canvasses may represent the same canvas.
 
 - A canvas should contain all of the data that it makes sense to paint on, and nothing else.
 
+- A canvas may contain additional functionality--for example the ability to generate certain proto-canvasses from one canvas.
+
 - Multiple representations (i.e. proto-canvasses) of the same "thing" (e.g. txt and pdf versions of the same novel), should have identical canvasses--that way when a user paints on one representation, the brushstrokes can be viewed by another user who has encountered the other.
-
-- I have used the word "representation" twice in this section: first I meant color-representation and second I mean canvas-representation.
-
-- If a set of bits color-represent something, then semantic paint is being used to add signal to the bits so that they are more meaningful. if a string has characters values that together "represent" an account number according to some palette, that would be a color-representation because "is an account number" is something more than just the characters that comprise it.
-
-- If a set of bits canvas-represents something, then then semantic paint is being used to remove noise from the bits so that they are easier to identify and address parts of. If a set of bits represent the LaTeX-formatted final-copy of somebody's doctoral dissertation, then that would be a canvas-representation of the dissertation, so long as the palette in use was focused on the content of the dissertation (and not the formatting).  This is because the concept of a dissertation is something less than the LaTeX convolutions necessary to represent it, and semantic paint is being used to hide the extra convolution so that components of the dissertation itself can be referenced more cleanly.
 
 - proto-canvasses are canvas-representations of some canvas, and paintings in various palettes are color-represenations of that canvas.
 
@@ -198,6 +194,15 @@ I guess what I'm doing is trying to describe the palette that I will later use t
 
 - Perspective brushstrokes can be reordered by the user so that brushstrokes nearer to the front are taken to be "more important" than those at the back.  What importance means may be palette specific.
 
+- A user who is not the palette maintainer can apply brushstrokes in a palette--other users who trust that user to use that palette will see the strokes, even without action on the palette maintainer's part.
+
+- A palette maintainer may incorporate brushstrokes from other users into the palette--if this happens, users that have chosen to view paint in that palette will see the strokes, even if they do not know the original painter.
+
+- Whether and how a palette accepts paint from users other than the maintainer will be mostly up to that palette to decide.
+
+- A palette maintainer of sufficient technical ability must be able to create a palette that has a whole community of trusted painters working on it.
+
+## 
 
 
 ---------------------
