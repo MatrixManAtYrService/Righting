@@ -1,5 +1,4 @@
-# Proof Of Forum (a blockchain thing)
-
+# Proof Of Forum (a blockchain thing): The Tip of a Philosophical Iceburg
 
 What if money fails us, and then traditional political powers fail to do anything about it?
 Here's a comment I found that describes what such a thing might look like:
@@ -190,7 +189,7 @@ It was proposed that maybe I could tutor this girl: "we don't have very much mon
 I want to be a math teacher when I grow up, but for now I'm an engineer--it is work that demands a bit more time than I'd like, but it pays well.
 There are two simple ways to come up with a price for my tutoring services.
 I could see what the normal hourly rate is for a tutor with my credentials, and decide if I'm willing to work for that.
-Or I could look at my salary, convert it to an hourly rate, and say "this is what my time is worth".
+Or I could look at my salary, convert it to an hourly rate, and demnd that since the labor market says it's "what my time is worth".
 
 Neither strategy would set a price that was low enough that I would feel comfortable accepting it, given my understanding of her parents' financials.
 Nor would either strategy come up with a price that would motivate me extrinsically--if I did this, it would be because I derive some intrinsic value from it.
@@ -215,7 +214,7 @@ My other attempts to reconcile these notions through a single measure of value h
 If I let The Man's tokens be my measurement of value, I find myself working against my community in order to get the money that I might later use to support that community.
 It feels like a trap closing over me--like the unrelenting logic of single token evaluation has somehow tricked me into adopting a value system that I hate.
 That's a road for me to travel a different day, for now my point is this:
-I have yet to find a way to use the value of a single token to bring them in context with each other in a way that I find morally palatable.
+I have yet to find a way to use the value of a single token to bring the two questions above in context with each other in a way that I find morally palatable.
 Until I do, I'll continue working under the assumption that they are best evaluated in separate ecomonic domains.
 
 My ideal compensation for tutoring would be something other than money--then it wouldn't be tainted by the various moral considerations above.
@@ -226,7 +225,7 @@ Whatever her ability to contribute to her community, it isn't particularly compa
 
 A proof-of-forum token would solve this.
 Because every active participant in a forum receives the same pay, I wouldn't have to worry about the income difference--in this smaller economic domain, we're equals.
-Additionally, I wouldn't have encouraged anybody to spend any additional hours working for The Man (who I distrust), so I can feel good about that too.
+Additionally, I wouldn't have encouraged anybody to spend any additinal hours working for The Man (who I distrust), so I can feel good about that too.
 With the extra tokens, I can find a local artist and buy the art that I want on my walls and still feel like I have earned it from my community by contributing directly to that community.
 
 The second example involves a friend who works in an IT department.
@@ -242,14 +241,76 @@ We're probably going to have essay competitions and give them directly to the st
 
 If we want to contribute something of value to the community in a way that doesn't taint it with the politics of doing business with old money, we should be able to do so relatively easily.
 If our community had a proof-of-forum token, we could sell the laptops to the community on behalf of the IT department.
-The IT department could then invest the tokens back into the community by subsidising the construction of a skate park near the office.
+No dollars coming in would mean no extra administrative overhead.
+The IT department could then invest the tokens back into the community with out allegations of misconduct (provided the community tokens don't count as money).
+Following this, the IT department could use those tokens to further give back to the community--for example they could contribute towards the construction of a nearby skate park near the office.
 Maybe this would prevent kids from skateboaring in the receiving area, and prevent the need to hire additional security staff.
 
 I don't know how it would actually work out, but the point is that through cross-domain reasoning it may be possible to find efficiencies in one or both domains that weren't accessable otherwise.
 In this second example members of the community would get access to technology without having to pay the extra costs incurred by the multitude of middle-men involved in turning the laptops from "recycled" into "sold"--so people operating in the smaller economic domain benefitted.
-Also, by participating in the smaller economic domain, the company was able to acheive savings in terms of the larger-domain token in ways that would have been politically prohibitive if done through normal means--and at no point was it necessary to determine a value equivalence between the tokens.
+Also, by allowing participating in the smaller economic domain to remain unfettered by the overhead of the larger one, the company was able to acheive savings in terms of the larger-domain token in ways that would have been politically prohibitive if done through normal means--and at no point was it necessary to determine a value equivalence between the tokens.
+
+## Equivalences, Intrinsic and Occasional
+
+The economic domains introduced in the previous section are a specific case of something much more general.
+In mathematics we would call them metric spaces, but for consistency's sake I will call them value domains.
+
+A value domain is someplace where you can use concepts like "more" and "less" to come up with a number that expresses something.
+This morning, I inflated my bicycle tires to 35 PSI before riding to work.
+I had some options, I could have chosen 10 PSI, or 50, but for some external, non-numeric, reason I chose 35.
+Bike tire pressure, as measured in PSI, is an example of a value domain.
+
+That external reason had to do with the fact that my path to work isn't very bumpy.
+When I go mountain biking, I usually shoot for more like 20 PSI.
+Path bumpyness, if we worked at it, could be made into a value domain as well--perhaps my path to work gets a 2, and my favorite trail gets a 12 on some scale where higher numbers mean bumpier paths.
+
+Much of the reasoning we do with numbers works this way--by taking two or more value-domains and establishing correspondences betwen them.
+I maximize my comfort level (a third value domain) by selecting a point in the tire-pressure value domain as a function of the value of a point in the path-bumpyness domain.
+Lots of domains may appear to be different in some superficial way(tire pressure in PSI, tire pressure in Atm, tire pressure in kPa), but we find that if we switch between them the only thing that changes are the numbers--the actual decisions made are the same.
+
+Economic domains typically work this way too.
+You can buy something with USD or EUR, but at least according conventional economic thought you'd still have to do the same amount of work to earn enough money for the purchase.
+So deep down, we typically pretend that there's only just one economic domain, and that the currency-differences can be pretty much ignored for most decisions.
+
+The example I gave earlier (which I will start calling an "elliptic" curency for reasons that will become clear shortly) is a challenge to the idea that all economic domains are ultimately equivalent.
+In that example, all wallets asymptotically approach the same value over time (assuming no spending and consistent forum participation).
+If we take an econimic decision that used something like USD (a "flat" currency) to mediate an equivalence between value domains, and we substitute an elliptic currency, we find that the reasoning we are used to no longer makes sense.
+Saving a small amount for a long time, for example, is a fine way to achieve a large account balance in a flat currency, but it may not get you there at all in an elliptic currency.
+In other words, value in a flat currency is Archimedean, while value in an elliptic currency is not.
+
+Plenty of other value domains work this way.
+For example, the tire-pressure domain is also non-Archimedean.
+Sure, if I want 45 PSI, and my pump only adds 1 PSI at once I can get there from 0 with some patience, but if I want 450 PSI, no amount of pumping will get me there (my tire will burst instead).
+Despite these complexities, we manage to identify favorable correspondences across non-equivalent domans, and there's no reason we couldn't do the same for economic ones as well.
+
+I have not yet developed the mathematical formalism to support this analogy, but I like to think of elliptic currencies like ways to draw lines on a sphere (which is a type of elliptic geometry), and flat ones as ways to shine laser beams through an empty space (a euclidean geometry).
+In the case of laser beams, you can offset one beam from another, and as long as they are aimed correctly, they'll never intersect.
+This isn't the case for lines on a sphere, every line you put out there on a sphere wraps around and comes back at you.
+
+Before we take this metaphor back to currencies, consider that value domains often come with some kind of attached logic.
+Just like how I know not to inflate my bike tire to 450 PSI, I also know that there is a certain sort of behavior that a flat currency "wants" me to conform to.
+(I'm writing this because I refuse that call).
+According to the logic of flat currencies, I am supposed to think in terms of extremes:
+If I'm a seller, something is worth as much as I can get for it, and if I'm a buyer it's worth as little as I have to pay to get it.
+No part of this logic makes any reference to an actual, intrinsic, value of the item--it's all about varying degrees of success when it comes to exploiting other participants.
+Another thing that flat-currency logic doesn't address is that perhaps I don't want to live in a community where everybody is trying to exploit me all the time.
+I may dislike the exploitation so much, that I would even be willing to moderate my own behavior to be less exploitive of others.
+
+This is the property that makes elliptic currencies elliptic.
+The logic of flat currencies, much like that of playing with lasers in a place with no mirrors, assumes that you always have enough space.
+When reasoning in such a space, one needn't think about how their actions might influence the world in ways that they'll later have to contend with.
+Those actions will never wrap around and get them in the back.
+
+Elliptic currencies, however, are built around that idea.
+
+
+
+
 
 ## Value-based vs Values-based Decisions
+
+
+
 
 
 ## Parasites
