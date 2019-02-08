@@ -1,4 +1,4 @@
-# Proof Of Forum (a blockchain thing): The Tip of a Philosophical Iceburg
+# Proof Of Forum (a blockchain thing)
 
 What if money fails us, and then traditional political powers fail to do anything about it?
 Here's a comment I found that describes what such a thing might look like:
@@ -250,12 +250,12 @@ I don't know how it would actually work out, but the point is that through cross
 In this second example members of the community would get access to technology without having to pay the extra costs incurred by the multitude of middle-men involved in turning the laptops from "recycled" into "sold"--so people operating in the smaller economic domain benefitted.
 Also, by allowing participating in the smaller economic domain to remain unfettered by the overhead of the larger one, the company was able to acheive savings in terms of the larger-domain token in ways that would have been politically prohibitive if done through normal means--and at no point was it necessary to determine a value equivalence between the tokens.
 
-## Equivalences, Intrinsic and Occasional
+## Lines on a Sphere
 
 The economic domains introduced in the previous section are a specific case of something much more general.
 In mathematics we would call them metric spaces, but for consistency's sake I will call them value domains.
 
-A value domain is someplace where you can use concepts like "more" and "less" to come up with a number that expresses something.
+A value domain is someplace where you can use concepts like "more" and "less" to come up with a number.
 This morning, I inflated my bicycle tires to 35 PSI before riding to work.
 I had some options, I could have chosen 10 PSI, or 50, but for some external, non-numeric, reason I chose 35.
 Bike tire pressure, as measured in PSI, is an example of a value domain.
@@ -266,14 +266,14 @@ Path bumpyness, if we worked at it, could be made into a value domain as well--p
 
 Much of the reasoning we do with numbers works this way--by taking two or more value-domains and establishing correspondences betwen them.
 I maximize my comfort level (a third value domain) by selecting a point in the tire-pressure value domain as a function of the value of a point in the path-bumpyness domain.
-Lots of domains may appear to be different in some superficial way(tire pressure in PSI, tire pressure in Atm, tire pressure in kPa), but we find that if we switch between them the only thing that changes are the numbers--the actual decisions made are the same.
+Lots of domains may appear to be different in some superficial way (tire pressure in PSI, tire pressure in Atm, tire pressure in kPa), but we find that if we switch between them the only thing that changes are the numbers--the actual decisions made are the same.
 
 Economic domains typically work this way too.
 You can buy something with USD or EUR, but at least according conventional economic thought you'd still have to do the same amount of work to earn enough money for the purchase.
-So deep down, we typically pretend that there's only just one economic domain, and that the currency-differences can be pretty much ignored for most decisions.
+So deep down, we pretend that there's just one economic domain, and that the currency-differences can be pretty much ignored for most decisions.
 
 The example I gave earlier (which I will start calling an "elliptic" curency for reasons that will become clear shortly) is a challenge to the idea that all economic domains are ultimately equivalent.
-In that example, all wallets asymptotically approach the same value over time (assuming no spending and consistent forum participation).
+In that example, all wallets asymptotically approach the same value over time.
 If we take an econimic decision that used something like USD (a "flat" currency) to mediate an equivalence between value domains, and we substitute an elliptic currency, we find that the reasoning we are used to no longer makes sense.
 Saving a small amount for a long time, for example, is a fine way to achieve a large account balance in a flat currency, but it may not get you there at all in an elliptic currency.
 In other words, value in a flat currency is Archimedean, while value in an elliptic currency is not.
@@ -285,50 +285,30 @@ Despite these complexities, we manage to identify favorable correspondences acro
 
 I have not yet developed the mathematical formalism to support this analogy, but I like to think of elliptic currencies like ways to draw lines on a sphere (which is a type of elliptic geometry), and flat ones as ways to shine laser beams through an empty space (a euclidean geometry).
 In the case of laser beams, you can offset one beam from another, and as long as they are aimed correctly, they'll never intersect.
-This isn't the case for lines on a sphere, every line you put out there on a sphere wraps around and comes back at you.
+This isn't the case for lines on a sphere, every pair of lines you can put a sphere will wraps around intersect.
 
-Before we take this metaphor back to currencies, consider that value domains often come with some kind of attached logic.
-Just like how I know not to inflate my bike tire to 450 PSI, I also know that there is a certain sort of behavior that a flat currency "wants" me to conform to.
-(I'm writing this because I refuse that call).
-According to the logic of flat currencies, I am supposed to think in terms of extremes:
-If I'm a seller, something is worth as much as I can get for it, and if I'm a buyer it's worth as little as I have to pay to get it.
-No part of this logic makes any reference to an actual, intrinsic, value of the item--it's all about varying degrees of success when it comes to exploiting other participants.
-Another thing that flat-currency logic doesn't address is that perhaps I don't want to live in a community where everybody is trying to exploit me all the time.
-I may dislike the exploitation so much, that I would even be willing to moderate my own behavior to be less exploitive of others.
+Before we see how geometries relate to currencies, consider that value domains often come with some kind of attached logic.
+Just like how I know not to inflate my bike tire to 450 PSI, I also know that I should compare prices before buying something, and that I should sell something for the highest price I can.
+Flat currencies encourage a certain this sort of reasoning, and elliptic currencies (let's suppose some exist) depart from their flat counterparts in certain ways.
 
-This is the property that makes elliptic currencies elliptic.
-The logic of flat currencies, much like that of playing with lasers in a place with no mirrors, assumes that you always have enough space.
-When reasoning in such a space, one needn't think about how their actions might influence the world in ways that they'll later have to contend with.
-Those actions will never wrap around and get them in the back.
+According a flat currency, all agents are considered equally malevolent--they will take as much as they can and provide as little as they can get away with.
+Because of this implicit equality, one can leave home, make a transaction, and upon their return the only thing tht will matter is whether they got a goof price--at least according to the logic of the flat currency.
+It's like parallel lines--you can be on one line, offset yourself a bit and start a new line in the same direction, and by the time you get home you can forget about it, those lines will never intersect.
 
-Elliptic currencies, however, are built around that idea.
+This is not the case on a sphere though.
+All "lines" on a sphere intersect eventually.
+And it's also not the case when working with an elliptic currency.
+In such a space, participants will be less interested in maximizing the number of tokens they have.
+Instead, they will have a shared incentive to ensure that whatever tokens they get at the next forum are worth as much as possible.
+This means looking beyond the price and into the behavior of the other participant.
+Are they going to make decisions that increase or decrease the value of that type of token?
+This question, perhaps more than the price, will detmine whether the transaction is a good idea.
+To complete the geometry metahor, imagine that the decisions made by other participants are lines on a sphere.
+The fact that those decisions will influence your next forum payout represents the fact that those lines will intersect.
 
+To put it another way, elliptic currencies are karma aware.
+They encourage their users to recognize that what goes around comes around.
+Ideally those users will strive to create communities where what goes and comes around is valueable.
+This is not to say that communities that use flat currencies are not capable of that kind of thought, only that there is nothing about the design of their currency that specifically encourages it.
 
-
-
-
-## Value-based vs Values-based Decisions
-
-
-
-
-
-## Parasites
-
-Here we will describe an attack on the example described above.
-You'll need a lack of scrouples, two friends that are similarly inclined, losts of time, and a community to attack that doesn't bother policing for your sort.
-
-1. Convince someone who can make wallets to invite you to a forum and make you a wallet, have your friends to the same.
-2. Attend forums until you and your friends are allowed to make new wallets
-3. Hold a forum with your friends and create wallets for people who don't actually exist
-4. Continue to hold forums and create wallets with only your friends and the fake participants you created
-5. Collect the payouts from the "pocket forums" you and your friends have created
-
-Another way to get this done is to use some other means (external currency, device tamering, or violence) to gain control of three identities that can create wallets, then you can get down to the business of profiting from pocket fora immediately.
-
-The possibility of attacks like this is what makes it advisable to grow the network slowly.
-If a community of forumgoers is closely connected (as in, the we-saw-each-other-at-a-forum-recently relationship is likely to overlap with the we-say-hi-when-crossing-paths relationship), then 
-
-
-
-
+# On Value and Values
