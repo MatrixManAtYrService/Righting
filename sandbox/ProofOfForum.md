@@ -250,7 +250,7 @@ I don't know how it would actually work out, but the point is that through cross
 In this second example members of the community would get access to technology without having to pay the extra costs incurred by the multitude of middle-men involved in turning the laptops from "recycled" into "sold"--so people operating in the smaller economic domain benefitted.
 Also, by allowing participating in the smaller economic domain to remain unfettered by the overhead of the larger one, the company was able to acheive savings in terms of the larger-domain token in ways that would have been politically prohibitive if done through normal means--and at no point was it necessary to determine a value equivalence between the tokens.
 
-## Lines on a Sphere
+## The Geometric Model
 
 The economic domains introduced in the previous section are a specific case of something much more general.
 In mathematics we would call them metric spaces, but for consistency's sake I will call them value domains.
@@ -311,4 +311,92 @@ They encourage their users to recognize that what goes around comes around.
 Ideally those users will strive to create communities where what goes and comes around is valueable.
 This is not to say that communities that use flat currencies are not capable of that kind of thought, only that there is nothing about the design of their currency that specifically encourages it.
 
-# On Value and Values
+# Composing Domains
+
+Now that we've established a model for talking about these two economic domains, I'd like to call out several properties of the model and explore whether we can expect an analogous property in the world.
+Our goal will be to develop expectations about how flat and elliptic currencies are likely to interact.
+Until now I have been arguing for the separateness of these economic domains, but much like other value domains, economic domains can be nested inside of one another--so it's not really a matter of being separate, but instead a matter of which domain is in the foregroud, and which is in the background.
+
+For a value-domain example, consider air-pressure generally, pressures in a tire, and pressures in a tire that you'd want to ride on.
+Each of these domains "fit inside" each other from left to right, but they don't nest in the other direction.
+They also have distinct "shapes".
+Air pressure generally is flat, it's just a number.
+If you restrict air pressures it only tire pressures, the space remains flat--it just has an upper limit (where the tire bursts).
+Further constraining it to pressures that you'd want to ride on gives it some context dependence (which I'm imagining as curvyness in some sense)--the particulars depend on whose tire it is.
+
+The first property of our model that I'd like to call out is this:
+You can embed the 2D surface of a sphere in a flat 3D space, but if you want to fit a 3D space on the surface of the sphere, you're going to have to distort significantly.
+Once you've smushed the three dimensional space down to a flat two-dimensional one, it is easy to imagine it fitting on the surface of a sphere without too much fuss.
+We don't care about the bending neccesary to make it conform to the round surface because those manipulations can be undone.
+Another reason this transformation can be ignored has to do with the fact if you made the world twice as big, nobody would notice (because any ruler you might measure it with has also gotten twice as big).
+That is, we don't care about transformations that don't require the flat space to know it's bening bent.
+But the smushing down from three dimensions to two--that's a big deal.
+Information is lost in something like that (the mathy term is "surjection"), and the lost info would have to be externally supplied if we wanted to re-inflate the space.
+
+
+Unfortunately, there aren't yet any elliptic economic spaces (that I know of), so we can't examine how they contain or are contained by any flat ones.
+We'll have to be content with considering our social structures that are not moderated by token exchange.
+But first, some definitions:
+ - A space is economic if it uses token counts to establish equivalence.
+ - An economic space is flat if the only motivation it establishes in its participants is the desire of tokens
+ - An economic space is elliptic if the token dynamics encourage participants to consider their community's goals while making transactions (for now, let us assume that this goal is to maximize the future value of the tokens).
+ - A space is elliptic if its participants are encouraged to consider their community's goals at all.
+
+As an aside, I'd like to mention that I am not blind to the fact that most societies actually do have componets that request that their people to think of the greater good while doing business.
+It's just that when I say "encourage," I mean something a bit different than a case where participants are asked to make sub-optimal economic decisions to support some higher purpose.
+When I say that an economic domain "encourages" something, I mean that incentives are structured so that the persuit of the encouraged thing doesn't come in conflict with good financial sense.
+This rarely happens when an elliptic space interacts with a flat economic one--usually one has to decide between maximizing profit and doing the right thing.
+I'm hoping proof-of-forum currencies can change that.
+But in the meantime we can find several examples of non-economic spaces that work this way.
+
+We don't usually think of them like this, but breathable air and drinkable water could be thought of as a currency.
+As long as they are sufficiently scarce, no societal construct (or at least none I wish to speak of here) is likely to convince a human to forgo these things.
+This is a large flat economic domain--large because when it comes to the persuit of tokens, anything goes.
+Within it, we often see an elliptical domain--that of national citizenship--which forbids things like theft and counterfeitting.
+Within that there is usually a smaller flat economic domain: the national currency.
+Flat because participants are encouraged to seek its tokens without further constraint, smaller because when it comes to seeking tokens, anything goes except for the restrictions imposed by the enclosing elliptic domain.
+
+There are three things to notice about this setup:
+First, the hierarchy is arbitrary--although it would be maladaptive, nothing prevents a participant from placing the values imported by their citizenship above the needs imported by their biology.
+Another way to do it would be to deny any containership between citizenship and economic participant--the biological-needs space can contain both of the other ones, and they need not intersect (this way requires a significantly more case-by-case analysis by the paricipant).
+How somebody composes these domains into mental models capable of decision making is entirely up to them.
+
+Secondly, notice that although I have set up an alternating flat-elliptic-flat arrangement, there's no reason this pattern must be upheld.
+I can think of some games, for example, where the exterior (flat) space consists solely of whether or not you complete some goal, and inside it there are multiple non-intersecting domains regarding how many keys, bombs, or hearts you have.
+In these games, there is no intermediary elliptic domain--no decisions I can make for the good of other players of the same game.
+Gameplay, therefore, consists partly of maximizing my access to the outer token by finding relationships between the various inner tokens to other aspects of the game.
+
+The third thing is that if we take the hierarchy to be as I have described it, we're going to run out of dimensions if we continue to nest domains.
+There is a large space (human needs), with a sphere in it (citizenship), and on that sphere is a square (participation in the national economy).
+I suppose we could continue zooming in and consider a famimily with shared values (a circle on the square) playing a game of monopoly (a line segment on the circle).
+If you can come up with a reason that one "ought to" do anything--aside from the persuit of tokens--in a game of monopoly, then perhaps you could construct some teensy elliptic space and visualize it as a point on that segment, but then you're out of dimensions.
+The important part of this is that the shortage of dimensions comes from limitations on the sorts of spaces we can comfortabley visualize, there is no reason to expect that the upper limits of domain containership will fall apart beyond some limit.
+
+Luckily, we do have enough dimensions to visualize several interactions between domains, so let us return to the first example model: living thing > citizen > economic agent modeled as space > sphere > square.
+I have mentioned that our domains can be bigger or smaller than one another.
+This measurement has to do with the number of valid alternatives one must consider before performing some action that "plays by the rules".
+If there are fewer rules, like in the air-and-water domain, then the set of permissible actions is large, so we say that the economic domain is large.
+If we decide that we want to be a good citizen, then we must abide by some rules, which limits the set of permissible actions--we can no longer kill other citizens over access to water, for example.
+
+One question that might arise is: by how much has our freedom been limited?
+After all, a single rule: "don't kill other citizens" doesn't remove one point from our set of permissible actions, it removes several.
+Rather than try to express this in terms of the number of opporutities--rather than saying that the anything-goes space is 34% larger than the good-citizen space or something like that--our model represents this reduction as the loss of a dimension.
+The example described above works this way:
+The freedom lost by assuming citizenship is represented by going from the three dimensional space (where we might use X, Y, and Z to define a point) down to the two-dimensional sphere surface (where reasonable basis vectors might be North and East).
+
+Another option is that we shed a dimension for _each_ restricting statement that defines the contained domain--that is, we drop a dimension for each _entry_ in the domain's _constitution_ (new terms).
+Like maybe being a good citizen means not killing other citizens over water _and_ not drinking when you aren't thursty.
+If we do this, we run out of visualizable dimensions pretty quickly, but we gain some structure that migh be useful to identify differences between domains.
+If you want to look at the set of permissible actions as a theoretical one, where actions are proovably permissible or prohibited, then you can think of the entries in that domain's constitutions as axioms.
+That is, as statements which are assumed true, and thereby exclude any statements that they happen to contradict.
+Alternatively, the set of permissible actions could be construed as simply that--events with times and locations that may or may not be in the future of some observer.
+In this case, the entries in an elliptic domain's constitution can be thought of as vectors--by combining them in various ways you can come up with situations that participants in that domain are likely to agree about.
+
+The axiomatic view might be more useful for a particular community that is working on their constitution, or for neighboring communities to use as a guide for what to expect when interacting with each other.
+I'll have more to say about this in a later section.
+But for now, I'll favor the vector perspective on constitution elements because I have another point to make about dimenionality, which I will do in the next section.
+(You might also like to know that I'm done introducing math jagon.)
+
+## On value and values
+
+## On Freedom
