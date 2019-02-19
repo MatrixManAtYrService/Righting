@@ -1,6 +1,5 @@
 # Proof Of Forum (a blockchain thing)
 
-
 What if money fails us, and then traditional political powers fail to do anything about it?
 Here's a comment I found that describes what such a thing might look like:
 
@@ -190,7 +189,7 @@ It was proposed that maybe I could tutor this girl: "we don't have very much mon
 I want to be a math teacher when I grow up, but for now I'm an engineer--it is work that demands a bit more time than I'd like, but it pays well.
 There are two simple ways to come up with a price for my tutoring services.
 I could see what the normal hourly rate is for a tutor with my credentials, and decide if I'm willing to work for that.
-Or I could look at my salary, convert it to an hourly rate, and say "this is what my time is worth".
+Or I could look at my salary, convert it to an hourly rate, and demnd that since the labor market says it's "what my time is worth".
 
 Neither strategy would set a price that was low enough that I would feel comfortable accepting it, given my understanding of her parents' financials.
 Nor would either strategy come up with a price that would motivate me extrinsically--if I did this, it would be because I derive some intrinsic value from it.
@@ -215,7 +214,7 @@ My other attempts to reconcile these notions through a single measure of value h
 If I let The Man's tokens be my measurement of value, I find myself working against my community in order to get the money that I might later use to support that community.
 It feels like a trap closing over me--like the unrelenting logic of single token evaluation has somehow tricked me into adopting a value system that I hate.
 That's a road for me to travel a different day, for now my point is this:
-I have yet to find a way to use the value of a single token to bring them in context with each other in a way that I find morally palatable.
+I have yet to find a way to use the value of a single token to bring the two questions above in context with each other in a way that I find morally palatable.
 Until I do, I'll continue working under the assumption that they are best evaluated in separate ecomonic domains.
 
 My ideal compensation for tutoring would be something other than money--then it wouldn't be tainted by the various moral considerations above.
@@ -226,7 +225,7 @@ Whatever her ability to contribute to her community, it isn't particularly compa
 
 A proof-of-forum token would solve this.
 Because every active participant in a forum receives the same pay, I wouldn't have to worry about the income difference--in this smaller economic domain, we're equals.
-Additionally, I wouldn't have encouraged anybody to spend any additional hours working for The Man (who I distrust), so I can feel good about that too.
+Additionally, I wouldn't have encouraged anybody to spend any additinal hours working for The Man (who I distrust), so I can feel good about that too.
 With the extra tokens, I can find a local artist and buy the art that I want on my walls and still feel like I have earned it from my community by contributing directly to that community.
 
 The second example involves a friend who works in an IT department.
@@ -242,32 +241,162 @@ We're probably going to have essay competitions and give them directly to the st
 
 If we want to contribute something of value to the community in a way that doesn't taint it with the politics of doing business with old money, we should be able to do so relatively easily.
 If our community had a proof-of-forum token, we could sell the laptops to the community on behalf of the IT department.
-The IT department could then invest the tokens back into the community by subsidising the construction of a skate park near the office.
+No dollars coming in would mean no extra administrative overhead.
+The IT department could then invest the tokens back into the community with out allegations of misconduct (provided the community tokens don't count as money).
+Following this, the IT department could use those tokens to further give back to the community--for example they could contribute towards the construction of a nearby skate park near the office.
 Maybe this would prevent kids from skateboaring in the receiving area, and prevent the need to hire additional security staff.
 
 I don't know how it would actually work out, but the point is that through cross-domain reasoning it may be possible to find efficiencies in one or both domains that weren't accessable otherwise.
 In this second example members of the community would get access to technology without having to pay the extra costs incurred by the multitude of middle-men involved in turning the laptops from "recycled" into "sold"--so people operating in the smaller economic domain benefitted.
-Also, by participating in the smaller economic domain, the company was able to acheive savings in terms of the larger-domain token in ways that would have been politically prohibitive if done through normal means--and at no point was it necessary to determine a value equivalence between the tokens.
+Also, by allowing participating in the smaller economic domain to remain unfettered by the overhead of the larger one, the company was able to acheive savings in terms of the larger-domain token in ways that would have been politically prohibitive if done through normal means--and at no point was it necessary to determine a value equivalence between the tokens.
 
-## Value-based vs Values-based Decisions
+## The Geometric Model
+
+The economic domains introduced in the previous section are a specific case of something much more general.
+In mathematics we would call them metric spaces, but for consistency's sake I will call them value domains.
+
+A value domain is someplace where you can use concepts like "more" and "less" to come up with a number.
+This morning, I inflated my bicycle tires to 35 PSI before riding to work.
+I had some options, I could have chosen 10 PSI, or 50, but for some external, non-numeric, reason I chose 35.
+Bike tire pressure, as measured in PSI, is an example of a value domain.
+
+That external reason had to do with the fact that my path to work isn't very bumpy.
+When I go mountain biking, I usually shoot for more like 20 PSI.
+Path bumpyness, if we worked at it, could be made into a value domain as well--perhaps my path to work gets a 2, and my favorite trail gets a 12 on some scale where higher numbers mean bumpier paths.
+
+Much of the reasoning we do with numbers works this way--by taking two or more value-domains and establishing correspondences betwen them.
+I maximize my comfort level (a third value domain) by selecting a point in the tire-pressure value domain as a function of the value of a point in the path-bumpyness domain.
+Lots of domains may appear to be different in some superficial way (tire pressure in PSI, tire pressure in Atm, tire pressure in kPa), but we find that if we switch between them the only thing that changes are the numbers--the actual decisions made are the same.
+
+Economic domains typically work this way too.
+You can buy something with USD or EUR, but at least according conventional economic thought you'd still have to do the same amount of work to earn enough money for the purchase.
+So deep down, we pretend that there's just one economic domain, and that the currency-differences can be pretty much ignored for most decisions.
+
+The example I gave earlier (which I will start calling an "elliptic" curency for reasons that will become clear shortly) is a challenge to the idea that all economic domains are ultimately equivalent.
+In that example, all wallets asymptotically approach the same value over time.
+If we take an econimic decision that used something like USD (a "flat" currency) to mediate an equivalence between value domains, and we substitute an elliptic currency, we find that the reasoning we are used to no longer makes sense.
+Saving a small amount for a long time, for example, is a fine way to achieve a large account balance in a flat currency, but it may not get you there at all in an elliptic currency.
+In other words, value in a flat currency is Archimedean, while value in an elliptic currency is not.
+
+Plenty of other value domains work this way.
+For example, the tire-pressure domain is also non-Archimedean.
+Sure, if I want 45 PSI, and my pump only adds 1 PSI at once I can get there from 0 with some patience, but if I want 450 PSI, no amount of pumping will get me there (my tire will burst instead).
+Despite these complexities, we manage to identify favorable correspondences across non-equivalent domans, and there's no reason we couldn't do the same for economic ones as well.
+
+I have not yet developed the mathematical formalism to support this analogy, but I like to think of elliptic currencies like ways to draw lines on a sphere (which is a type of elliptic geometry), and flat ones as ways to shine laser beams through an empty space (a euclidean geometry).
+In the case of laser beams, you can offset one beam from another, and as long as they are aimed correctly, they'll never intersect.
+This isn't the case for lines on a sphere, every pair of lines you can put a sphere will wraps around intersect.
+
+Before we see how geometries relate to currencies, consider that value domains often come with some kind of attached logic.
+Just like how I know not to inflate my bike tire to 450 PSI, I also know that I should compare prices before buying something, and that I should sell something for the highest price I can.
+Flat currencies encourage a certain this sort of reasoning, and elliptic currencies (let's suppose some exist) depart from their flat counterparts in certain ways.
+
+According a flat currency, all agents are considered equally malevolent--they will take as much as they can and provide as little as they can get away with.
+Because of this implicit equality, one can leave home, make a transaction, and upon their return the only thing tht will matter is whether they got a goof price--at least according to the logic of the flat currency.
+It's like parallel lines--you can be on one line, offset yourself a bit and start a new line in the same direction, and by the time you get home you can forget about it, those lines will never intersect.
+
+This is not the case on a sphere though.
+All "lines" on a sphere intersect eventually.
+And it's also not the case when working with an elliptic currency.
+In such a space, participants will be less interested in maximizing the number of tokens they have.
+Instead, they will have a shared incentive to ensure that whatever tokens they get at the next forum are worth as much as possible.
+This means looking beyond the price and into the behavior of the other participant.
+Are they going to make decisions that increase or decrease the value of that type of token?
+This question, perhaps more than the price, will detmine whether the transaction is a good idea.
+To complete the geometry metahor, imagine that the decisions made by other participants are lines on a sphere.
+The fact that those decisions will influence your next forum payout represents the fact that those lines will intersect.
+
+To put it another way, elliptic currencies are karma aware.
+They encourage their users to recognize that what goes around comes around.
+Ideally those users will strive to create communities where what goes and comes around is valueable.
+This is not to say that communities that use flat currencies are not capable of that kind of thought, only that there is nothing about the design of their currency that specifically encourages it.
+
+# Composing Domains
+
+Now that we've established a model for talking about these two economic domains, I'd like to call out several properties of the model and explore whether we can expect an analogous property in the world.
+Our goal will be to develop expectations about how flat and elliptic currencies are likely to interact.
+Until now I have been arguing for the separateness of these economic domains, but much like other value domains, economic domains can be nested inside of one another--so it's not really a matter of being separate, but instead a matter of which domain is in the foregroud, and which is in the background.
+
+For a value-domain example, consider air-pressure generally, pressures in a tire, and pressures in a tire that you'd want to ride on.
+Each of these domains "fit inside" each other from left to right, but they don't nest in the other direction.
+They also have distinct "shapes".
+Air pressure generally is flat, it's just a number.
+If you restrict air pressures it only tire pressures, the space remains flat--it just has an upper limit (where the tire bursts).
+Further constraining it to pressures that you'd want to ride on gives it some context dependence (which I'm imagining as curvyness in some sense)--the particulars depend on whose tire it is.
+
+The first property of our model that I'd like to call out is this:
+You can embed the 2D surface of a sphere in a flat 3D space, but if you want to fit a 3D space on the surface of the sphere, you're going to have to distort significantly.
+Once you've smushed the three dimensional space down to a flat two-dimensional one, it is easy to imagine it fitting on the surface of a sphere without too much fuss.
+We don't care about the bending neccesary to make it conform to the round surface because those manipulations can be undone.
+Another reason this transformation can be ignored has to do with the fact if you made the world twice as big, nobody would notice (because any ruler you might measure it with has also gotten twice as big).
+That is, we don't care about transformations that don't require the flat space to know it's bening bent.
+But the smushing down from three dimensions to two--that's a big deal.
+Information is lost in something like that (the mathy term is "surjection"), and the lost info would have to be externally supplied if we wanted to re-inflate the space.
 
 
-## Parasites
+Unfortunately, there aren't yet any elliptic economic spaces (that I know of), so we can't examine how they contain or are contained by any flat ones.
+We'll have to be content with considering our social structures that are not moderated by token exchange.
+But first, some definitions:
+ - A space is economic if it uses token counts to establish equivalence.
+ - An economic space is flat if the only motivation it establishes in its participants is the desire of tokens
+ - An economic space is elliptic if the token dynamics encourage participants to consider their community's goals while making transactions (for now, let us assume that this goal is to maximize the future value of the tokens).
+ - A space is elliptic if its participants are encouraged to consider their community's goals at all.
 
-Here we will describe an attack on the example described above.
-You'll need a lack of scrouples, two friends that are similarly inclined, losts of time, and a community to attack that doesn't bother policing for your sort.
+As an aside, I'd like to mention that I am not blind to the fact that most societies actually do have componets that request that their people to think of the greater good while doing business.
+It's just that when I say "encourage," I mean something a bit different than a case where participants are asked to make sub-optimal economic decisions to support some higher purpose.
+When I say that an economic domain "encourages" something, I mean that incentives are structured so that the persuit of the encouraged thing doesn't come in conflict with good financial sense.
+This rarely happens when an elliptic space interacts with a flat economic one--usually one has to decide between maximizing profit and doing the right thing.
+I'm hoping proof-of-forum currencies can change that.
+But in the meantime we can find several examples of non-economic spaces that work this way.
 
-1. Convince someone who can make wallets to invite you to a forum and make you a wallet, have your friends to the same.
-2. Attend forums until you and your friends are allowed to make new wallets
-3. Hold a forum with your friends and create wallets for people who don't actually exist
-4. Continue to hold forums and create wallets with only your friends and the fake participants you created
-5. Collect the payouts from the "pocket forums" you and your friends have created
+We don't usually think of them like this, but breathable air and drinkable water could be thought of as a currency.
+As long as they are sufficiently scarce, no societal construct (or at least none I wish to speak of here) is likely to convince a human to forgo these things.
+This is a large flat economic domain--large because when it comes to the persuit of tokens, anything goes.
+Within it, we often see an elliptical domain--that of national citizenship--which forbids things like theft and counterfeitting.
+Within that there is usually a smaller flat economic domain: the national currency.
+Flat because participants are encouraged to seek its tokens without further constraint, smaller because when it comes to seeking tokens, anything goes except for the restrictions imposed by the enclosing elliptic domain.
 
-Another way to get this done is to use some other means (external currency, device tamering, or violence) to gain control of three identities that can create wallets, then you can get down to the business of profiting from pocket fora immediately.
+There are three things to notice about this setup:
+First, the hierarchy is arbitrary--although it would be maladaptive, nothing prevents a participant from placing the values imported by their citizenship above the needs imported by their biology.
+Another way to do it would be to deny any containership between citizenship and economic participant--the biological-needs space can contain both of the other ones, and they need not intersect (this way requires a significantly more case-by-case analysis by the paricipant).
+How somebody composes these domains into mental models capable of decision making is entirely up to them.
 
-The possibility of attacks like this is what makes it advisable to grow the network slowly.
-If a community of forumgoers is closely connected (as in, the we-saw-each-other-at-a-forum-recently relationship is likely to overlap with the we-say-hi-when-crossing-paths relationship), then 
+Secondly, notice that although I have set up an alternating flat-elliptic-flat arrangement, there's no reason this pattern must be upheld.
+I can think of some games, for example, where the exterior (flat) space consists solely of whether or not you complete some goal, and inside it there are multiple non-intersecting domains regarding how many keys, bombs, or hearts you have.
+In these games, there is no intermediary elliptic domain--no decisions I can make for the good of other players of the same game.
+Gameplay, therefore, consists partly of maximizing my access to the outer token by finding relationships between the various inner tokens to other aspects of the game.
 
+The third thing is that if we take the hierarchy to be as I have described it, we're going to run out of dimensions if we continue to nest domains.
+There is a large space (human needs), with a sphere in it (citizenship), and on that sphere is a square (participation in the national economy).
+I suppose we could continue zooming in and consider a famimily with shared values (a circle on the square) playing a game of monopoly (a line segment on the circle).
+If you can come up with a reason that one "ought to" do anything--aside from the persuit of tokens--in a game of monopoly, then perhaps you could construct some teensy elliptic space and visualize it as a point on that segment, but then you're out of dimensions.
+The important part of this is that the shortage of dimensions comes from limitations on the sorts of spaces we can comfortabley visualize, there is no reason to expect that the upper limits of domain containership will fall apart beyond some limit.
 
+Luckily, we do have enough dimensions to visualize several interactions between domains, so let us return to the first example model: living thing > citizen > economic agent modeled as space > sphere > square.
+I have mentioned that our domains can be bigger or smaller than one another.
+This measurement has to do with the number of valid alternatives one must consider before performing some action that "plays by the rules".
+If there are fewer rules, like in the air-and-water domain, then the set of permissible actions is large, so we say that the economic domain is large.
+If we decide that we want to be a good citizen, then we must abide by some rules, which limits the set of permissible actions--we can no longer kill other citizens over access to water, for example.
 
+One question that might arise is: by how much has our freedom been limited?
+After all, a single rule: "don't kill other citizens" doesn't remove one point from our set of permissible actions, it removes several.
+Rather than try to express this in terms of the number of opporutities--rather than saying that the anything-goes space is 34% larger than the good-citizen space or something like that--our model represents this reduction as the loss of a dimension.
+The example described above works this way:
+The freedom lost by assuming citizenship is represented by going from the three dimensional space (where we might use X, Y, and Z to define a point) down to the two-dimensional sphere surface (where reasonable basis vectors might be North and East).
 
+Another option is that we shed a dimension for _each_ restricting statement that defines the contained domain--that is, we drop a dimension for each _entry_ in the domain's _constitution_ (new terms).
+Like maybe being a good citizen means not killing other citizens over water _and_ not drinking when you aren't thursty.
+If we do this, we run out of visualizable dimensions pretty quickly, but we gain some structure that migh be useful to identify differences between domains.
+If you want to look at the set of permissible actions as a theoretical one, where actions are proovably permissible or prohibited, then you can think of the entries in that domain's constitutions as axioms.
+That is, as statements which are assumed true, and thereby exclude any statements that they happen to contradict.
+Alternatively, the set of permissible actions could be construed as simply that--events with times and locations that may or may not be in the future of some observer.
+In this case, the entries in an elliptic domain's constitution can be thought of as vectors--by combining them in various ways you can come up with situations that participants in that domain are likely to agree about.
+
+The axiomatic view might be more useful for a particular community that is working on their constitution, or for neighboring communities to use as a guide for what to expect when interacting with each other.
+I'll have more to say about this in a later section.
+But for now, I'll favor the vector perspective on constitution elements because I have another point to make about dimenionality, which I will do in the next section.
+(You might also like to know that I'm done introducing math jagon.)
+
+## On value and values
+
+## On Freedom
