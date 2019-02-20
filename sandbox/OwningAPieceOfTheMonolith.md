@@ -3,8 +3,8 @@
 
 ### Chapter One: Separating the Code
 
-This is a story about the billing team and our server: _William_ (*W*e *I*nvestigate *L*ucritive *L*apses *I*ndependantly, *A*ccurately, and *M*onthly).
-Particularly it's about the *I*ndependantly part of his name.
+This is a story about the billing team and our server: _William_ (**W**e **I**nvestigate **L**ucritive **L**apses **I**ndependantly, **A**ccurately, and **M**onthly).
+Particularly it's about the **I**ndependantly part of his name.
 
 William shares much of his DNA with an older, larger server creatively named _Server_.
 There was probably a time when Server Had a reasonable set of responsibilities.
