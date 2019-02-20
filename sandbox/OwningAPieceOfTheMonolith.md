@@ -17,7 +17,7 @@ But as the business grew, so did Server and now it's more like this:
 <img src="https://images-na.ssl-images-amazon.com/images/I/71FHJU17djL._SL1204_.jpg" width=500 />
 
 William was born from the frustrations that appear when you try to work with code that has so many separate purposes.
-As for us, for the most part we just have two:
+As for us, we have two:
  1. Each month, calculate how much every merchant should be billed and how much each developer should be paid.
  2. Provide visibility into how these calculations have gone in past months, and will go next month.
 
@@ -26,7 +26,7 @@ We would use Server to generate the monthly billing data, and then we would use 
 The ideas was that the output should be identical, and that we would make changes to William until it was.
 This worked fine as a guiding philosophy, but in practice it had some challenges.
 
-For example, the billing month ends as 00:00 UTC, but in order to avoid placing undue load on the system during dinner hours in the USA (where our server load is highest), we billing happens several hours later.
+For example, the billing month ends as 00:00 UTC, but the billing calculations happen several hours later.
 Ideally, it wouldn't matter--once the month has ended, no changes should be relevant to that month's bill.
 Actually, this isn't strictly the case.
 Once we started comparing William's output with Server's, it became clear that it mattered _when_ we took the database backup that we used for this comparison.
@@ -42,7 +42,7 @@ Recently, we've been focusing on independence from Server when it comes to our s
 In some ways, this one is trickier, because _some_ server (preferably William) must be available to provide these data at all times (not just during scheduled timeslots, which was the case before).
 In other ways it is easier because we can take ownership of this functionality in bite-sized pieces.
 In our case, those pieces take the from of REST endpoints.
-The take-ownership-of-an-endpoint process looked like this:
+The take-ownership-of-an-endpoint process looked like this:q
 
 - We receive a requirement that one of Server's billing endpoints needs to behave differently.
 - My team adds an endpoint to William with the same path and the desired functionality.
