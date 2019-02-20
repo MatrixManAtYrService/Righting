@@ -7,9 +7,9 @@ This is a story about the billing team and our server: _William_ (*W*e *I*nvesti
 Particularly it's about the *I*ndependantly part of his name.
 
 William shares much of his DNA with an older, larger server creatively named _Server_.
-There was probably a time when Server Had a resonable set of responsibilities.
+There was probably a time when Server Had a reasonable set of responsibilities.
 Something like this:
- 
+
 <img src="https://images-na.ssl-images-amazon.com/images/I/81Zi3MsS2cL._SL1500_.jpg" width=300 />
 
 But as the business grew, so did Server and now it's more like this:
@@ -24,7 +24,7 @@ As for us, for the most part we just have two:
 For the first of these, we employed something we call "the strangler pattern."
 We would use Server to generate the monthly billing data, and then we would use William to do the same.
 The ideas was that the output should be identical, and that we would make changes to William until it was.
-This worked fine as a guiding philosphy, but in practice it had some challenges.
+This worked fine as a guiding philosophy, but in practice it had some challenges.
 
 For example, the billing month ends as 00:00 UTC, but in order to avoid placing undue load on the system during dinner hours in the USA (where our server load is highest), we billing happens several hours later.
 Ideally, it wouldn't matter--once the month has ended, no changes should be relevant to that month's bill.
@@ -53,14 +53,14 @@ The take-ownership-of-an-endpoint process looked like this:
 
 A few weeks ago, William went live in web-mode in the US (on separate servers than the batch-mode version I described earlier).
 We expect to take responsibility for billing web operations in the EU soon.
-We can't claim total independence from Server--there are several components that play a critical role in the billing team's mission that are still handled in Server, and some of thes may never find their way over to William.
+We can't claim total independence from Server--there are several components that play a critical role in the billing team's mission that are still handled in Server, and some of these may never find their way over to William.
 But we feel that having deployed both an independent web and batch server is a significant milestone.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Water_droplet.jpg" width=500 />
 
-Initially, it seemed, each challenge could be handled most easily with a compromize that took us back towards tight coupling with Server.
-And some of those compromizes have turned out to be the right thing to do.
-But in cases where the functionaity was central to our team's mission, we resisted Server's pull.
+Initially, it seemed, each challenge could be handled most easily with a compromise that took us back towards tight coupling with Server.
+And some of those compromises have turned out to be the right thing to do.
+But in cases where the functionality was central to our team's mission, we resisted Server's pull.
 And now that we've achieved a certain distance, the easier-way-forward has started to favor independence.
 Rather than pulling us back, the natural tensions within our code seem to be focusing us on our interfaces--on which server is responsible for what--and I think that it is a healthy focus.
 William's story isn't over, but that's where chapter one ends--with the code finally relaxing and letting the separation happen.
@@ -80,9 +80,9 @@ Earlier I mentioned that William has a batch mode and a web mode.
 Initially this was two separate servers, addressing two separate concerns.
 It made sense from a development perspective, but elsewhere in the company the idea of deploying the same code to every server had made its way into much of the deployment automation.
 Adding two special-case deploys turned out to be more of a burden than we we realized.
-The compromize was to have the same artifact deployed to both the web and batch infrastructure, and then to add endpoints which would allow my team to toggle the mode after the fact.
+The compromise was to have the same artifact deployed to both the web and batch infrastructure, and then to add endpoints which would allow my team to toggle the mode after the fact.
 
-Another organizational challenge can be seen in the load balancer trickery I described in the previous chapter--where we directed real traffic to William only after prodction load testing was complete.
+Another organizational challenge can be seen in the load balancer trickery I described in the previous chapter--where we directed real traffic to William only after production load testing was complete.
 It wouldn't have been appropriate for our team to make arbitrary real-time changes to a production load balancer.
 We had someone from operations standing by to help us with those changes (thanks Josh).
 But what if everyone did what we've done?
