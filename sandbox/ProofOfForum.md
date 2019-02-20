@@ -6,7 +6,7 @@ Here's a comment I found that describes what such a thing might look like:
 >  Ultimately the people who own all the capital won’t need anyone else to survive. They’ll build walls and robot guards and live in their utopias of plenty while everyone else starves.
 
 I'm not interested in making predictions, so I won't dwell on the likelihood of this.
-I'm interested in solving problems--so instead I'll assume that something like this is possible, and I'll just focus on proposing a solution.
+I'm interested in solving problems--so instead I'll assume that something like this is possible, and I'll just focus on addressing it (prevention if possible, cure if necessary).
 
 ## Old Money, New Money
 
@@ -399,4 +399,50 @@ But for now, I'll favor the vector perspective on constitution elements because 
 
 ## On value and values
 
-## On Freedom
+Imagine two proof-of-forum communities that hold forum at the same time (so members of one cannot be members of the other).
+Once they have signed off on forum attendance, both groups spend the remainder of the forum coming up with and refining their constitution.
+This doesn't need to be as political as the word "constitution" makes it sound--maybe these communities are homebrew clubs and their constitution is all about what things they value in a good beer versus which things they dislike.
+
+The coinciding forum times comes from an agreement between the clubs--they've decided that a little competition is healthy.
+The idea is that each club should come up with its own sense of taste, its own values, and that that sense of taste should be refined internally.
+To acheive this, they "sell" their beer to each other in exchange for the forum-minted tokens.
+The game works like this: whoever's beer has recently sold for the most tokens per-bottle gets extra votes to use in amending the constitution.
+
+Internal to each group, this creates opportunities to either challenge the existing constitution, or to support it.
+A challenger might provide a winning beer that ignores the rules and then use the bonus voting power to amend the constitution.
+A supporter might provide a winning beer that conforms to the rules, and then use the bonus voting power to prevent would-be challengers from amending the constitution.
+What would emerge, in each community, is a sense of identity: these are the things we agree on, these are the things we fight about, and this is the kind of beer we make.
+
+A second game could be played as well.
+Suppose each community set up a store where some fixed amount of the participants' beer was sold in exchange for flat currency.
+Well, when doing business in flat currency, the directive is to always be as cutthroat as possible (provided you don't run afoul of any "higher" values held by the elliptic domain that contains the flat currency).
+This is economics as usual--the price of each community's beer would ultimately reflect how valueable the market thought it was.
+This would tell us which club made better beer, and which constitution makes better brewers, but it would also be a way to establish how valuable the community tokens are in terms of their enclosing flat currency.
+
+Let's return to our geometric model for economic domains, where values--that is, entries in a constitution--are vectors that contribute to the dimension of the economic space.
+We have two vectors--one for each community--and somehow one of them is fetching a better price in the market than the other.
+If the theory I am building is any good, then there ought to be some geometric explanation for this fact.
+This explanation comes from the angle between either of the commmunity vectors, and a third one that exists implicitly in the flat economic space that contains them.
+
+This implicit vector represents the most valuable beer that the market could imagine.
+The value of all other beer is determined by how closely it aligns to this ideal.
+So if a community vector points in the same direction as the ideal, its fruits are predicted to fetch a high price.
+On the other hand, if a small community has a constitution that guides it to make beer (or whatever) that is out of line with what the larger community wants, then that product will fetch a low price.
+For the most part, this is economics as usual: valuable stuff sells for more than less valuable stuff.
+Duh.
+
+My criticism of conventional economics is that by treating "value" as an absolute--something that you can have more or less of, but that has no other properties, it doesn't give us any tools for asking why value behaves the way it does.
+But since this theory conceives of value as a direction it is very natural to ask why one direction makes for valuable beer and not the other.
+Ultimately, the collective oppinion about what makes good beer is formed by individuals agreeing or disagreeing with each other--just like in the individual homebrew communities.
+
+The flattening of values into value, which is what flat economic spaces do, makes for easy decision making:
+Which community makes the better beer? The one with the higher prices.
+But by preserving the directionality of value, it is easier to see that the flat economic domain is nested in yet a larger elliptic one.
+The greater community of beer drinkers has its own set of values (though they may not be written down), which determine what counts as "value" in the flat economic domain that handles things like beer prices.
+Smaller communities can subsequently use those prices to reason about whether their (more explicit) values are in line with the community they serve.
+
+The feeling that ordinary economics provides is that we must all chase after value.
+But if we become accustomed to nesting domains like this then I think we will start seing value as a simplified interface to an enclosing system of values.
+Of course you can then wonder if those values are actually moderated by some larger domain of absolutes, and then whether that flat domain is really an interface to some still larger elliptic one.
+I don't suspect that this ascending line of inquiry will be very useful, so for now let us allow the top of the stack of domains to remain murky--what matters is that it makes sense in the middle, which is where it can be useful.
+
