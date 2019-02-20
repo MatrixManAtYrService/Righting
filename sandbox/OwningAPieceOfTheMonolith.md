@@ -23,7 +23,7 @@ As for us, we have two:
 
 For the first of these, we employed something we call "the strangler pattern."
 We would use Server to generate the monthly billing data, and then we would use William to do the same.
-The ideas was that the output should be identical, and that we would make changes to William until it was.
+The idea was that the output should be identical, and that we would make changes to William until it was.
 This worked fine as a guiding philosophy, but in practice it had some challenges.
 
 For example, the billing month ends as 00:00 UTC, but the billing calculations happen several hours later.
@@ -33,7 +33,7 @@ Once we started comparing William's output with Server's, it became clear that i
 Since database backups don't happen instantaneously, it was nearly impossible to take the perfect snapshot.
 We worked around this by developing tools that allowed us to confidently ignore anomalies of this sort.
 
-Once we felt like William was ready to take over for the monthly job, we disabled the it in Server and met during the wee hours of the morning on the first of the month to run billing manually.
+Once we felt like William was ready to take over for the monthly job, we disabled it in Server and met during the wee hours of the morning on the first of the month to run billing manually.
 We would use the window between 00:00 UTC and the scheduled time (about 2 AM, local time) to transfer snapshots to a local instance of Server and compare its outputs with William in production.
 If they checked out, we would promote William's results, and if there was doubt, we would manually trigger Server to do the job.
 It took a few tries to make the switch, but William has been calculating bills in the US since last summer, and we put him in charge of EU billing on new years day.
@@ -42,7 +42,8 @@ Recently, we've been focusing on independence from Server when it comes to our s
 In some ways, this one is trickier, because _some_ server (preferably William) must be available to provide these data at all times (not just during scheduled timeslots, which was the case before).
 In other ways it is easier because we can take ownership of this functionality in bite-sized pieces.
 In our case, those pieces take the from of REST endpoints.
-The take-ownership-of-an-endpoint process looked like this:q
+
+The take-ownership-of-an-endpoint process looked like this:
 
 - We receive a requirement that one of Server's billing endpoints needs to behave differently.
 - My team adds an endpoint to William with the same path and the desired functionality.
@@ -51,7 +52,7 @@ The take-ownership-of-an-endpoint process looked like this:q
 - We deploy the new endpoint to William in production, and I test it with a load somewhere between Server's max, and my locally-found breaking point (I have been using [locust](https://locust.io/) for this).
 - If everything checks out, we configure the load balancer to start directing traffic for the target endpoint to William.
 
-A few weeks ago, William went live in web-mode in the US (on separate servers than the batch-mode version I described earlier).
+A few weeks ago, William went live in web-mode in the US.
 We expect to take responsibility for billing web operations in the EU soon.
 We can't claim total independence from Server--there are several components that play a critical role in the billing team's mission that are still handled in Server, and some of these may never find their way over to William.
 But we feel that having deployed both an independent web and batch server is a significant milestone.
