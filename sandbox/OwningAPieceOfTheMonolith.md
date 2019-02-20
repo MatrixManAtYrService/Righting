@@ -10,11 +10,11 @@ William shares much of his DNA with an older, larger server creatively named _Se
 There was probably a time when _Server_ Had a resonable set of responsibilities.
 Something like this:
 
-![simple swiss army knife](https://images-na.ssl-images-amazon.com/images/I/81Zi3MsS2cL._SL1500_.jpg)
+![simple swiss army knife](https://images-na.ssl-images-amazon.com/images/I/81Zi3MsS2cL._SL1500_.jpg | width=100)
 
 But as the business grew, so did _Server_ and now it's more like this:
 
-![comedically complex swiss army knife](https://images-na.ssl-images-amazon.com/images/I/71FHJU17djL._SL1204_.jpg)
+![comedically complex swiss army knife](https://images-na.ssl-images-amazon.com/images/I/71FHJU17djL._SL1204_.jpg | width=100)
 
 William was born from the frustrations that appear when you try to work with code that has so many separate purposes.
 As for us, for the most part we just have two:
@@ -56,7 +56,7 @@ We expect to take responsibility for billing web operations in the EU soon.
 We can't claim total independence from _Server_--there are several components that play a critical role in the billing team's mission that are still handled in _Server_, and some of thes may never find their way over to _William_.
 But we feel that having deployed both an independent web and batch server is a significant milestone.
 
-![a water droplet, nearly separated from a larger body]https://commons.wikimedia.org/wiki/File:Water_droplet.jpg)
+![a water droplet, nearly separated from a larger body](https://commons.wikimedia.org/wiki/File:Water_droplet.jpg | width=100)
 
 Initially, it seemed, each challenge could be handled most easily with a compromize that took us back towards tight coupling with _Server_.
 And some of those compromizes have turned out to be the right thing to do.
