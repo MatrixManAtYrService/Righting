@@ -7,7 +7,7 @@ This is a story about the billing team and our server: _William_ (**W**e **I**nv
 Particularly it's about the **I**ndependantly part of his name.
 
 William shares much of his DNA with an older, larger server creatively named _Server_.
-There was probably a time when Server Had a reasonable set of responsibilities.
+There was probably a time when Server had a reasonable set of responsibilities.
 Something like this:
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/81Zi3MsS2cL._SL1500_.jpg" width=300 />
