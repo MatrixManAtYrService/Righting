@@ -5,7 +5,6 @@
 
 This is a story about the billing team and our server: _William_ (**W**e **I**nvestigate **L**ucritive **L**apses **I**ndependantly, **A**ccurately, and **M**onthly).
 Particularly it's about the **I**ndependantly part of his name.
-
 William shares much of his DNA with an older, larger server creatively named _Server_.
 There was probably a time when Server had a reasonable set of responsibilities.
 Something like this:
@@ -18,8 +17,8 @@ But as the business grew, so did Server and now it's more like this:
 
 William was born from the frustrations that appear when you try to work with code that has so many separate purposes.
 As for us, we have two:
- 1. Each month, calculate how much every merchant should be billed and how much each developer should be paid.
- 2. Provide visibility into how these calculations have gone in past months, and will go next month.
+ 1. Each month we calculate how much every merchant should be billed and how much each developer should be paid.
+ 2. We provide visibility into how these calculations have gone in past months, and how they will go next month.
 
 For the first of these, we employed something we call "the strangler pattern."
 We would use Server to generate the monthly billing data, and then we would use William to do the same.
@@ -28,32 +27,36 @@ This worked fine as a guiding philosophy, but in practice it had some challenges
 
 For example, the billing month ends as 00:00 UTC, but the billing calculations happen several hours later.
 Ideally, it wouldn't matter--once the month has ended, no changes should be relevant to that month's bill.
-Actually, this isn't strictly the case.
-Once we started comparing William's output with Server's, it became clear that it mattered _when_ we took the database backup that we used for this comparison.
-Since database backups don't happen instantaneously, it was nearly impossible to take the perfect snapshot.
-We worked around this by developing tools that allowed us to confidently ignore anomalies of this sort.
+Once we started comparing William's output with Server's, it became clear that it actually did matter _when_ we took the snapshot that we used for this comparison.
+This and similar obstacles served as repeated reminders that however well you think you know a server, replicating its I/O in a separate codebase is bound to teach you a thing or two about both the code and about the organization that created it.
 
 Once we felt like William was ready to take over for the monthly job, we disabled it in Server and met during the wee hours of the morning on the first of the month to run billing manually.
 We would use the window between 00:00 UTC and the scheduled time (about 2 AM, local time) to transfer snapshots to a local instance of Server and compare its outputs with William in production.
 If they checked out, we would promote William's results, and if there was doubt, we would manually trigger Server to do the job.
 It took a few tries to make the switch, but William has been calculating bills in the US since last summer, and we put him in charge of EU billing on new years day.
+We still make changes in Server, but since then, they've been fewer and further between--which has made for a hapier new year so far.
 
 Recently, we've been focusing on independence from Server when it comes to our second responsibility: serving billing-related data to web and device users.
 In some ways, this one is trickier, because _some_ server (preferably William) must be available to provide these data at all times (not just during scheduled timeslots, which was the case before).
 In other ways it is easier because we can take ownership of this functionality in bite-sized pieces.
 In our case, those pieces take the from of REST endpoints.
 
-The take-ownership-of-an-endpoint process looked like this:
+Our first take-ownership-of-an-endpoint process looked like this:
 
-- We receive a requirement that one of Server's billing endpoints needs to behave differently.
-- My team adds an endpoint to William with the same path and the desired functionality.
-- I determine the maximum historical load that the target endpoint has ever placed on Server.
-- In a local environment, I determine William's breaking point for this endpoint (requests per second).
-- We deploy the new endpoint to William in production, and I test it with a load somewhere between Server's max, and my locally-found breaking point (I have been using [locust](https://locust.io/) for this).
-- If everything checks out, we configure the load balancer to start directing traffic for the target endpoint to William.
+- We received a requirement that one of Server's billing endpoints needed to behave differently.
+- We team added an endpoint to William with the same path and the desired functionality.
+- I determined the maximum historical load that the target endpoint had ever placed on Server.
+- In a local environment, I determined William's breaking point for this endpoint (requests per second).
+- We deployed the new endpoint to William in production, and I tested it with a load somewhere between Server's max, and my locally-found breaking point (I have been using [locust](https://locust.io/) for this).
+- Everything checked out, so we configured the load balancer to start directing traffic for the target endpoint to William.
+
+This pattern resembles our pervious work with the outputs of the monthly billing job:
+First establish parity, then once you're confidence, take control.
+In both cases, the functionality in Server is still there.
+As we add funtionality to William the practicality of switching back to Server dwindles, but we think that this kind of gradual hand-off is the most comfortable way.
 
 A few weeks ago, William went live in web-mode in the US.
-We expect to take responsibility for billing web operations in the EU soon.
+We expect to take responsibility for billing web traffic in the EU soon.
 We can't claim total independence from Server--there are several components that play a critical role in the billing team's mission that are still handled in Server, and some of these may never find their way over to William.
 But we feel that having deployed both an independent web and batch server is a significant milestone.
 
@@ -68,7 +71,7 @@ William's story isn't over, but that's where chapter one ends--with the code fin
 
 ### Chapter Two: Ripples
 
-It is obvious that Clover's trajectory has made the code the way it is, but I believe that there is some feedback in play, and that the code has been putting its fingerprints on us too.
+It is obvious that Clover's trajectory has made our code the way it is, but I believe that there is some feedback in play, and that the code has been putting its fingerprints on us too.
 We are a company made mostly of engineers--we like to build things.
 We build them according to the best assumptions we have at the time, because what else would you do?
 Then we use them, and those assumptions are subtly reinforced, because the easiest way forward is the one that uses the tools we built.
@@ -83,12 +86,12 @@ It made sense from a development perspective, but elsewhere in the company the i
 Adding two special-case deploys turned out to be more of a burden than we we realized.
 The compromise was to have the same artifact deployed to both the web and batch infrastructure, and then to add endpoints which would allow my team to toggle the mode after the fact.
 
-Another organizational challenge can be seen in the load balancer trickery I described in the previous chapter--where we directed real traffic to William only after production load testing was complete.
+Another organizational challenge can be seen in the load balancer trickery I described in the previous chapter--where we directed real traffic to William only after load testing was complete.
 It wouldn't have been appropriate for our team to make arbitrary real-time changes to a production load balancer.
 We had someone from operations standing by to help us with those changes (thanks Josh).
 But what if everyone did what we've done?
 Ops has better things to do than to hold our hand because we want to mess with the load balancer.
-These problems have solutions, both technical and organizational, but if we want to see them happen it's going to take time and buy-in from people outside of our team.
+These problems have solutions, both technical and organizational, but if we want to see them solved it's going to take time and buy-in from people outside of our team.
 
 There are also some project management ripples that we are still watching spread.
 When we notice that one of our servers in production needs attention, it quickly becomes an all-hands endeavor.
@@ -100,23 +103,27 @@ Lastly, as the SDET most closely tied to William, I have a number of new challen
 Today we planned the deployment of William's latest version, which addresses a breaking change that will soon be deployed in Server.
 The primary question was:
 
- > Should we deploy before or after Server? (or both, with a different version each time?)
+ > Should we deploy before or after Server?
 
-To answer this we needed to know how compatibility varied across different version combinations.
-Where do you put the code for an automated test that gives you that answer?
-Should I write tests that provision, configure, and connects new environments just for that test?
-I have some ideas about this, but nobody wants yet another competing way to configure environments.
-To do it right means aligning my plans with config management decisions being refined elsewhere in the company.
+We tried a few version pairs and figured it out, but the manual testing time was significant enough that I want to be better prepared next time.
+In the futre I want to how compatibility varies across several pairs of candidate versions.
+This means making tests that take version pairs (one for William and one for Server) as a parameter.
+The to-do list for this breaks down as 90% environment stuff, 10% test writing.
+Doing it right means aligning my plans with config management decisions being refined elsewhere in the company.
 
-As you can see, chapter two of William's independence story isn't actually about William, and much of it hasn't happened yet.
-It's about the feedback effect, where we find out how splitting off a chunk of the code affects how we think, and how we communicate.
+As you can see, chapter two of William's independence story isn't actually about William.
+It's about the feedback effect, where we find out how splitting off a chunk of the code affects how we think, which strategies make sense, and how we communicate.
 If we play our cards right, I think it will be a positive change, even if it takes more work in the interim.
 
-It's like how we used to communicate by accidentally breaking each other's code and then wondering why we can't get a clean build.
-What William has taught me is that, clumsy as it may have been, that communication served a purpose (sometimes).
-Although we can remove the frustration of being blocked when others break our build, we can't forgo the ensuing coordination for long.
-Still, I would like to change the texture of that communication so that we have a clearer picture of what our servers and services expect, and what is expected of them.
-That is, we should make them right-sized so each team can take more ownership for the behavior it is responsible for.
-By doing this, I think we'll ultimately get software that is more reliable, more flexible, and more fun to build.
+This process has been teaching me that there is a certain quantum of collaboration that cannot be dispensed with.
+In Server, it wasn't unehard of for "communication" between teams to mean accidentally breaking each other's code and then wondering why nobody can get a clean build.
+Most of the time, this was too wide of an audence for a why-did-this-test-fail kind of conversation, but it did force us to have those conversations.
+Apart from that hubub, we code more efficiently, but it comes at a cost.
+If there's a cross-team conversation that needs to happen, it's on us to make it happen.
 
-As for William's story, it's to be continued.
+If you have something like Server in your life, I hope William's story gives you two measures of hope, and one of caution.
+Hope because once you can comprehend all of your project's responsibilities, you can be more confident that it meets them.
+Hope because working in a project that is right-sized for your team is more fun; you have more opportiunity to be creative, and you can see more results with less effort.
+And caution because your story will also have a chapter with ripples that demand more responsibility than before the separation started; you'll need to take ownership of functionality on both sides, at least until the ripples settle.
+
+As for the part of William's story that follows the ripples, it's to be continued.
