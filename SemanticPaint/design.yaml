@@ -1,0 +1,117 @@
+Frame:
+    Config:
+        - Query parameters:
+            - Feature parent hops:
+                How many times do we recurse on a feature parent while searching for the canvas hash?
+        - Node connection:
+            - hostname, port number
+            - GPG Agent
+    Layout:
+           Palette Selector:
+               Shows all subscribed palettes:
+                - allows for the en-disabling of them
+                - allows for the selection of colors to be applied in the canvas pane
+           Canvas Selector:
+               - Shows a tree representing either:
+                   - The DOM for the current canvas
+                   - The DOM for the current selection
+               - Shows a list of any parent canvases for the current canvas
+           Data pane:
+            - User can paste text here
+            - Highlighting here is used for brushstroke candidates
+            - Highlighting here is will query for canvases matching the highlighted section
+           Canvas pane:
+            - Canvas appears here, with paint applied according to the selected palettes
+            - Hash of current canvas appears here
+           Apply button:
+            - Clicking here with a highlighed selection will consult the active color for components
+            - Based on color details, may prompt for:
+              - Additional selections in the current canvas
+              - Hashes of other canvasses
+
+    Cause, Effect:
+        Startup:
+            - Pull feature-finder functions from node for all active palettes
+        Painter pastes canvas:
+            - Hash whole thing
+            - Apply all feature finders and hash found features
+            - Send hashes to node
+            - Receive brushstrokes from node
+            - Render brushstrokes in canvas pane
+        Painter clicks apply:
+            - Brushstroke is sent to node, canvas pane refreshes upon response
+
+Node:
+    Config:
+        - port number
+    Cause, Effect:
+        Inbound Hashes:
+            - Query active palettes for:
+                - Parent of main hash
+                - Children of main hash (recursively)
+                - Parents of feature hashes (recursively to a configurable point)
+
+
+Palette:
+    Notes:
+        - Parentless, indexing, searching, and sharing palettes happens out of band
+        - Implemented as a IPFS mutable filesystem:
+            - living version referenced via IPNS
+            - version snapshot reverenced by root hash
+    Files:
+        '.../':
+            Colors:
+                - color_one.yml
+                - color_two.yml
+
+            Brushstrokes_by_canvas_hash:
+                A radix-tree where the nodes are the letters in the hash
+            Brushstrokes_by_subcanvas_hash:
+                A radix-tree where the nodes are the letters in the hash
+            Authorized_keys:
+                - author.gpg.asc
+                - deputy_1.gpg.asc
+
+Brushstroke:
+    - A hash identifying the canvas
+    - A dictionary mapping subcolor names to tuples:
+        - subcanvas hash
+        - patch which transforms canvas so that the location of the subcanvas is easy to identify (format TBD)
+        - or maybe just a number of bytes?
+        - a bool which says whether the subcolor happens to be on a subcanvas
+
+Color:
+    - A name for this color
+    - Optionally a dictionary mapping subcolor names to hashes of their respective colors
+
+Subcolor:
+    Example 1:
+        |
+    Consider a color "citation" whose canvas is an enire article.  It might indicate subcanvasses for the cited text and also the citation source.  So "citation_text" and "citation_source" might be subcolor names.  However, these names only make sense in context with the color: citation.  Independently of that context they might refer to  entities called "Text" and "Article" respectively.  So the subcolor name is anchored to it's parent color, it refers to a canvas which--independently of the parent name, may itself be a color.
+    Example 2:
+        |
+    A color called "lie" and a subcolor: "motivation".  The lie is called out as such, and the the subcolor indicates why the lier lied.  The subcanvas (which contains a description of why the lier lied) may have a different color name when viewed outside of the "lie" context.  That color might be called "character_trait".
+    Example 3:
+        |
+    Not all colors have subcolors.  "Misspelling" might just stand alone, without referencing anything else.  Subcolors might also be optional, like "fixed_spelling" which can only sometimes be supplied.
+
+Canvas vs Subcanvas:
+    - A single blob of data
+    - Identified by its hash (in IPFS-friendly format)
+    - If no subcanvases are specified, then a brushstroke indicating a canvas does so without consideration for context
+    - If subvanvases are specified, then a brushstroke indicating a canvas is using that canvas to indicate context, and the subcanvasses are component-parts of the brushstroke's concept.
+    - Subcanvasses need not be children of their respective canvasses, but they can be
+
+Canvas parenthood:
+    Example:
+        Canvas A: FOOBAR
+        Canvas B: BAR
+        Canvas C: OBAR
+        Relation: B and C are children of A (no brushstrokes required)
+    Parent Querying:
+        |
+        It is not feasable to store every parenthood relationship explicily, but some such relationships are more important than others, so we'll try to just store those.  These will be identified by brushstrokes--so the parenthood relationship exists with or without a brushstroke, but a brushstroke is a hint that this canvas/subcanvas pair represents such a relationship.  Since not all subcolors will be on subcanvasses (they may be elsewhere entireley) we'll store a bit that indicates whether they are.
+
+
+
+
