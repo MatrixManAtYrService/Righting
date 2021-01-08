@@ -111,12 +111,14 @@ The Focus will always be within 30 feet of the main altar, it was tethered there
 If a ranged spell is cast towards the focus, it travels half as far as intended--as if it were traveling upstream.  In order to hit their target the caster must have puzzled out the range problem and adjusted accordingly.  Similarly, ranged spells have their distance doubled if they are cast away from the Focus, as if the magic is traveling downstream.  A 60 foot ranged spell has a range of 120 feet in this direction, but is likely to overshoot on a first try.  Spells cast along a tangent to a circle centered on the focus will curve away from the focus for the first half of their travel, and then along a ray anchored at the focus for the second half of their travel, as if they were swept up in the stream that emanates from the focus in all directions.
 
 Spells that would have their distance elongated by the altered space (i.e. with the caster's back to the focus) deal extra damage or have more potent affects.  Spells that travel "upstream" towards the focus have reduced damage or have weaker effects.
+Also, it gets easier to discern the Focus's location (and therefore retarget your spells appropriately) if you're closer to it.
 
-I guess it's kind of set up for a "King of the hill" situation where whoever is nearest the focus has a good chance of defending it, if they understand the area.  But to keep it from being worthwhile to eschew magic in favor of determinism...
+I guess it's kind of set up for a "King of the hill" situation where whoever is nearest the focus has a good chance of defending it, if they understand the area.  But we don't want it to make sense to eschew magic to avoid subsequent mayhem, so...
 
 Spells that miss due to these rules don't burn spell slots.
 Spells that hit "maybe" burn spell slots.
 If you're closer to the focus, you have a higher probability of getting to reuse that slot even when your spell hits.
+Perhaps a failed save against your spellcasting modifier causes you to expend the slot, offset by some value to account for distance?  Perhaps the DC is +3 at 100 feet, unmodified at 60 feet, and -3 within 30 feet?
 
 Lastly, if someone finds a way to exploit the altered rules of the place to draw too much power in too short of a time, they destabilize the interface with the material plane and the cave becomes a quesionably stable demiplane where we're likely trapped forever--that is unless they figure out how to remove the bottleneck first.  Then we've given the bad guy a really big gun.
 
