@@ -29,7 +29,7 @@ She patiently inches closer, year by year, to a peace whence she can call the be
 But despite her dedication she'll never know the trees like the Dryad knows them from birth.
 
 Such is the relationship between the somber svirfnebli acolytes of Callarduran Smoothands and the playful pech deep druids of The Gemscape (or the "Quasi-Elemental Plane of Minerals" as it is called by your people).
-Our most sacred rite of communion with the earth, reserved only for the most dedicated, is to the blessed children of the pech like learning to walk.
+Our most sacred rite of communion with the earth, reserved only for the most dedicated-- it is like learning to walk for the blessed children of the pech.
 But I'm getting ahead of myself.
 
 Whatever you might know of the pech, know that you've learned it from their exiles.
@@ -67,8 +67,9 @@ A narrow umbilicus connects it to the material plane from below.
 The "wave echo" that you hear near the entrance is the surface tension of the material plane trying to flatten the anomaly.
 That tension is balanced expertly against the flux of elemental energy that is mediated by the Focus.
 When Altarweaver established that balance, they did so with a skill that transcends any I have known.
-It was not an act of strength--the focus provides both place-to-stand and long-enough-lever that one needn't be strong to use it--it was a work of subtlety and understanding.
-And it had to have been done on our side of the focus.
+It was not an act of strength--the focus provides both place-to-stand and long-enough-lever.
+One needn't be strong to use it, but to have situated the cavern around it so that the configuration remains stable for hundreds of years was a work of great skill and understanding.
+And it must have been done on our side of the focus.
 
 For ages it has been a hidden place, known to only those deemed sensible enough to be invited by others.
 All references to it that I've been able to find have marked it as a holy place--a place for quiet communion with energies that extend far beyond our pocket of the universe.
