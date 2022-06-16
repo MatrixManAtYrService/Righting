@@ -446,3 +446,27 @@ But if we become accustomed to nesting domains like this then I think we will st
 Of course you can then wonder if those values are actually moderated by some larger domain of absolutes, and then whether that flat domain is really an interface to some still larger elliptic one.
 I don't suspect that this ascending line of inquiry will be very useful, so for now let us allow the top of the stack of domains to remain murky--what matters is that it makes sense in the middle, which is where it can be useful.
 
+----
+
+I shared a link to this essay before it was done.
+Sorry about that.
+Here are some notes about the direction that I'm taking:
+
+- goals for the world: 
+    - Make it easy to form proof-of-forum communities
+    - Make the "death" of such a community be sad, but not disasterous:  
+        - Nobody wants the beer we sell, our token is worth 0 flat-tokens
+        - I guess we should reform under a new constitution
+        - The enclosing flat space still provides food and such, so we're sad but not starving
+    - Use "value" of the POF token in terms of the enclosing flat token as a measure of how effective a given value set is
+    - Use the birth/death/merger/constitution-remix process to evolve more effective values
+        - some of these will not translate between communities, like santitization practice for brew equipment
+        - others will though, like how to conduct oneself at a forum, or how to make collective decisions
+    - Once we have a better idea of which values work, expand the scope from hobby stuff (beer) to important stuff (food)
+     
+- goals for this essay:
+    - clarify and simplify the geometry metaphor so I can talk about "the enclosing economic space" without confusing the reader
+    - steer back to how POF communities work and what technology problems need to be solved to enable them
+        - i.e. are they L1's or L2's?
+        - If they're L1's how to achieve interoperability with friendly neighboring communities
+        - If they're L2's, how to use community ties to achieve partition tolerance whch might be lacking in the underlying L1 and which might be weaponized against the community by an Old-money enemy.    
