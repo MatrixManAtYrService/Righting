@@ -461,7 +461,7 @@ Here are some notes about the direction that I'm taking:
     - Use "value" of the POF token in terms of the enclosing flat token as a measure of how effective a given value set is
     - Use the birth/death/merger/constitution-remix process to evolve more effective values
         - some of these will not translate between communities, like santitization practice for brew equipment
-        - others will though, like how to conduct oneself at a forum, or how to make collective decisions
+        - others will though, like how to conduct oneself at a forum, or how to make collective decisions, how to protect the community from scammers, etc.
     - Once we have a better idea of which values work, expand the scope from hobby stuff (beer) to important stuff (food)
      
 - goals for this essay:
